@@ -1,0 +1,1239 @@
+Compare from C:\Lucene.Net_2_4_0 against C:\trunk
+Lucene.Net.dll has 1062 changes
+	Removed 23 public type/s
+		- public class Lucene.Net.Search.AnonymousClassScoreDocComparator
+		- public class Lucene.Net.Search.AnonymousClassScoreDocComparator1
+		- public class Lucene.Net.Index.DirectoryIndexReader
+		- public class Lucene.Net.Index.MultiSegmentReader
+		- public interface Lucene.Net.Search.Spans.PayloadSpans
+		- public class Lucene.Net.Search.ReqOptSumScorer
+		- public class Lucene.Net.Search.ReqExclScorer
+		- public struct Lucene.Net.Search.ExtendedFieldCache_Fields
+		- public interface Lucene.Net.Search.ExtendedFieldCache
+		- public class Lucene.Net.Index.Compression.SharpZipLibAdapter
+		- public class Lucene.Net.Util.Cache.SimpleLRUCache_LUCENENET_190_1
+		- public class Lucene.Net.Util.Cache.SimpleLRUCache_OrgPort
+		- public class Lucene.Net.Util.Cache.SimpleLRUCache_LUCENENET_190_2
+		- public class Lucene.Net.Index.SegmentTermVector
+		- public class Lucene.Net.Search.FieldCacheImpl
+		- public class .NIOFSDirectory
+		- public class Lucene.Net.Index.TermVectorsWriter
+		- public class Lucene.Net.Search.RemoteCachingWrapperFilter
+		- public class Lucene.Net.Index.TermInfosWriter
+		- public class Lucene.Net.Index.TermInfosReader
+		- public class Lucene.Net.Search.RemoteSearchable
+		- public class Lucene.Net.Search.ExtendedFieldCacheImpl
+		- public class Lucene.Net.Index.TermInfo
+	Added 96 public type/s
+		+ public class Lucene.Net.Util.Version
+		+ public class Lucene.Net.Store.FSLockFactory
+		+ public class Lucene.Net.Search.Spans.FieldMaskingSpanQuery
+		+ public class Lucene.Net.Search.MultiTermQueryWrapperFilter
+		+ public class Lucene.Net.Search.NumericRangeFilter
+		+ public class Lucene.Net.Search.TermRangeQuery
+		+ public interface Lucene.Net.Messages.NLSException
+		+ public interface Lucene.Net.Util.Attribute
+		+ public class Lucene.Net.Util.AttributeImpl
+		+ public interface Lucene.Net.Analysis.Tokenattributes.PositionIncrementAttribute
+		+ public class Lucene.Net.Analysis.Tokenattributes.PositionIncrementAttributeImpl
+		+ public class Lucene.Net.Util.AttributeSource
+		+ public class Lucene.Net.Analysis.CharStream
+		+ public class Lucene.Net.Analysis.CharFilter
+		+ public class Lucene.Net.Analysis.BaseCharFilter
+		+ public class Lucene.Net.Search.Collector
+		+ public class Lucene.Net.Search.FieldValueHitQueue
+		+ public interface Lucene.Net.Messages.Message
+		+ public class Lucene.Net.Messages.MessageImpl
+		+ public class Lucene.Net.Search.HitCollectorWrapper
+		+ public interface Lucene.Net.Search.ExtendedFieldCache_old.ExtendedFieldCache
+		+ public class Lucene.Net.Search.CacheEntry
+		+ public class Lucene.Net.Search.FieldCacheRangeFilter
+		+ public interface Lucene.Net.Analysis.Tokenattributes.TermAttribute
+		+ public class Lucene.Net.Analysis.Tokenattributes.TermAttributeImpl
+		+ public class Lucene.Net.Analysis.ASCIIFoldingFilter
+		+ public class Lucene.Net.Util.IndexableBinaryStringTools
+		+ public class Lucene.Net.Store.SimpleFSDirectory
+		+ public class Lucene.Net.Search.TermRangeFilter
+		+ public class Lucene.Net.Util.RamUsageEstimator
+		+ public class Lucene.Net.Search.TopDocsCollector
+		+ public class Lucene.Net.Search.TopFieldCollector
+		+ public struct Lucene.Net.Search.ExtendedFieldCache_old.ExtendedFieldCache_Fields
+		+ public interface Lucene.Net.Search.Parser
+		+ public interface Lucene.Net.Search.ExtendedFieldCache_old.LongParser
+		+ public interface Lucene.Net.Search.ExtendedFieldCache_old.DoubleParser
+		+ public class Lucene.Net.Search.BooleanScorer
+		+ public class Lucene.Net.Documents.NumericField
+		+ public class Lucene.Net.Analysis.TeeSinkTokenFilter
+		+ public class Lucene.Net.Util.SorterTemplate
+		+ public class Lucene.Net.Store.NIOFSDirectory
+		+ public class Lucene.Net.Search.Payloads.PayloadTermQuery
+		+ public class Lucene.Net.Search.FilteredDocIdSet
+		+ public class Lucene.Net.Search.FilteredDocIdSetIterator
+		+ public class Lucene.Net.Messages.NLS
+		+ public class Lucene.Net.Index.ReadOnlySegmentReader
+		+ public class Lucene.Net.Search.Payloads.PayloadFunction
+		+ public class Lucene.Net.Search.Payloads.MinPayloadFunction
+		+ public interface Lucene.Net.Analysis.Tokenattributes.PayloadAttribute
+		+ public interface Lucene.Net.Analysis.Tokenattributes.OffsetAttribute
+		+ public interface Lucene.Net.Analysis.Tokenattributes.TypeAttribute
+		+ public interface Lucene.Net.Analysis.Tokenattributes.FlagsAttribute
+		+ public class Lucene.Net.Util.FieldCacheSanityChecker
+		+ public class Lucene.Net.Search.Function.CustomScoreProvider
+		+ public class Lucene.Net.Search.Payloads.AveragePayloadFunction
+		+ public class Lucene.Net.Index.DirectoryReader
+		+ public class Lucene.Net.Util.MemoryModel
+		+ public class Lucene.Net.Util.AverageGuessMemoryModel
+		+ public class Lucene.Net.Store.FileSwitchDirectory
+		+ public class Lucene.Net.Search.TermRangeTermEnum
+		+ public class Lucene.Net.Search.PrefixTermEnum
+		+ public class Lucene.Net.Search.NumericRangeQuery
+		+ public class Lucene.Net.Util.NumericUtils
+		+ public class Lucene.Net.Documents.CompressionTools
+		+ public class Lucene.Net.Util.StringInterner
+		+ public class Lucene.Net.Search.TopScoreDocCollector
+		+ public class Lucene.Net.Search.Spans.NearSpansUnordered
+		+ public class Lucene.Net.Search.Payloads.PayloadNearQuery
+		+ public class Lucene.Net.Search.Function.MultiValueSource
+		+ public class Lucene.Net.Analysis.Tokenattributes.TypeAttributeImpl
+		+ public class Lucene.Net.Analysis.Tokenattributes.PayloadAttributeImpl
+		+ public class Lucene.Net.Analysis.Tokenattributes.FlagsAttributeImpl
+		+ public class Lucene.Net.Analysis.NormalizeCharMap
+		+ public class Lucene.Net.Store.NoSuchDirectoryException
+		+ public class Lucene.Net.Search.ScoreCachingWrappingScorer
+		+ public class Lucene.Net.Search.CreationPlaceholder
+		+ public class Lucene.Net.Index.ReadOnlyDirectoryReader
+		+ public class Lucene.Net.Index.AbstractAllTermDocs
+		+ public class Lucene.Net.Analysis.CharReader
+		+ public class Lucene.Net.Util.MapOfSets<T,V>
+		+ public class Lucene.Net.Search.Payloads.MaxPayloadFunction
+		+ public class Lucene.Net.Analysis.TokenWrapper
+		+ public class Lucene.Net.Search.HitQueue
+		+ public class Lucene.Net.Util.SimpleStringInterner
+		+ public class Lucene.Net.Search.Spans.NearSpansOrdered
+		+ public class Lucene.Net.Search.FieldComparatorSource
+		+ public class Lucene.Net.Search.FieldComparator
+		+ public class Lucene.Net.Search.FieldCacheTermsFilter
+		+ public class Lucene.Net.Analysis.Tokenattributes.OffsetAttributeImpl
+		+ public class Lucene.Net.Util.ReaderUtil
+		+ public class Lucene.Net.Index.FieldInvertState
+		+ public class Lucene.Net.Analysis.NumericTokenStream
+		+ public class Lucene.Net.Analysis.CharacterCache
+		+ public class Lucene.Net.Search.TimeLimitingCollector
+		+ public class Lucene.Net.Search.PositiveScoresOnlyCollector
+		+ public class Lucene.Net.Analysis.MappingCharFilter
+	public class Lucene.Net.Search.Query
+		+ public virtual Lucene.Net.Search.Weight CreateWeight(Searcher searcher)
+		+ public static Lucene.Net.Search.Query MergeBooleanQueries(BooleanQuery[] queries)
+		+ public virtual int GetHashCode()
+		+ public virtual bool Equals(Object obj)
+		- public static Lucene.Net.Search.Query MergeBooleanQueries(Query[] queries)
+	public class Lucene.Net.Search.Spans.SpanQuery
+		+ public virtual Lucene.Net.Search.Weight CreateWeight(Searcher searcher)
+		- public virtual Lucene.Net.Search.Spans.PayloadSpans GetPayloadSpans(IndexReader reader)
+		- public Lucene.Net.Search.Weight CreateWeight_ForNUnitTest(Searcher searcher)
+	public class Lucene.Net.Search.Similarity
+		+ public const int NO_DOC_ID_PROVIDED - Value: -1
+		+ public virtual float ComputeNorm(String field,FieldInvertState state)
+		+ public virtual Lucene.Net.Search.Explanation/IDFExplanation IdfExplain(Term term,Searcher searcher)
+		+ public virtual Lucene.Net.Search.Explanation/IDFExplanation idfExplain(ICollection terms,Searcher searcher)
+		+ public virtual float ScorePayload(Int32 docId,String fieldName,Int32 start,Int32 end,Byte[] payload,Int32 offset,Int32 length)
+		+ public void .ctor()
+		- protected void .ctor()
+	public class Lucene.Net.Search.DocIdSetIterator
+		+ public static readonly int NO_MORE_DOCS
+		+ public virtual int DocID()
+		+ public virtual int NextDoc()
+		+ public virtual int Advance(Int32 target)
+	public class Lucene.Net.Search.Scorer
+		+ public virtual void Score(Collector collector)
+		+ public virtual bool Score(Collector collector,Int32 max,Int32 firstDocID)
+	public class Lucene.Net.Util.PriorityQueue
+		+ public object Add(Object element)
+		+ public object UpdateTop()
+		- protected void Initialize(Int32 maxSize)
+	public class Lucene.Net.Search.FilteredTermEnum
+		+ public bool TermCompare(Term term)
+	public class Lucene.Net.Index.DocumentsWriter
+		- public static readonly int BYTE_BLOCK_SIZE_For_NUnit_Test
+		- public static readonly int CHAR_BLOCK_SIZE
+		+ public static int get_BYTE_BLOCK_SIZE_ForNUnit()
+		+ public static int get_CHAR_BLOCK_SIZE_ForNUnit()
+	public class Lucene.Net.Index.ByteBlockPool
+		+ public static int get_FIRST_LEVEL_SIZE_ForNUnit()
+	public class Lucene.Net.Index.IndexReader
+		+ interface: System.ICloneable
+		+ public static Lucene.Net.Index.IndexReader Open(String path,Boolean readOnly)
+		+ public static Lucene.Net.Index.IndexReader Open(FileInfo path,Boolean readOnly)
+		+ public static Lucene.Net.Index.IndexReader Open(IndexCommit commit,Boolean readOnly)
+		+ public static Lucene.Net.Index.IndexReader Open(Directory directory,IndexDeletionPolicy deletionPolicy,Boolean readOnly,Int32 termInfosIndexDivisor)
+		+ public static Lucene.Net.Index.IndexReader Open(IndexCommit commit,IndexDeletionPolicy deletionPolicy,Boolean readOnly,Int32 termInfosIndexDivisor)
+		+ public virtual Lucene.Net.Index.IndexReader Reopen(Boolean openReadOnly)
+		+ public virtual Lucene.Net.Index.IndexReader Reopen(IndexCommit commit)
+		+ public virtual object Clone()
+		+ public virtual Lucene.Net.Index.IndexReader Clone(Boolean openReadOnly)
+		+ public static IDictionary<string,string> GetCommitUserData(Directory directory)
+		+ public virtual IDictionary<string,string> GetCommitUserData()
+		+ public virtual int NumDeletedDocs()
+		+ public virtual void SetNorm(Int32 doc,String field,Byte value_Renamed)
+		+ public virtual void DeleteDocument(Int32 docNum)
+		+ public virtual int DeleteDocuments(Term term)
+		+ public virtual void UndeleteAll()
+		+ public void Flush(IDictionary<string,string> commitUserData)
+		+ public static System.Collections.ICollection ListCommits(Directory dir)
+		+ public virtual Lucene.Net.Index.IndexReader[] GetSequentialSubReaders()
+		+ public virtual object GetFieldCacheKey()
+		+ public virtual long GetUniqueTermCount()
+		+ public virtual bool GetDisableFakeNorms()
+		+ public virtual void SetDisableFakeNorms(Boolean disableFakeNorms)
+		+ public bool get_hasChanges_ForNUnit()
+		- public void EnsureOpen()
+		- public int NumDeletedDocs()
+		- public void SetNorm(Int32 doc,String field,Byte value_Renamed)
+		- public void DeleteDocument(Int32 docNum)
+		- public int DeleteDocuments(Term term)
+		- public void UndeleteAll()
+		- public static ICollection<IndexCommitPoint> ListCommits(Directory dir)
+	public class Lucene.Net.Index.SegmentInfos
+		+ public const int FORMAT_USER_DATA - Value: -8
+		+ public const int FORMAT_DIAGNOSTICS - Value: -9
+		- public static readonly int CURRENT_FORMAT
+		+ public static IDictionary<string,string> ReadCurrentUserData(Directory directory)
+		+ public ICollection<string> Files(Directory dir,Boolean includeSegmentsFile)
+		+ public string SegString(Directory directory)
+		+ public IDictionary<string,string> GetUserData()
+		+ public bool HasExternalSegments(Directory dir)
+		+ public virtual bool Equals(Object obj)
+		+ public virtual int GetHashCode()
+		- public void RollbackCommit(Directory dir)
+		- public void PrepareCommit(Directory dir)
+		- public void FinishCommit(Directory dir)
+	public class Lucene.Net.Index.IndexCommit
+		+ public virtual long GetTimestamp()
+		+ public virtual IDictionary<string,string> GetUserData()
+		- public long GetTimestamp()
+	public class Lucene.Net.Index.IndexFileNames
+		+ public const string DELETABLE - Value: deletable
+		+ public const string NORMS_EXTENSION - Value: nrm
+		+ public const string FREQ_EXTENSION - Value: frq
+		+ public const string PROX_EXTENSION - Value: prx
+		+ public const string TERMS_EXTENSION - Value: tis
+		+ public const string TERMS_INDEX_EXTENSION - Value: tii
+		+ public const string FIELDS_INDEX_EXTENSION - Value: fdx
+		+ public const string FIELDS_EXTENSION - Value: fdt
+		+ public const string VECTORS_FIELDS_EXTENSION - Value: tvf
+		+ public const string COMPOUND_FILE_EXTENSION - Value: cfs
+		+ public const string COMPOUND_FILE_STORE_EXTENSION - Value: cfx
+		+ public const string PLAIN_NORMS_EXTENSION - Value: f
+		+ public const string SEPARATE_NORMS_EXTENSION - Value: s
+		+ public const string GEN_EXTENSION - Value: gen
+		+ public static readonly System.String[] INDEX_EXTENSIONS
+		+ public static readonly System.String[] INDEX_EXTENSIONS_IN_COMPOUND_FILE
+		+ public static readonly System.String[] STORE_INDEX_EXTENSIONS
+		+ public static readonly System.String[] NON_STORE_INDEX_EXTENSIONS
+		+ public static readonly System.String[] COMPOUND_EXTENSIONS
+		+ public static readonly System.String[] VECTOR_EXTENSIONS
+	public class Lucene.Net.Index.FilterIndexReader
+		+ public virtual Lucene.Net.Index.TermDocs TermDocs(Term term)
+		+ public virtual Lucene.Net.Index.IndexReader[] GetSequentialSubReaders()
+		+ public virtual object Clone()
+	public class Lucene.Net.Documents.Document
+		+ public System.Collections.IList get_fields_ForNUnit()
+		- public int GetFieldsCount()
+	public class Lucene.Net.Analysis.TokenStream
+		Base type changed: System.Object -> Lucene.Net.Util.AttributeSource
+		+ public static void SetOnlyUseNewAPI(Boolean onlyUseNewAPI)
+		+ public static bool GetOnlyUseNewAPI()
+		+ public virtual bool IncrementToken()
+		+ public virtual void End()
+		- protected void .ctor()
+	public class Lucene.Net.Analysis.KeywordTokenizer
+		+ public virtual bool IncrementToken()
+		+ public virtual void End()
+		+ public virtual Lucene.Net.Analysis.Token Next()
+		+ public void .ctor(AttributeSource source,TextReader input,Int32 bufferSize)
+		+ public void .ctor(AttributeFactory factory,TextReader input,Int32 bufferSize)
+	public class Lucene.Net.Analysis.Analyzer
+		+ public virtual int GetOffsetGap(Fieldable field)
+		+ public virtual void Close()
+	public class Lucene.Net.Search.DocIdSet
+		+ public static readonly Lucene.Net.Search.DocIdSet EMPTY_DOCIDSET
+		+ public virtual bool IsCacheable()
+	public class Lucene.Net.Util.DocIdBitSet
+		+ public virtual bool IsCacheable()
+		+ public virtual System.Collections.BitArray GetBitSet()
+		- public System.Collections.BitArray GetBitSet()
+	public class Lucene.Net.Store.IndexInput
+		+ public virtual void SetModifiedUTF8StringsMode()
+		+ public virtual IDictionary<string,string> ReadStringStringMap()
+		- public void SetModifiedUTF8StringsMode()
+		- public virtual string ReadModifiedUTF8String()
+	public interface Lucene.Net.Search.Spans.Spans
+		+ public ICollection<Byte[]> GetPayload()
+		+ public bool IsPayloadAvailable()
+		+ protected void .ctor()
+	public class Lucene.Net.Search.ConstantScoreQuery
+		+ public virtual Lucene.Net.Search.Weight CreateWeight(Searcher searcher)
+	public interface Lucene.Net.Search.Weight
+		+ public Lucene.Net.Search.Scorer Scorer(IndexReader reader,Boolean scoreDocsInOrder,Boolean topScorer)
+		+ public virtual bool ScoresDocsOutOfOrder()
+		+ protected void .ctor()
+		- public Lucene.Net.Search.Scorer Scorer(IndexReader reader)
+	public class Lucene.Net.Index.Term
+		+ interface: System.Runtime.Serialization.ISerializable
+		+ public virtual void GetObjectData(SerializationInfo info,StreamingContext context)
+		+ public string get_text_ForNUnit()
+		- public string get_text_ForNUnitTest()
+		- public void GetobjectData(SerializationInfo info,StreamingContext context)
+	public class Lucene.Net.Index.MergePolicy
+		+ public Lucene.Net.Index.MergePolicy/MergeSpecification FindMerges(SegmentInfos segmentInfos)
+		+ public Lucene.Net.Index.MergePolicy/MergeSpecification FindMergesForOptimize(SegmentInfos segmentInfos,Int32 maxSegmentCount,Hashtable segmentsToOptimize)
+		+ public Lucene.Net.Index.MergePolicy/MergeSpecification FindMergesToExpungeDeletes(SegmentInfos segmentInfos)
+		+ public void .ctor(IndexWriter writer)
+		- public Lucene.Net.Index.MergePolicy/MergeSpecification FindMerges(SegmentInfos segmentInfos,IndexWriter writer)
+		- public Lucene.Net.Index.MergePolicy/MergeSpecification FindMergesForOptimize(SegmentInfos segmentInfos,IndexWriter writer,Int32 maxSegmentCount,Dictionary<SegmentInfo,SegmentInfo> segmentsToOptimize)
+		- public virtual Lucene.Net.Index.MergePolicy/MergeSpecification FindMergesToExpungeDeletes(SegmentInfos segmentInfos,IndexWriter writer)
+		- protected void .ctor()
+	public class Lucene.Net.Index.LogMergePolicy
+		+ public virtual void SetCalibrateSizeByDeletes(Boolean calibrateSizeByDeletes)
+		+ public virtual bool GetCalibrateSizeByDeletes()
+		+ public virtual Lucene.Net.Index.MergePolicy/MergeSpecification FindMergesForOptimize(SegmentInfos infos,Int32 maxNumSegments,Hashtable segmentsToOptimize)
+		+ public virtual Lucene.Net.Index.MergePolicy/MergeSpecification FindMergesToExpungeDeletes(SegmentInfos segmentInfos)
+		+ public virtual Lucene.Net.Index.MergePolicy/MergeSpecification FindMerges(SegmentInfos infos)
+		+ public void .ctor(IndexWriter writer)
+		- public virtual Lucene.Net.Index.MergePolicy/MergeSpecification FindMergesForOptimize(SegmentInfos infos,IndexWriter writer,Int32 maxNumSegments,Dictionary<SegmentInfo,SegmentInfo> segmentsToOptimize)
+		- public virtual Lucene.Net.Index.MergePolicy/MergeSpecification FindMergesToExpungeDeletes(SegmentInfos segmentInfos,IndexWriter writer)
+		- public virtual Lucene.Net.Index.MergePolicy/MergeSpecification FindMerges(SegmentInfos infos,IndexWriter writer)
+		- protected void .ctor()
+	public interface Lucene.Net.Index.IndexDeletionPolicy
+		+ public void OnInit(IList commits)
+		+ public void OnCommit(IList commits)
+		- public void OnInit(List<IndexCommitPoint> commits)
+		- public void OnCommit(List<IndexCommitPoint> commits)
+	public class Lucene.Net.Index.KeepOnlyLastCommitDeletionPolicy
+		+ public virtual void OnInit(IList commits)
+		+ public virtual void OnCommit(IList commits)
+		- public virtual void OnInit(List<IndexCommitPoint> commits)
+		- public virtual void OnCommit(List<IndexCommitPoint> commits)
+	public class Lucene.Net.Analysis.TokenFilter
+		+ public virtual void End()
+	public class Lucene.Net.Analysis.LowerCaseFilter
+		+ public virtual bool IncrementToken()
+		- public virtual Lucene.Net.Analysis.Token Next(Token reusableToken)
+	public class Lucene.Net.Analysis.CharTokenizer
+		+ public virtual bool IncrementToken()
+		+ public virtual void End()
+		+ public virtual Lucene.Net.Analysis.Token Next()
+		+ public void .ctor(AttributeSource source,TextReader input)
+		+ public void .ctor(AttributeFactory factory,TextReader input)
+	public class Lucene.Net.Search.Spans.SpanOrQuery
+		+ interface: System.ICloneable
+		+ public virtual object Clone()
+		- public virtual Lucene.Net.Search.Spans.PayloadSpans GetPayloadSpans(IndexReader reader)
+	public interface Lucene.Net.Search.Searchable
+		+ public void Search(Weight weight,Filter filter,Collector collector)
+	public class Lucene.Net.Search.Searcher
+		Base type changed: System.Object -> System.MarshalByRefObject
+		+ public virtual void Search(Query query,Collector results)
+		+ public virtual void Search(Query query,Filter filter,Collector results)
+		+ public virtual Lucene.Net.Search.Weight CreateWeight(Query query)
+		+ public void Search(Weight weight,Filter filter,Collector results)
+	public class Lucene.Net.Search.FuzzyTermEnum
+		+ public virtual bool TermCompare(Term term)
+	public class Lucene.Net.Search.MultiTermQuery
+		+ public static readonly Lucene.Net.Search.MultiTermQuery/RewriteMethod CONSTANT_SCORE_FILTER_REWRITE
+		+ public static readonly Lucene.Net.Search.MultiTermQuery/RewriteMethod SCORING_BOOLEAN_QUERY_REWRITE
+		+ public static readonly Lucene.Net.Search.MultiTermQuery/RewriteMethod CONSTANT_SCORE_BOOLEAN_QUERY_REWRITE
+		+ public static readonly Lucene.Net.Search.MultiTermQuery/RewriteMethod CONSTANT_SCORE_AUTO_REWRITE_DEFAULT
+		+ public Lucene.Net.Search.FilteredTermEnum GetEnum(IndexReader reader)
+		+ public virtual int GetTotalNumberOfTerms()
+		+ public virtual void ClearTotalNumberOfTerms()
+		+ public virtual Lucene.Net.Search.MultiTermQuery/RewriteMethod GetRewriteMethod()
+		+ public virtual void SetRewriteMethod(RewriteMethod method)
+		+ public void .ctor()
+	public class Lucene.Net.Search.FuzzyQuery
+		+ public virtual Lucene.Net.Search.FilteredTermEnum GetEnum(IndexReader reader)
+		+ public virtual Lucene.Net.Index.Term GetTerm()
+		+ public virtual void SetRewriteMethod(RewriteMethod method)
+	public interface Lucene.Net.Search.FieldCache
+		+ public System.SByte[] GetBytes(IndexReader reader,String field)
+		+ public System.SByte[] GetBytes(IndexReader reader,String field,ByteParser parser)
+		+ public System.Int64[] GetLongs(IndexReader reader,String field)
+		+ public System.Int64[] GetLongs(IndexReader reader,String field,LongParser parser)
+		+ public System.Double[] GetDoubles(IndexReader reader,String field)
+		+ public System.Double[] GetDoubles(IndexReader reader,String field,DoubleParser parser)
+		+ public Lucene.Net.Search.CacheEntry[] GetCacheEntries()
+		+ public void PurgeAllCaches()
+		+ public void SetInfoStream(StreamWriter stream)
+		+ public System.IO.StreamWriter GetInfoStream()
+		- public System.Byte[] GetBytes(IndexReader reader,String field)
+		- public System.Byte[] GetBytes(IndexReader reader,String field,ByteParser parser)
+	public interface Lucene.Net.Search.LongParser
+		+ interface: Lucene.Net.Search.Parser
+	public interface Lucene.Net.Search.DoubleParser
+		+ interface: Lucene.Net.Search.Parser
+	public class Lucene.Net.Index.ParallelReader
+		+ interface: System.ICloneable
+		+ public virtual object Clone()
+	public class Lucene.Net.Index.LogByteSizeMergePolicy
+		+ public static readonly long DEFAULT_MAX_MERGE_MB
+		- public static readonly double DEFAULT_MAX_MERGE_MB
+		+ public void .ctor(IndexWriter writer)
+		- public void .ctor()
+	public class Lucene.Net.Index.IndexFileDeleter
+		+ public void .ctor(Directory directory,IndexDeletionPolicy policy,SegmentInfos segmentInfos,StreamWriter infoStream,DocumentsWriter docWriter)
+		- public void .ctor(Directory directory,IndexDeletionPolicy policy,SegmentInfos segmentInfos,TextWriter infoStream,DocumentsWriter docWriter)
+	public class Lucene.Net.Analysis.WordlistLoader
+		+ public static System.Collections.Hashtable GetWordSet(FileInfo wordfile,String comment)
+		+ public static System.Collections.Hashtable GetWordSet(TextReader reader,String comment)
+	public class Lucene.Net.Analysis.ISOLatin1AccentFilter
+		+ public virtual bool IncrementToken()
+		+ public virtual Lucene.Net.Analysis.Token Next()
+	public class Lucene.Net.Util.UnicodeUtil
+		+ public const int UNI_SUR_HIGH_START - Value: 55296
+		+ public const int UNI_SUR_HIGH_END - Value: 56319
+		+ public const int UNI_SUR_LOW_START - Value: 56320
+		+ public const int UNI_SUR_LOW_END - Value: 57343
+		+ public const int UNI_REPLACEMENT_CHAR - Value: 65533
+		- public static readonly int UNI_SUR_HIGH_START
+		- public static readonly int UNI_SUR_HIGH_END
+		- public static readonly int UNI_SUR_LOW_START
+		- public static readonly int UNI_SUR_LOW_END
+		- public static readonly int UNI_REPLACEMENT_CHAR
+	public class Lucene.Net.Store.Directory
+		+ public virtual System.String[] ListAll()
+		+ public void EnsureOpen()
+		+ public bool get_isOpen_ForNUnit()
+	public class Lucene.Net.Store.FSDirectory
+		+ public static readonly int DEFAULT_READ_CHUNK_SIZE
+		+ public static Lucene.Net.Store.FSDirectory GetDirectory(DirectoryInfo file)
+		+ public static Lucene.Net.Store.FSDirectory GetDirectory(DirectoryInfo file,LockFactory lockFactory)
+		+ public static Lucene.Net.Store.FSDirectory GetDirectory(DirectoryInfo file,Boolean create)
+		+ public static Lucene.Net.Store.FSDirectory Open(FileInfo path)
+		+ public static Lucene.Net.Store.FSDirectory Open(DirectoryInfo path)
+		+ public static Lucene.Net.Store.FSDirectory Open(DirectoryInfo path,LockFactory lockFactory)
+		+ public static System.String[] ListAll(FileInfo dir)
+		+ public static System.String[] ListAll(DirectoryInfo dir)
+		+ public virtual System.String[] ListAll()
+		+ public virtual System.IO.DirectoryInfo GetDirectory()
+		+ public void SetReadChunkSize(Int32 chunkSize)
+		+ public int GetReadChunkSize()
+		- public void .ctor()
+	public class Lucene.Net.Store.BufferedIndexInput
+		+ public void ReadInternal(Byte[] b,Int32 offset,Int32 length)
+		+ public void SeekInternal(Int64 pos)
+	public class Lucene.Net.Store.IndexOutput
+		+ public virtual void WriteStringStringMap(IDictionary<string,string> map)
+	public class Lucene.Net.Search.Spans.SpanNotQuery
+		+ interface: System.ICloneable
+		+ public virtual object Clone()
+		- public virtual Lucene.Net.Search.Spans.PayloadSpans GetPayloadSpans(IndexReader reader)
+	public class Lucene.Net.Search.Spans.SpanFirstQuery
+		+ interface: System.ICloneable
+		+ public virtual object Clone()
+		- public virtual Lucene.Net.Search.Spans.PayloadSpans GetPayloadSpans(IndexReader reader)
+	public class Lucene.Net.Search.FilteredQuery
+		+ public virtual Lucene.Net.Search.Weight CreateWeight(Searcher searcher)
+		- public virtual object Clone()
+	public class Lucene.Net.QueryParsers.QueryParser
+		+ public virtual void SetMultiTermRewriteMethod(RewriteMethod method)
+		+ public virtual Lucene.Net.Search.MultiTermQuery/RewriteMethod GetMultiTermRewriteMethod()
+		+ public virtual void SetRangeCollator(CompareInfo rc)
+		+ public virtual System.Globalization.CompareInfo GetRangeCollator()
+		+ public void .ctor(Version matchVersion,String f,Analyzer a)
+		- public void SetRangeCollator(CompareInfo rc)
+		- public System.Globalization.CompareInfo GetRangeCollator()
+		- public virtual void AddClause(ArrayList clauses,Int32 conj,Int32 mods,Query q)
+		- public virtual Lucene.Net.Search.Query GetFieldQuery(String field,String queryText,Int32 slop)
+		- public virtual Lucene.Net.Search.Query GetRangeQuery(String field,String part1,String part2,Boolean inclusive)
+		- public virtual Lucene.Net.Search.Query GetBooleanQuery(ArrayList clauses)
+		- public virtual Lucene.Net.Search.Query GetBooleanQuery(ArrayList clauses,Boolean disableCoord)
+		- public void .ctor(CharStream stream)
+		- public void .ctor(QueryParserTokenManager tm)
+		- protected Lucene.Net.Search.BooleanQuery newBooleanQuery(Boolean disableCoord)
+		- protected Lucene.Net.Search.BooleanClause newBooleanClause(Query q,Occur occur)
+		- protected Lucene.Net.Search.Query newTermQuery(Term term)
+		- protected Lucene.Net.Search.PhraseQuery newPhraseQuery()
+		- protected Lucene.Net.Search.MultiPhraseQuery newMultiPhraseQuery()
+		- protected Lucene.Net.Search.Query newPrefixQuery(Term prefix)
+		- protected Lucene.Net.Search.Query newFuzzyQuery(Term term,Single minimumSimilarity,Int32 prefixLength)
+		- protected Lucene.Net.Search.Query newRangeQuery(String field,String part1,String part2,Boolean inclusive)
+		- protected Lucene.Net.Search.Query newMatchAllDocsQuery()
+		- protected Lucene.Net.Search.Query newWildcardQuery(Term t)
+	public class Lucene.Net.Index.MultiReader
+		+ interface: System.ICloneable
+		+ public virtual object Clone()
+		+ public virtual Lucene.Net.Index.IndexReader[] GetSequentialSubReaders()
+		- public virtual Lucene.Net.Index.IndexReader[] GetSubReaders()
+	public class Lucene.Net.Analysis.LetterTokenizer
+		+ public void .ctor(AttributeSource source,TextReader in_Renamed)
+		+ public void .ctor(AttributeFactory factory,TextReader in_Renamed)
+	public class Lucene.Net.Analysis.LowerCaseTokenizer
+		+ public void .ctor(AttributeSource source,TextReader in_Renamed)
+		+ public void .ctor(AttributeFactory factory,TextReader in_Renamed)
+	public class Lucene.Net.Util.Cache.Cache
+		+ public static Lucene.Net.Util.Cache.Cache SynchronizedCache(Cache cache)
+		- public static Lucene.Net.Util.Cache.Cache SynchronizedCache_Renamed(Cache cache)
+	public class Lucene.Net.Util.Cache.SimpleLRUCache
+		Base type changed: Lucene.Net.Util.Cache.SimpleLRUCache_LUCENENET_190_1 -> Lucene.Net.Util.Cache.SimpleMapCache
+		+ public virtual void Put(Object Key,Object Value)
+		+ public virtual object Get(Object Key)
+	public class Lucene.Net.Util.Cache.SimpleMapCache
+		- protected System.Collections.Hashtable map
+		+ public virtual System.Collections.ICollection KeySet()
+		+ public void .ctor(IDictionary map)
+		- public virtual System.Collections.ICollection keySet()
+		- public void .ctor(Hashtable map)
+	public class Lucene.Net.Search.WildcardTermEnum
+		+ public virtual bool TermCompare(Term term)
+		- public virtual void Close()
+	public class Lucene.Net.Search.MultiSearcher
+		+ public virtual void Search(Weight weight,Filter filter,Collector collector)
+		+ public virtual Lucene.Net.Search.Weight CreateWeight(Query original)
+		- public virtual void Search(Weight weight,Filter filter,HitCollector results)
+	public class Lucene.Net.Search.ParallelMultiSearcher
+		+ public virtual void Search(Weight weight,Filter filter,Collector collector)
+		- public virtual void Search(Weight weight,Filter filter,HitCollector results)
+	public class Lucene.Net.QueryParsers.ParseException
+		+ public void .ctor(String message,Exception ex)
+	public class Lucene.Net.Index.SegmentTermDocs
+		+ public Lucene.Net.Store.IndexInput get_freqStream_ForNUnit()
+		+ public void set_freqStream_ForNUnit(IndexInput value)
+		- public Lucene.Net.Store.IndexInput get_FreqStream_ForNUnitTest()
+		- public void set_FreqStream_ForNUnitTest(IndexInput value)
+	public class Lucene.Net.Index.SegmentReader
+		Base type changed: Lucene.Net.Index.DirectoryIndexReader -> Lucene.Net.Index.IndexReader
+		+ interface: System.ICloneable
+		+ public static Lucene.Net.Index.SegmentReader Get(Boolean readOnly,SegmentInfo si,Int32 termInfosIndexDivisor)
+		+ public static Lucene.Net.Index.SegmentReader Get(Boolean readOnly,Directory dir,SegmentInfo si,Int32 readBufferSize,Boolean doOpenStores,Int32 termInfosIndexDivisor)
+		+ public virtual object Clone()
+		+ public virtual Lucene.Net.Index.IndexReader Clone(Boolean openReadOnly)
+		+ public virtual Lucene.Net.Index.TermDocs TermDocs(Term term)
+		+ public virtual bool TermsIndexLoaded()
+		+ public virtual string GetSegmentName()
+		+ public virtual Lucene.Net.Store.Directory Directory()
+		+ public virtual object GetFieldCacheKey()
+		+ public virtual long GetUniqueTermCount()
+		+ public static Lucene.Net.Index.SegmentReader GetOnlySegmentReader(Directory dir)
+		+ public static Lucene.Net.Index.SegmentReader GetOnlySegmentReader(IndexReader reader)
+		+ public System.Collections.IDictionary get_norms_ForNUnit()
+		+ public Lucene.Net.Util.BitVector get_deletedDocs_ForNUnit()
+		+ public Lucene.Net.Index.SegmentReader/CoreReaders get_core_ForNUnit()
+		+ public Lucene.Net.Index.SegmentReader/Ref get_deletedDocsRef_ForNUnit()
+		- public Lucene.Net.Store.IndexInput get_ProxStream_ForNUnitTest()
+		- public void set_ProxStream_ForNUnitTest(IndexInput value)
+		- public virtual void IncRef()
+		- public virtual void DecRef()
+		- public static Lucene.Net.Index.SegmentReader Get(Boolean readOnly,SegmentInfo si)
+		- public static Lucene.Net.Index.SegmentReader Get(SegmentInfo si,Int32 readBufferSize)
+		- public static Lucene.Net.Index.SegmentReader Get(Boolean readOnly,SegmentInfos sis,SegmentInfo si,Boolean closeDir)
+		- public static Lucene.Net.Index.SegmentReader Get(Directory dir,SegmentInfo si,SegmentInfos sis,Boolean closeDir,Boolean ownDir,Int32 readBufferSize)
+		- public static Lucene.Net.Index.SegmentReader Get(Boolean readOnly,Directory dir,SegmentInfo si,SegmentInfos sis,Boolean closeDir,Boolean ownDir,Int32 readBufferSize,Boolean doOpenStores)
+		- public void foo()
+		- public virtual void SetTermInfosIndexDivisor(Int32 indexDivisor)
+	public class Lucene.Net.Analysis.WhitespaceTokenizer
+		+ public void .ctor(AttributeSource source,TextReader in_Renamed)
+		+ public void .ctor(AttributeFactory factory,TextReader in_Renamed)
+	public class Lucene.Net.Store.SimpleFSLockFactory
+		Base type changed: Lucene.Net.Store.LockFactory -> Lucene.Net.Store.FSLockFactory
+		+ public void .ctor()
+		+ public void .ctor(DirectoryInfo lockDir)
+	public class Lucene.Net.Store.RAMInputStream
+		- public static Lucene.Net.Store.RAMInputStream RAMInputStream_ForNUnitTest(RAMFile f)
+	public class Lucene.Net.Search.Spans.SpanWeight
+		Base type changed: System.Object -> Lucene.Net.Search.Weight
+		- interface: Lucene.Net.Search.Weight
+		+ public virtual Lucene.Net.Search.Scorer Scorer(IndexReader reader,Boolean scoreDocsInOrder,Boolean topScorer)
+		- public virtual Lucene.Net.Search.Scorer Scorer(IndexReader reader)
+	public class Lucene.Net.Search.Sort
+		+ public virtual bool Equals(Object o)
+		+ public virtual int GetHashCode()
+	public class Lucene.Net.Search.Spans.SpanTermQuery
+		- public virtual Lucene.Net.Search.Spans.PayloadSpans GetPayloadSpans(IndexReader reader)
+	public class Lucene.Net.Search.Payloads.BoostingTermQuery
+		Base type changed: Lucene.Net.Search.Spans.SpanTermQuery -> Lucene.Net.Search.Payloads.PayloadTermQuery
+		+ public virtual Lucene.Net.Search.Weight CreateWeight(Searcher searcher)
+		+ public void .ctor(Term term,Boolean includeSpanScore)
+	public class Lucene.Net.Search.Spans.SpanScorer
+		+ public virtual int NextDoc()
+		+ public virtual int Advance(Int32 target)
+		+ public virtual bool SetFreqCurrentDoc()
+		+ public virtual int DocID()
+	public class Lucene.Net.Search.ScoreDoc
+		+ public virtual string ToString()
+	public class Lucene.Net.Search.FieldDoc
+		+ public virtual string ToString()
+	public class Lucene.Net.Search.DefaultSimilarity
+		+ public virtual float ComputeNorm(String field,FieldInvertState state)
+		+ public virtual void SetDiscountOverlaps(Boolean v)
+		+ public virtual bool GetDiscountOverlaps()
+	public class Lucene.Net.Search.BooleanQuery
+		+ public virtual Lucene.Net.Search.Weight CreateWeight(Searcher searcher)
+	public class Lucene.Net.Search.SimilarityDelegator
+		+ public virtual float ComputeNorm(String fieldName,FieldInvertState state)
+	public class Lucene.Net.QueryParsers.Token
+		+ public virtual object GetValue()
+		- public object GetValue()
+	public class Lucene.Net.Index.ConcurrentMergeScheduler
+		- protected List<MergeThread> mergeThreads
+		- protected Lucene.Net.Store.Directory dir
+		- protected Lucene.Net.Index.IndexWriter writer
+		- protected int mergeThreadCount
+		+ public virtual void SetSuppressExceptions()
+		+ public virtual void ClearSuppressExceptions()
+		- public void SetSuppressExceptions_ForNUnitTest()
+		- public void ClearSuppressExceptions_ForNUnitTest()
+		- protected virtual void DoMerge(OneMerge merge)
+		- protected virtual Lucene.Net.Index.ConcurrentMergeScheduler/MergeThread GetMergeThread(IndexWriter writer,OneMerge merge)
+		- protected virtual void HandleMergeException(Exception exc)
+	public class Lucene.Net.Analysis.Token
+		Base type changed: System.Object -> Lucene.Net.Util.AttributeImpl
+		+ interface: Lucene.Net.Analysis.Tokenattributes.TermAttribute
+		+ interface: Lucene.Net.Analysis.Tokenattributes.TypeAttribute
+		+ interface: Lucene.Net.Analysis.Tokenattributes.PositionIncrementAttribute
+		+ interface: Lucene.Net.Analysis.Tokenattributes.FlagsAttribute
+		+ interface: Lucene.Net.Analysis.Tokenattributes.OffsetAttribute
+		+ interface: Lucene.Net.Analysis.Tokenattributes.PayloadAttribute
+		+ interface: Lucene.Net.Util.Attribute
+		+ public virtual string Term()
+		+ public virtual void SetTermBuffer(Char[] buffer,Int32 offset,Int32 length)
+		+ public virtual void SetTermBuffer(String buffer)
+		+ public virtual void SetTermBuffer(String buffer,Int32 offset,Int32 length)
+		+ public virtual System.Char[] TermBuffer()
+		+ public virtual int TermLength()
+		+ public virtual void SetTermLength(Int32 length)
+		+ public virtual int StartOffset()
+		+ public virtual int EndOffset()
+		+ public virtual void SetOffset(Int32 startOffset,Int32 endOffset)
+		+ public virtual string Type()
+		+ public virtual void SetType(String type)
+		+ public virtual int GetFlags()
+		+ public virtual void SetFlags(Int32 flags)
+		+ public virtual Lucene.Net.Analysis.Token Clone(Char[] newTermBuffer,Int32 newTermOffset,Int32 newTermLength,Int32 newStartOffset,Int32 newEndOffset)
+		+ public virtual Lucene.Net.Analysis.Token Reinit(Char[] newTermBuffer,Int32 newTermOffset,Int32 newTermLength,Int32 newStartOffset,Int32 newEndOffset,String newType)
+		+ public virtual Lucene.Net.Analysis.Token Reinit(Char[] newTermBuffer,Int32 newTermOffset,Int32 newTermLength,Int32 newStartOffset,Int32 newEndOffset)
+		+ public virtual Lucene.Net.Analysis.Token Reinit(String newTerm,Int32 newStartOffset,Int32 newEndOffset,String newType)
+		+ public virtual Lucene.Net.Analysis.Token Reinit(String newTerm,Int32 newTermOffset,Int32 newTermLength,Int32 newStartOffset,Int32 newEndOffset,String newType)
+		+ public virtual Lucene.Net.Analysis.Token Reinit(String newTerm,Int32 newStartOffset,Int32 newEndOffset)
+		+ public virtual Lucene.Net.Analysis.Token Reinit(String newTerm,Int32 newTermOffset,Int32 newTermLength,Int32 newStartOffset,Int32 newEndOffset)
+		+ public virtual void Reinit(Token prototype)
+		+ public virtual void Reinit(Token prototype,String newTerm)
+		+ public virtual void Reinit(Token prototype,Char[] newTermBuffer,Int32 offset,Int32 length)
+		+ public virtual void CopyTo(AttributeImpl target)
+		- public string Term()
+		- public void SetTermBuffer(Char[] buffer,Int32 offset,Int32 length)
+		- public void SetTermBuffer(String buffer)
+		- public void SetTermBuffer(String buffer,Int32 offset,Int32 length)
+		- public System.Char[] TermBuffer()
+		- public int TermLength()
+		- public void SetTermLength(Int32 length)
+		- public int StartOffset()
+		- public int EndOffset()
+		- public string Type()
+		- public void SetType(String type)
+		- public int GetFlags()
+		- public void SetFlags(Int32 flags)
+		- public Lucene.Net.Analysis.Token Clone(Char[] newTermBuffer,Int32 newTermOffset,Int32 newTermLength,Int32 newStartOffset,Int32 newEndOffset)
+		- public Lucene.Net.Analysis.Token Reinit(Char[] newTermBuffer,Int32 newTermOffset,Int32 newTermLength,Int32 newStartOffset,Int32 newEndOffset,String newType)
+		- public Lucene.Net.Analysis.Token Reinit(Char[] newTermBuffer,Int32 newTermOffset,Int32 newTermLength,Int32 newStartOffset,Int32 newEndOffset)
+		- public Lucene.Net.Analysis.Token Reinit(String newTerm,Int32 newStartOffset,Int32 newEndOffset,String newType)
+		- public Lucene.Net.Analysis.Token Reinit(String newTerm,Int32 newTermOffset,Int32 newTermLength,Int32 newStartOffset,Int32 newEndOffset,String newType)
+		- public Lucene.Net.Analysis.Token Reinit(String newTerm,Int32 newStartOffset,Int32 newEndOffset)
+		- public Lucene.Net.Analysis.Token Reinit(String newTerm,Int32 newTermOffset,Int32 newTermLength,Int32 newStartOffset,Int32 newEndOffset)
+		- public void Reinit(Token prototype)
+		- public void Reinit(Token prototype,String newTerm)
+		- public void Reinit(Token prototype,Char[] newTermBuffer,Int32 offset,Int32 length)
+	public class Lucene.Net.Search.SortField
+		+ interface: System.Runtime.Serialization.ISerializable
+		+ public const int STRING_VAL - Value: 11
+		+ public virtual Lucene.Net.Search.Parser GetParser()
+		+ public virtual Lucene.Net.Search.FieldComparatorSource GetComparatorSource()
+		+ public virtual void SetUseLegacySearch(Boolean legacy)
+		+ public virtual bool GetUseLegacySearch()
+		+ public virtual bool Equals(Object o)
+		+ public virtual int GetHashCode()
+		+ public virtual void GetObjectData(SerializationInfo info,StreamingContext context)
+		+ public virtual Lucene.Net.Search.FieldComparator GetComparator(Int32 numHits,Int32 sortPos)
+		+ public void .ctor(String field,Parser parser)
+		+ public void .ctor(String field,Parser parser,Boolean reverse)
+		+ public void .ctor(String field,FieldComparatorSource comparator)
+		+ public void .ctor(String field,FieldComparatorSource comparator,Boolean reverse)
+		+ protected void .ctor(SerializationInfo info,StreamingContext context)
+	public interface Lucene.Net.Search.ByteParser
+		+ interface: Lucene.Net.Search.Parser
+		+ public sbyte ParseByte(String string_Renamed)
+		- public byte ParseByte(String string_Renamed)
+	public interface Lucene.Net.Search.ShortParser
+		+ interface: Lucene.Net.Search.Parser
+	public interface Lucene.Net.Search.IntParser
+		+ interface: Lucene.Net.Search.Parser
+	public interface Lucene.Net.Search.FloatParser
+		+ interface: Lucene.Net.Search.Parser
+	public class Lucene.Net.Search.Explanation
+		+ public virtual string ToString(Int32 depth)
+	public class Lucene.Net.Search.ComplexExplanation
+		+ public virtual Nullable<bool> GetMatch()
+		+ public virtual void SetMatch(Nullable<bool> match)
+		- public virtual bool GetMatch()
+		- public virtual void SetMatch(Boolean match)
+	public class Lucene.Net.Analysis.Standard.StandardTokenizer
+		+ public virtual bool IncrementToken()
+		+ public virtual void End()
+		+ public virtual Lucene.Net.Analysis.Token Next()
+		+ public void .ctor(Version matchVersion,TextReader input)
+		+ public void .ctor(AttributeSource source,TextReader input,Boolean replaceInvalidAcronym)
+		+ public void .ctor(Version matchVersion,AttributeSource source,TextReader input)
+		+ public void .ctor(AttributeFactory factory,TextReader input,Boolean replaceInvalidAcronym)
+		+ public void .ctor(Version matchVersion,AttributeFactory factory,TextReader input)
+	public class Lucene.Net.Search.Payloads.PayloadSpanUtil
+		+ public virtual ICollection<Byte[]> GetPayloadsForQuery(Query query)
+		- public ICollection<Byte[]> GetPayloadsForQuery(Query query)
+	public class Lucene.Net.Search.MultiPhraseQuery
+		+ public virtual Lucene.Net.Search.Weight CreateWeight(Searcher searcher)
+		+ public static bool TermEquals(Array array1,Array array2)
+	public class Lucene.Net.Analysis.CharArraySet
+		+ public virtual bool Contains(String cs)
+		+ public static Lucene.Net.Analysis.CharArraySet UnmodifiableSet(CharArraySet set_Renamed)
+		+ public virtual bool AddAll(ICollection items)
+		+ public virtual bool Clear()
+		+ public virtual bool RemoveAll(ICollection items)
+		+ public bool RetainAll(ICollection coll)
+	public class Lucene.Net.Util.BitUtil
+		+ public static readonly System.SByte[] ntzTable
+		- public static readonly System.Byte[] ntzTable
+		+ public static int Pop(Int64 x)
+		+ public static long Pop_array(Int64[] A,Int32 wordOffset,Int32 numWords)
+		+ public static long Pop_intersect(Int64[] A,Int64[] B,Int32 wordOffset,Int32 numWords)
+		+ public static long Pop_union(Int64[] A,Int64[] B,Int32 wordOffset,Int32 numWords)
+		+ public static long Pop_andnot(Int64[] A,Int64[] B,Int32 wordOffset,Int32 numWords)
+		+ public static long Pop_xor(Int64[] A,Int64[] B,Int32 wordOffset,Int32 numWords)
+		+ public static int Ntz(Int64 val)
+		+ public static int Ntz(Int32 val)
+		+ public static int Ntz2(Int64 x)
+		+ public static int Ntz3(Int64 x)
+		+ public static bool IsPowerOfTwo(Int32 v)
+		+ public static bool IsPowerOfTwo(Int64 v)
+		+ public static int NextHighestPowerOfTwo(Int32 v)
+		+ public static long NextHighestPowerOfTwo(Int64 v)
+		- public static int pop(Int64 x)
+		- public static long pop_array(Int64[] A,Int32 wordOffset,Int32 numWords)
+		- public static long pop_intersect(Int64[] A,Int64[] B,Int32 wordOffset,Int32 numWords)
+		- public static long pop_union(Int64[] A,Int64[] B,Int32 wordOffset,Int32 numWords)
+		- public static long pop_andnot(Int64[] A,Int64[] B,Int32 wordOffset,Int32 numWords)
+		- public static long pop_xor(Int64[] A,Int64[] B,Int32 wordOffset,Int32 numWords)
+		- public static int ntz(Int64 val)
+		- public static int ntz2(Int64 x)
+		- public static int ntz3(Int64 x)
+		- public static bool isPowerOfTwo(Int32 v)
+		- public static bool isPowerOfTwo(Int64 v)
+		- public static int nextHighestPowerOfTwo(Int32 v)
+		- public static long nextHighestPowerOfTwo(Int64 v)
+	public class Lucene.Net.QueryParsers.MultiFieldQueryParser
+		+ public static Lucene.Net.Search.Query Parse(Version matchVersion,String[] queries,String[] fields,Analyzer analyzer)
+		+ public static Lucene.Net.Search.Query Parse(Version matchVersion,String query,String[] fields,Occur[] flags,Analyzer analyzer)
+		+ public static Lucene.Net.Search.Query Parse(Version matchVersion,String[] queries,String[] fields,Occur[] flags,Analyzer analyzer)
+		+ public void .ctor(Version matchVersion,String[] fields,Analyzer analyzer,IDictionary boosts)
+		+ public void .ctor(Version matchVersion,String[] fields,Analyzer analyzer)
+		- public virtual Lucene.Net.Search.Query GetFieldQuery(String field,String queryText,Int32 slop)
+		- public virtual Lucene.Net.Search.Query GetRangeQuery(String field,String part1,String part2,Boolean inclusive)
+	public class Lucene.Net.Index.TermVectorsReader
+		+ public virtual Lucene.Net.Index.TermFreqVector Get(Int32 docNum,String field)
+		+ public virtual Lucene.Net.Index.TermFreqVector[] Get(Int32 docNum)
+		+ public virtual void Get(Int32 docNumber,TermVectorMapper mapper)
+		- public Lucene.Net.Index.TermFreqVector Get(Int32 docNum,String field)
+		- public Lucene.Net.Index.TermFreqVector[] Get(Int32 docNum)
+		- public void Get(Int32 docNumber,TermVectorMapper mapper)
+	public class Lucene.Net.Index.CorruptIndexException
+		+ public void .ctor(String message,Exception exp)
+	public class Lucene.Net.Analysis.PerFieldAnalyzerWrapper
+		+ public void .ctor(Analyzer defaultAnalyzer,IDictionary fieldAnalyzers)
+	public class Lucene.Net.Util.BitVector
+		+ interface: System.ICloneable
+		+ public virtual object Clone()
+		+ public Lucene.Net.Util.BitVector Subset(Int32 start,Int32 end)
+	public class Lucene.Net.Search.WildcardQuery
+		+ public virtual Lucene.Net.Search.FilteredTermEnum GetEnum(IndexReader reader)
+		+ public virtual Lucene.Net.Index.Term GetTerm()
+		+ public virtual string ToString(String field)
+	public class Lucene.Net.Search.RangeFilter
+		Base type changed: Lucene.Net.Search.Filter -> Lucene.Net.Search.MultiTermQueryWrapperFilter
+		- public virtual System.Collections.BitArray Bits(IndexReader reader)
+		- public virtual Lucene.Net.Search.DocIdSet GetDocIdSet(IndexReader reader)
+		- public virtual string ToString()
+		- public virtual bool Equals(Object o)
+		- public virtual int GetHashCode()
+	public class Lucene.Net.Search.Function.ValueSourceQuery
+		+ public virtual Lucene.Net.Search.Weight CreateWeight(Searcher searcher)
+		+ public Lucene.Net.Search.Function.ValueSource get_valSrc_ForNUnit()
+		- public Lucene.Net.Search.Function.ValueSource get_ValSrc_ForNUnitTest()
+	public class Lucene.Net.Index.LogDocMergePolicy
+		+ public void .ctor(IndexWriter writer)
+		- public void .ctor()
+	public class Lucene.Net.Index.FieldInfo
+		- public bool storeTermVector
+		- public bool storeOffsetWithTermVector
+		- public bool storePositionWithTermVector
+		- public bool omitNorms
+		+ public bool get_storePayloads_ForNUnit()
+		+ public string get_name_ForNUnit()
+		+ public bool get_isIndexed_ForNUnit()
+		+ public bool get_omitNorms_ForNUnit()
+		+ public bool get_omitTermFreqAndPositions_ForNUnit()
+		+ public bool get_storeTermVector_ForNUnit()
+		- public bool get_omitTf_ForNUnitTest()
+		- public string get_Name_ForNUnitTest()
+		- public bool get_StorePayloads_ForNUnitTest()
+		- public bool IsIndexed_ForNUnitTest()
+	public class Lucene.Net.Analysis.CachingTokenFilter
+		+ public virtual Lucene.Net.Analysis.Token Next()
+		+ public virtual bool IncrementToken()
+		+ public virtual void End()
+	public class Lucene.Net.Util.OpenBitSetIterator
+		- protected static readonly System.UInt32[] bitlist
+		+ public virtual int NextDoc()
+		+ public virtual int Advance(Int32 target)
+		+ public virtual int DocID()
+	public class Lucene.Net.Util.Constants
+		+ public static readonly string JAVA_VERSION
+		+ public static readonly bool JAVA_1_1
+		+ public static readonly bool JAVA_1_2
+		+ public static readonly bool JAVA_1_3
+		+ public static readonly string OS_ARCH
+		+ public static readonly string OS_VERSION
+		+ public static readonly string JAVA_VENDOR
+		+ public static bool JRE_IS_64BIT
+		+ public static readonly string LUCENE_MAIN_VERSION
+		+ public static string LUCENE_VERSION
+		- public static readonly string DOTNET_VERSION
+		- public static readonly bool DOTNET_VERSION_1_0
+		- public static readonly bool DOTNET_VERSION_1_1
+		- public static readonly bool DOTNET_VERSION_2_0
+		- public static readonly bool DOTNET_VERSION_3_0
+	public class Lucene.Net.Store.RAMOutputStream
+		- public const int BUFFER_SIZE_ForNUnitTest - Value: 1024
+		+ public virtual long SizeInBytes()
+		+ public static int get_BUFFER_SIZE_ForNUnit()
+		- public long SizeInBytes()
+	public class Lucene.Net.Search.TopFieldDocs
+		+ public void .ctor(Int32 totalHits,ScoreDoc[] scoreDocs,SortField[] fields,Single maxScore)
+	public class Lucene.Net.Search.StringIndex
+		+ public System.String[] lookup
+		+ public System.Int32[] order
+		- public System.String[] Lookup
+		- public System.Int32[] Order
+		+ public virtual int BinarySearchLookup(String key)
+	public struct Lucene.Net.Search.FieldCache_Fields
+		+ public static readonly Lucene.Net.Search.ByteParser DEFAULT_BYTE_PARSER
+		+ public static readonly Lucene.Net.Search.ShortParser DEFAULT_SHORT_PARSER
+		+ public static readonly Lucene.Net.Search.IntParser DEFAULT_INT_PARSER
+		+ public static readonly Lucene.Net.Search.FloatParser DEFAULT_FLOAT_PARSER
+		+ public static readonly Lucene.Net.Search.LongParser DEFAULT_LONG_PARSER
+		+ public static readonly Lucene.Net.Search.DoubleParser DEFAULT_DOUBLE_PARSER
+		+ public static readonly Lucene.Net.Search.IntParser NUMERIC_UTILS_INT_PARSER
+		+ public static readonly Lucene.Net.Search.FloatParser NUMERIC_UTILS_FLOAT_PARSER
+		+ public static readonly Lucene.Net.Search.LongParser NUMERIC_UTILS_LONG_PARSER
+		+ public static readonly Lucene.Net.Search.DoubleParser NUMERIC_UTILS_DOUBLE_PARSER
+	public class Lucene.Net.Index.IndexFileNameFilter
+		- public void .ctor()
+	public class Lucene.Net.Store.MMapDirectory
+		+ public static bool UNMAP_SUPPORTED
+		+ public virtual void SetUseUnmap(Boolean useUnmapHack)
+		+ public virtual bool GetUseUnmap()
+		+ public virtual void SetMaxChunkSize(Int32 maxBBuf)
+		+ public virtual int GetMaxChunkSize()
+		+ public virtual Lucene.Net.Store.IndexOutput CreateOutput(String name)
+		+ public void .ctor(FileInfo path,LockFactory lockFactory)
+		+ public void .ctor(DirectoryInfo path,LockFactory lockFactory)
+		+ public void .ctor(FileInfo path)
+		+ public void .ctor(DirectoryInfo path)
+		- public virtual Lucene.Net.Store.IndexInput OpenInput(String name)
+		- public void .ctor()
+	public class Lucene.Net.Store.ChecksumIndexOutput
+		+ public virtual long GetChecksum()
+		+ public virtual void PrepareCommit()
+		+ public virtual void FinishCommit()
+		- public long GetChecksum()
+		- public void PrepareCommit()
+		- public void FinishCommit()
+	public class Lucene.Net.Search.PhraseQuery
+		+ public virtual Lucene.Net.Search.Weight CreateWeight(Searcher searcher)
+	public class Lucene.Net.Search.Function.CustomScoreQuery
+		+ public virtual Lucene.Net.Search.Weight CreateWeight(Searcher searcher)
+		+ protected virtual Lucene.Net.Search.Function.CustomScoreProvider GetCustomScoreProvider(IndexReader reader)
+	public class Lucene.Net.Index.IndexWriter
+		+ public static double DEFAULT_MAX_SYNC_PAUSE_SECONDS
+		- public static readonly double DEFAULT_MAX_SYNC_PAUSE_SECONDS
+		+ public virtual Lucene.Net.Index.IndexReader GetReader()
+		+ public virtual Lucene.Net.Index.IndexReader GetReader(Int32 termInfosIndexDivisor)
+		+ public virtual int NumDeletedDocs(SegmentInfo info)
+		+ public virtual double GetMaxSyncPauseSeconds()
+		+ public virtual void SetMaxSyncPauseSeconds(Double seconds)
+		+ public static void SetDefaultInfoStream(StreamWriter infoStream)
+		+ public static System.IO.StreamWriter GetDefaultInfoStream()
+		+ public virtual void SetInfoStream(StreamWriter infoStream)
+		+ public virtual System.IO.StreamWriter GetInfoStream()
+		+ public virtual bool Verbose()
+		+ public virtual int MaxDoc()
+		+ public virtual int NumDocs()
+		+ public virtual bool HasDeletions()
+		+ public virtual void DeleteDocuments(Query query)
+		+ public virtual void DeleteDocuments(Query[] queries)
+		+ public virtual void ExpungeDeletes(Boolean doWait)
+		+ public virtual void ExpungeDeletes()
+		+ public virtual void Abort()
+		+ public virtual void DeleteAll()
+		+ public virtual void WaitForMerges()
+		+ public virtual void AddIndexes(Directory[] dirs)
+		+ public virtual void AddIndexesNoOptimize(Directory[] dirs)
+		+ public virtual void AddIndexes(IndexReader[] readers)
+		+ public void PrepareCommit(IDictionary<string,string> commitUserData)
+		+ public void Commit(IDictionary<string,string> commitUserData)
+		+ public virtual Lucene.Net.Index.SegmentInfo NewestSegment()
+		+ public virtual string SegString()
+		+ public virtual void SetMergedSegmentWarmer(IndexReaderWarmer warmer)
+		+ public virtual Lucene.Net.Index.IndexWriter/IndexReaderWarmer GetMergedSegmentWarmer()
+		+ public virtual void SetAllowMinus1Position()
+		+ public virtual bool TestPoint(String name)
+		+ public void .ctor(Directory d,Analyzer a,IndexDeletionPolicy deletionPolicy,MaxFieldLength mfl,IndexCommit commit)
+		+ protected virtual void DoAfterFlush()
+		- public double GetMaxSyncPauseSeconds()
+		- public void SetMaxSyncPauseSeconds(Double seconds)
+		- public static void SetDefaultInfoStream(TextWriter infoStream)
+		- public static System.IO.TextWriter GetDefaultInfoStream()
+		- public virtual void SetInfoStream(TextWriter infoStream)
+		- public virtual System.IO.TextWriter GetInfoStream()
+		- public int MaxDoc()
+		- public int NumDocs()
+		- public bool HasDeletions()
+		- public void DeleteDocuments(Query query)
+		- public void DeleteDocuments(Query[] queries)
+		- public void ExpungeDeletes(Boolean doWait)
+		- public void ExpungeDeletes()
+		- public void Abort()
+		- public void AddIndexes(Directory[] dirs)
+		- public void AddIndexesNoOptimize(Directory[] dirs)
+		- public void AddIndexes(IndexReader[] readers)
+		- public Lucene.Net.Index.SegmentInfo NewestSegment()
+		- public string SegString()
+		- protected void EnsureOpen()
+		- protected virtual void Finalize()
+	public class Lucene.Net.Analysis.PorterStemFilter
+		+ public virtual bool IncrementToken()
+		- public virtual Lucene.Net.Analysis.Token Next(Token reusableToken)
+	public class Lucene.Net.Util.CloseableThreadLocal
+		+ public virtual object InitialValue()
+		+ public virtual object Get()
+		+ public virtual void Set(Object object_Renamed)
+		+ public virtual void Close()
+		- public object Get()
+		- public void Set(Object obj)
+		- public void Close()
+		- protected virtual object InitialValue()
+	public class Lucene.Net.Search.IndexSearcher
+		+ public virtual Lucene.Net.Search.TopFieldDocs Search(Weight weight,Filter filter,Int32 nDocs,Sort sort,Boolean fillFields)
+		+ public virtual void Search(Weight weight,Filter filter,Collector collector)
+		+ public virtual void SetDefaultFieldSortScoring(Boolean doTrackScores,Boolean doMaxScore)
+		+ public Lucene.Net.Index.IndexReader get_reader_ForNUnit()
+		+ public void .ctor(String path,Boolean readOnly)
+		+ public void .ctor(Directory path,Boolean readOnly)
+		- public Lucene.Net.Index.IndexReader get_Reader()
+		- public virtual void Search(Weight weight,Filter filter,HitCollector results)
+	public class Lucene.Net.Index.SnapshotDeletionPolicy
+		+ public virtual void OnInit(IList commits)
+		+ public virtual void OnCommit(IList commits)
+		- public virtual void OnInit(List<IndexCommitPoint> commits)
+		- public virtual void OnCommit(List<IndexCommitPoint> commits)
+	public class Lucene.Net.Documents.AbstractField
+		- protected int binaryLength
+		- protected int binaryOffset
+		+ public virtual bool GetOmitTermFreqAndPositions()
+		+ public virtual void SetOmitTermFreqAndPositions(Boolean omitTermFreqAndPositions)
+	public class Lucene.Net.Documents.Field
+		+ public void SetTokenStream(TokenStream tokenStream)
+		+ public void .ctor(String name,Boolean internName,String value_Renamed,Store store,Index index,TermVector termVector)
+	public class Lucene.Net.Analysis.LengthFilter
+		+ public virtual bool IncrementToken()
+		- public virtual Lucene.Net.Analysis.Token Next(Token reusableToken)
+	public class Lucene.Net.Search.TimeLimitedCollector
+		+ public const int DEFAULT_RESOLUTION - Value: 20
+		+ public bool DEFAULT_GREEDY
+		- public static readonly uint DEFAULT_RESOLUTION
+		- public static readonly bool DEFAULT_GREEDY
+		+ public static long GetResolution()
+		+ public static void SetResolution(UInt32 newResolution)
+		+ public virtual bool IsGreedy()
+		+ public virtual void SetGreedy(Boolean greedy)
+		- public static long getResolution()
+		- public static void setResolution(UInt32 newResolution)
+		- public bool isGreedy()
+		- public void setGreedy(Boolean greedy)
+	public class Lucene.Net.Util.StringHelper
+		+ public static Lucene.Net.Util.StringInterner interner
+		+ public static string Intern(String s)
+		+ public static int BytesDifference(Byte[] bytes1,Int32 len1,Byte[] bytes2,Int32 len2)
+		- public static int bytesDifference(Byte[] bytes1,Int32 len1,Byte[] bytes2,Int32 len2)
+	public class Lucene.Net.Util.OpenBitSet
+		- protected System.Int64[] bits
+		- protected int wlen
+		+ public virtual bool IsCacheable()
+		+ public virtual long Capacity()
+		+ public virtual long Size()
+		+ public virtual bool IsEmpty()
+		+ public virtual System.Int64[] GetBits()
+		+ public virtual void SetBits(Int64[] bits)
+		+ public virtual int GetNumWords()
+		+ public virtual void SetNumWords(Int32 nWords)
+		+ public virtual bool Get(Int32 index)
+		+ public virtual bool FastGet(Int32 index)
+		+ public virtual bool Get(Int64 index)
+		+ public virtual bool FastGet(Int64 index)
+		+ public virtual int GetBit(Int32 index)
+		+ public virtual void Set(Int64 index)
+		+ public virtual void FastSet(Int32 index)
+		+ public virtual void FastSet(Int64 index)
+		+ public virtual void Set(Int64 startIndex,Int64 endIndex)
+		+ public virtual void FastClear(Int32 index)
+		+ public virtual void FastClear(Int64 index)
+		+ public virtual void Clear(Int64 index)
+		+ public virtual void Clear(Int32 startIndex,Int32 endIndex)
+		+ public virtual void Clear(Int64 startIndex,Int64 endIndex)
+		+ public virtual bool GetAndSet(Int32 index)
+		+ public virtual bool GetAndSet(Int64 index)
+		+ public virtual void FastFlip(Int32 index)
+		+ public virtual void FastFlip(Int64 index)
+		+ public virtual void Flip(Int64 index)
+		+ public virtual bool FlipAndGet(Int32 index)
+		+ public virtual bool FlipAndGet(Int64 index)
+		+ public virtual void Flip(Int64 startIndex,Int64 endIndex)
+		+ public virtual long Cardinality()
+		+ public virtual int NextSetBit(Int32 index)
+		+ public virtual long NextSetBit(Int64 index)
+		+ public virtual void Intersect(OpenBitSet other)
+		+ public virtual void Union(OpenBitSet other)
+		+ public virtual void Remove(OpenBitSet other)
+		+ public virtual void Xor(OpenBitSet other)
+		+ public virtual void And(OpenBitSet other)
+		+ public virtual void Or(OpenBitSet other)
+		+ public virtual void AndNot(OpenBitSet other)
+		+ public virtual bool Intersects(OpenBitSet other)
+		+ public virtual void EnsureCapacityWords(Int32 numWords)
+		+ public virtual void EnsureCapacity(Int64 numBits)
+		+ public virtual void TrimTrailingZeros()
+		+ public static int Bits2words(Int64 numBits)
+		- public long Capacity()
+		- public long Size()
+		- public bool IsEmpty()
+		- public System.Int64[] GetBits()
+		- public void SetBits(Int64[] bits)
+		- public int GetNumWords()
+		- public void SetNumWords(Int32 nWords)
+		- public bool Get(Int32 index)
+		- public bool FastGet(Int32 index)
+		- public bool Get(Int64 index)
+		- public bool FastGet(Int64 index)
+		- public int GetBit(Int32 index)
+		- public void Set(Int64 index)
+		- public void FastSet(Int32 index)
+		- public void FastSet(Int64 index)
+		- public void Set(Int64 startIndex,Int64 endIndex)
+		- public void FastClear(Int32 index)
+		- public void FastClear(Int64 index)
+		- public void Clear(Int64 index)
+		- public void Clear(Int64 startIndex,Int64 endIndex)
+		- public bool GetAndSet(Int32 index)
+		- public bool GetAndSet(Int64 index)
+		- public void FastFlip(Int32 index)
+		- public void FastFlip(Int64 index)
+		- public void Flip(Int64 index)
+		- public bool FlipAndGet(Int32 index)
+		- public bool FlipAndGet(Int64 index)
+		- public void Flip(Int64 startIndex,Int64 endIndex)
+		- public long Cardinality()
+		- public int NextSetBit(Int32 index)
+		- public long NextSetBit(Int64 index)
+		- public void Intersect(OpenBitSet other)
+		- public void Union(OpenBitSet other)
+		- public void Remove(OpenBitSet other)
+		- public void Xor(OpenBitSet other)
+		- public void And(OpenBitSet other)
+		- public void Or(OpenBitSet other)
+		- public void AndNot(OpenBitSet other)
+		- public bool Intersects(OpenBitSet other)
+		- public void EnsureCapacityWords(Int32 numWords)
+		- public void EnsureCapacity(Int64 numBits)
+		- public void trimTrailingZeros()
+		- public static int bits2words(Int64 numBits)
+		- protected int ExpandingWordNum(Int64 index)
+	public class Lucene.Net.Store.VerifyingLockFactory
+		+ public void .ctor(SByte id,LockFactory lf,String host,Int32 port)
+		- public void .ctor(Byte id,LockFactory lf,String host,Int32 port)
+	public class Lucene.Net.Search.Spans.SpanNearQuery
+		+ interface: System.ICloneable
+		+ public virtual object Clone()
+		+ public void .ctor(SpanQuery[] clauses,Int32 slop,Boolean inOrder,Boolean collectPayloads)
+		- public virtual Lucene.Net.Search.Spans.PayloadSpans GetPayloadSpans(IndexReader reader)
+	public class Lucene.Net.Search.RangeQuery
+		+ public virtual void SetBoost(Single b)
+		+ public virtual System.Globalization.CompareInfo GetCollator()
+		- public System.Globalization.CompareInfo GetCollator()
+	public class Lucene.Net.Search.MatchAllDocsQuery
+		+ public virtual Lucene.Net.Search.Weight CreateWeight(Searcher searcher)
+		+ public void .ctor(String normsField)
+	public class Lucene.Net.Index.SegmentMerger
+		+ public System.Collections.IList CreateCompoundFile(String fileName)
+		- public System.Collections.ArrayList CreateCompoundFile(String fileName)
+	public class Lucene.Net.Index.CheckIndex
+		+ public static System.IO.StreamWriter out_Renamed
+		- public static System.IO.TextWriter out_Renamed
+		+ public virtual void SetInfoStream(StreamWriter out_Renamed)
+		+ public static bool Check(Directory dir,Boolean doFix,IList onlySegments)
+		+ public virtual Lucene.Net.Index.CheckIndex/Status CheckIndex_Renamed_Method()
+		+ public virtual Lucene.Net.Index.CheckIndex/Status CheckIndex_Renamed_Method(IList onlySegments)
+		+ public virtual void FixIndex(Status result)
+		- public void SetInfoStream(TextWriter out_Renamed)
+		- public static bool Check(Directory dir,Boolean doFix,IList<object> onlySegments)
+		- public Lucene.Net.Index.CheckIndex/Status CheckIndex_Renamed()
+		- public Lucene.Net.Index.CheckIndex/Status CheckIndex_Renamed(IList<object> onlySegments)
+		- public void FixIndex(Status result)
+	public class Lucene.Net.Analysis.Standard.StandardAnalyzer
+		+ public static readonly System.Collections.Hashtable STOP_WORDS_SET
+		+ public void .ctor(Version matchVersion)
+		+ public void .ctor(Version matchVersion,Hashtable stopWords)
+		+ public void .ctor(Version matchVersion,FileInfo stopwords)
+		+ public void .ctor(Version matchVersion,TextReader stopwords)
+	public class Lucene.Net.Util.SortedVIntList
+		+ public virtual int Size()
+		+ public virtual int GetByteSize()
+		+ public virtual bool IsCacheable()
+		+ public void .ctor(BitArray bits)
+		- public int Size()
+		- public int GetByteSize()
+		- public void .ctor(BitSet bits)
+	public class Lucene.Net.Util.ArrayUtil
+		+ public static int ParseInt(Char[] chars)
+		+ public static int ParseInt(Char[] chars,Int32 offset,Int32 len)
+		+ public static int ParseInt(Char[] chars,Int32 offset,Int32 len,Int32 radix)
+	public class Lucene.Net.Store.RAMDirectory
+		+ public virtual System.String[] ListAll()
+		+ public System.Collections.Hashtable get_fileMap_ForNUnit()
+		- public System.Collections.Hashtable get_fileMap_ForNUnitTest()
+	public class Lucene.Net.Search.TermScorer
+		+ public virtual void Score(Collector c)
+		+ public virtual bool Score(Collector c,Int32 end,Int32 firstDocID)
+		+ public virtual int DocID()
+		+ public virtual int NextDoc()
+		+ public virtual int Advance(Int32 target)
+	public class Lucene.Net.Search.TermQuery
+		+ public virtual Lucene.Net.Search.Weight CreateWeight(Searcher searcher)
+	public class Lucene.Net.Search.Spans.TermSpans
+		Base type changed: System.Object -> Lucene.Net.Search.Spans.Spans
+		- interface: Lucene.Net.Search.Spans.PayloadSpans
+		- interface: Lucene.Net.Search.Spans.Spans
+	public class Lucene.Net.Search.SpanQueryFilter
+		- public virtual System.Collections.BitArray Bits(IndexReader reader)
+	public class Lucene.Net.Search.PrefixFilter
+		Base type changed: Lucene.Net.Search.Filter -> Lucene.Net.Search.MultiTermQueryWrapperFilter
+		- public virtual System.Collections.BitArray Bits(IndexReader reader)
+		- public virtual Lucene.Net.Search.DocIdSet GetDocIdSet(IndexReader reader)
+	public class Lucene.Net.Search.DisjunctionMaxQuery
+		+ public virtual Lucene.Net.Search.Weight CreateWeight(Searcher searcher)
+	public class Lucene.Net.Index.SegmentInfo
+		+ public virtual string ToString()
+		+ public IDictionary<string,string> GetDiagnostics()
+		+ public string GetDelFileName()
+		+ public bool HasSeparateNorms(Int32 fieldNumber)
+		+ public string GetNormFileName(Int32 number)
+		+ public int GetDocStoreOffset()
+		+ public bool GetDocStoreIsCompoundFile()
+		+ public string GetDocStoreSegment()
+		+ public bool GetHasProx()
+		+ public IList<string> Files()
+		- public List<string> Files()
+	public class Lucene.Net.Index.FieldsReader
+		+ interface: System.ICloneable
+		+ public virtual object Clone()
+	public class Lucene.Net.Analysis.StopFilter
+		+ public void Init()
+		+ public static System.Collections.Hashtable MakeStopSet(IList stopWords)
+		+ public static System.Collections.Hashtable MakeStopSet(IList stopWords,Boolean ignoreCase)
+		+ public virtual bool IncrementToken()
+		+ public static bool GetEnablePositionIncrementsVersionDefault(Version matchVersion)
+		+ public void .ctor(Boolean enablePositionIncrements,TokenStream input,String[] stopWords)
+		+ public void .ctor(Boolean enablePositionIncrements,TokenStream in_Renamed,String[] stopWords,Boolean ignoreCase)
+		+ public void .ctor(Boolean enablePositionIncrements,TokenStream input,Hashtable stopWords,Boolean ignoreCase)
+		+ public void .ctor(Boolean enablePositionIncrements,TokenStream in_Renamed,Hashtable stopWords)
+		- public virtual Lucene.Net.Analysis.Token Next(Token reusableToken)
+	public class Lucene.Net.Analysis.StopAnalyzer
+		+ public static System.Collections.Hashtable ENGLISH_STOP_WORDS_SET
+		+ public void .ctor(Version matchVersion)
+		+ public void .ctor(Boolean enablePositionIncrements)
+		+ public void .ctor(Version matchVersion,Hashtable stopWords)
+		+ public void .ctor(Hashtable stopWords,Boolean enablePositionIncrements)
+		+ public void .ctor(String[] stopWords,Boolean enablePositionIncrements)
+		+ public void .ctor(FileInfo stopwordsFile,Boolean enablePositionIncrements)
+		+ public void .ctor(Version matchVersion,FileInfo stopwordsFile)
+		+ public void .ctor(TextReader stopwords,Boolean enablePositionIncrements)
+		+ public void .ctor(Version matchVersion,TextReader stopwords)
+	public class Lucene.Net.Util.OpenBitSetDISI
+		+ public virtual void InPlaceOr(DocIdSetIterator disi)
+		+ public virtual void InPlaceAnd(DocIdSetIterator disi)
+		+ public virtual void InPlaceNot(DocIdSetIterator disi)
+		+ public virtual void InPlaceXor(DocIdSetIterator disi)
+		- public void InPlaceOr(DocIdSetIterator disi)
+		- public void InPlaceAnd(DocIdSetIterator disi)
+		- public void InPlaceNot(DocIdSetIterator disi)
+		- public void InPlaceXor(DocIdSetIterator disi)
+	public class Lucene.Net.Store.RAMFile
+		+ public virtual long GetLength()
+		+ public virtual void SetLength(Int64 length)
+		+ public System.Byte[] GetBuffer(Int32 index)
+		+ public int NumBuffers()
+		+ public virtual System.Byte[] NewBuffer(Int32 size)
+		+ public virtual long GetSizeInBytes()
+		+ public long get_length_ForNUnit()
+		+ public Lucene.Net.Store.RAMDirectory get_directory_ForNUnit()
+		+ public void set_directory_ForNUnit(RAMDirectory value)
+		+ public long get_sizeInBytes_ForNUnit()
+		+ public void .ctor()
+		- public virtual long GetLength_ForNUnitTest()
+		- public virtual void SetLength_ForNUnitTest(Int64 length)
+		- public System.Byte[] GetBuffer_ForNUnitTest(Int32 index)
+		- public int NumBuffers_ForNUnitTest()
+		- public long get_sizeInBytes_ForNUnitTest()
+		- public void set_directory_ForNUnitTest(RAMDirectory value)
+		- public long get_length_ForNUnitTest()
+		- public long GetSizeInBytes_ForNUnitTest()
+	public class Lucene.Net.Store.NativeFSLockFactory
+		Base type changed: Lucene.Net.Store.LockFactory -> Lucene.Net.Store.FSLockFactory
+		+ public void .ctor()
+		+ public void .ctor(DirectoryInfo lockDir)
+	public class Lucene.Net.Store.ChecksumIndexInput
+		+ public virtual long GetChecksum()
+		- public long GetChecksum()
+	public class Lucene.Net.Search.PrefixQuery
+		Base type changed: Lucene.Net.Search.Query -> Lucene.Net.Search.MultiTermQuery
+		+ public virtual Lucene.Net.Search.FilteredTermEnum GetEnum(IndexReader reader)
+		- public virtual Lucene.Net.Search.Query Rewrite(IndexReader reader)
+	public class Lucene.Net.Search.ConstantScoreRangeQuery
+		Base type changed: Lucene.Net.Search.Query -> Lucene.Net.Search.TermRangeQuery
+		+ public virtual void SetRewriteMethod(RewriteMethod method)
+		- public virtual string GetField()
+		- public virtual bool IncludesLower()
+		- public virtual bool IncludesUpper()
+		- public virtual Lucene.Net.Search.Query Rewrite(IndexReader reader)
+		- public virtual string ToString(String field)
+		- public virtual bool Equals(Object o)
+		- public virtual int GetHashCode()
+		- public virtual object Clone()
+	public class Lucene.Net.Index.IndexModifier
+		+ public virtual System.IO.StreamWriter GetInfoStream()
+		- public virtual System.IO.TextWriter GetInfoStream()
+	public class Lucene.Net.Index.FieldInfos
+		+ public const int FORMAT_PRE - Value: -1
+		+ public const int FORMAT_START - Value: -2
+		- public Lucene.Net.Index.FieldInfo Add(FieldInfo fieldInfo)
+	public class Lucene.Net.Index.ByteSliceReader
+		+ public virtual object Clone()
+	public class Lucene.Net.Analysis.Standard.StandardFilter
+		+ public virtual bool IncrementToken()
+		- public virtual Lucene.Net.Analysis.Token Next(Token reusableToken)
+From 1 assemblies were 23 types removed and 158 changed.

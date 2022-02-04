@@ -1,0 +1,13 @@
+main:
+  - title: "By year"
+    url: /posts/
+  - title: "Categories"
+    url: /categories/
+  - title: "By tag"
+    url: /tags/
+  - title: "Post index"
+    url: /postindex/
+  - title: "Speaking"
+    url: /speaking/
+  - title: "About"
+    url: /about/
