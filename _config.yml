@@ -18,10 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Anders Lybecker's Weblog!
+title: A tech blog about the things I'm passionate about.
 email: anders@lybecker.com
-description: >- # this means to ignore newlines until "baseurl:"
-  My software development adventures…
+description: A blog about cloud, programming and related stuff
 twitter_username: lybecker
 github_username:  lybecker
 
@@ -136,4 +135,4 @@ comments:
 atom_feed:
   path: "http://feeds.lybecker.com/AndersLybecker"
 
-teaser: /assets/images/pexels-vitaly-vlasov-1342460.jpg
+teaser: /assets/images/topbar.png
