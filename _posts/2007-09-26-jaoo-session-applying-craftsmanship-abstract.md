@@ -1,8 +1,8 @@
 ---
-id: 35
+
 title: 'JAOO session &#8220;Applying Craftsmanship&#8221; abstract'
 date: 2007-09-26T22:55:06+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/2007/09/26/jaoo-session-applying-craftsmanship-abstract/
 permalink: /2007/09/26/jaoo-session-applying-craftsmanship-abstract/

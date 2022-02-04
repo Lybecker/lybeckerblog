@@ -1,8 +1,8 @@
 ---
-id: 1053
+
 title: See you at GOTO Aarhus 2012?
 date: 2012-08-28T21:03:28+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=1053
 permalink: /2012/08/28/se-you-at-goto-aarhus-2012/

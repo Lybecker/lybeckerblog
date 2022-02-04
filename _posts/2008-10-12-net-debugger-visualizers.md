@@ -1,8 +1,8 @@
 ---
-id: 138
+
 title: .Net debugger visualizers
 date: 2008-10-12T16:35:28+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=138
 permalink: /2008/10/12/net-debugger-visualizers/

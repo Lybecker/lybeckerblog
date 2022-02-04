@@ -1,8 +1,8 @@
 ---
-id: 57
+
 title: 32-bit WCF memory allocation trouble
 date: 2008-03-18T22:15:38+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/2008/03/18/32-bit-wcf-trouble/
 permalink: /2008/03/18/32-bit-wcf-trouble/

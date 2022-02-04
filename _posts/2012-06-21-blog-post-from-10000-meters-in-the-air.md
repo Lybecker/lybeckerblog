@@ -1,8 +1,8 @@
 ---
-id: 1047
+
 title: Blog post from 10000 meters in the Air
 date: 2012-06-21T19:58:09+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=1047
 permalink: /2012/06/21/blog-post-from-10000-meters-in-the-air/
@@ -21,10 +21,10 @@ While writing and posting this post I&#8217;m currently flying from Copenhagen, 
 
 A ping request to Google.com show that a roundtrip takes around 800 ms with some fluctuations into the 1200 ms
 
-Pinging google.com [173.194.70.113] with 32 bytes of data:  
-Reply from 173.194.70.113: bytes=32 time=681ms TTL=43  
-Reply from 173.194.70.113: bytes=32 time=869ms TTL=43  
-Reply from 173.194.70.113: bytes=32 time=705ms TTL=43  
+Pinging google.com [173.194.70.113] with 32 bytes of data:
+Reply from 173.194.70.113: bytes=32 time=681ms TTL=43
+Reply from 173.194.70.113: bytes=32 time=869ms TTL=43
+Reply from 173.194.70.113: bytes=32 time=705ms TTL=43
 Reply from 173.194.70.113: bytes=32 time=750ms TTL=43
 
 An Internet connection speed test reveals my upload was around 400 Kbit/s download and 15 Kbit/s upload.

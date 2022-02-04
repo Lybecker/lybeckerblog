@@ -1,8 +1,8 @@
 ---
-id: 1204
+
 title: AJAX paging for ASP.NET MVC sites
 date: 2014-09-29T11:33:12+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=1204
 permalink: /2014/09/29/ajax-paging-for-asp-net-mvc-sites/

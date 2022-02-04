@@ -1,8 +1,8 @@
 ---
-id: 38
+
 title: Free SQL Server tools
 date: 2007-11-23T10:13:44+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/2007/11/23/free-sql-server-tools/
 permalink: /2007/11/23/free-sql-server-tools/

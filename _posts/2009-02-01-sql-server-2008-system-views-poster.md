@@ -1,8 +1,8 @@
 ---
-id: 210
+
 title: SQL Server 2008 System Views poster
 date: 2009-02-01T20:10:38+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=210
 permalink: /2009/02/01/sql-server-2008-system-views-poster/

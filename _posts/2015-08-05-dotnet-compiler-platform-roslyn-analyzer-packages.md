@@ -1,8 +1,8 @@
 ---
-id: 1362
+
 title: .NET compiler platform (Roslyn) analyzer packages
 date: 2015-08-05T14:39:40+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=1362
 permalink: /2015/08/05/dotnet-compiler-platform-roslyn-analyzer-packages/
@@ -24,7 +24,7 @@ The community has built a number of packages containing great analyzers, fixes a
 
 ## Refactoring Essentials
 
-[Refactoring Essentials](http://vsrefactoringessentials.com/) contains approx. 200 code analyzers, fixes and refactorings  
+[Refactoring Essentials](http://vsrefactoringessentials.com/) contains approx. 200 code analyzers, fixes and refactorings
 Simple defensive code analyzers like parameter checking.
 
 [<img loading="lazy" class="aligncenter size-full wp-image-1365" src="/blog/wp-content/uploads/Roslyn_CheckDictionaryKeyValueCodeRefactoring.png" alt="Roslyn_CheckDictionaryKeyValueCodeRefactoring" width="493" height="146" />](/blog/wp-content/uploads/Roslyn_CheckDictionaryKeyValueCodeRefactoring.png)

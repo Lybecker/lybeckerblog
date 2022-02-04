@@ -1,10 +1,5 @@
 ---
-id: 1463
 title: Supporting IPv4 and IPv6 dual mode network with one socket
-date: 2018-08-23T18:54:05+01:00
-author: Anders Lybecker
-
-guid: http://www.lybecker.com/blog/?p=1463
 permalink: /2018/08/23/supporting-ipv4-and-ipv6-dual-mode-network-with-one-socket/
 categories:
   - .Net

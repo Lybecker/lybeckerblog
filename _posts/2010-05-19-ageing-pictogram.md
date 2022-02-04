@@ -1,8 +1,8 @@
 ---
-id: 646
+
 title: Ageing pictogram
 date: 2010-05-19T22:02:03+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=646
 permalink: /2010/05/19/ageing-pictogram/

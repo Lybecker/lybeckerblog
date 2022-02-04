@@ -1,8 +1,8 @@
 ---
-id: 787
+
 title: WCF Timeouts
 date: 2010-10-14T11:22:58+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=787
 permalink: /2010/10/14/wcf-timeouts/
@@ -28,7 +28,7 @@ Below are the binding properties that all throw TimeoutExceptions if any of sett
   * OpenTimeout (TimeSpan) &#8211; the interval of time provided for an open operation to complete including security handshakes (WS-Trust, WS-Secure Conversation etc.). The default is 00:01:00.
   * CloseTimeout (TimeSpan) &#8211; the interval of time provided for a close operation to complete. The default is 00:01:00.
   * SendTimeout (TimeSpan) &#8211; the interval of time provided for an entire operation to complete. This includes both sending of message and receiving reply! The default is 00:01:00.
-  * ReceiveTimeout (TimeSpan) &#8211; the interval of time that a connection can remain inactive, during which no application messages are received, before it is dropped. The default is 00:10:00. 
+  * ReceiveTimeout (TimeSpan) &#8211; the interval of time that a connection can remain inactive, during which no application messages are received, before it is dropped. The default is 00:10:00.
       * This setting is only used on the server-side and has no effect on client-side.
       * When using Reliable Sessions remember to set the [InactivityTimeout](http://msdn.microsoft.com/en-us/library/system.servicemodel.reliablesession.inactivitytimeout.aspx "ReliableSession.InactivityTimeout property on MSDN") property on the reliableSession element to the same value as the [ReceiveTimeout](http://msdn.microsoft.com/en-us/library/system.servicemodel.channels.binding.receivetimeout.aspx "Binding.ReceiveTimeout property on MSDN") property, as both inactivity timers has to be satisfied.
 

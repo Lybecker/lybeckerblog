@@ -1,8 +1,8 @@
 ---
-id: 819
+
 title: 'Microsoft Julekalender låge #7'
 date: 2010-12-07T07:45:28+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=819
 permalink: /2010/12/07/microsoft-julekalender-lage-7/

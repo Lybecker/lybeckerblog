@@ -1,8 +1,8 @@
 ---
-id: 357
+
 title: 'New blog &#8211; NoTech'
 date: 2009-10-14T07:24:34+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=357
 permalink: /2009/10/14/new-blog-notech/

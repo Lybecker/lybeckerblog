@@ -1,8 +1,8 @@
 ---
-id: 507
+
 title: Cisco VPN (IPSec) support on 64 bit platforms
 date: 2010-01-14T19:58:28+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=507
 permalink: /2010/01/14/cisco-vpn-ipsec-support-on-64-bit-platforms/

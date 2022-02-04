@@ -1,8 +1,8 @@
 ---
-id: 571
+
 title: Upgraded the wireless network at work
 date: 2010-04-04T15:02:56+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=571
 permalink: /2010/04/04/upgraded-the-wireless-network-at-work/

@@ -1,8 +1,8 @@
 ---
-id: 1266
+
 title: Expression-bodied methods
 date: 2015-01-13T08:54:27+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=1266
 permalink: /2015/01/13/expression-bodied-methods/

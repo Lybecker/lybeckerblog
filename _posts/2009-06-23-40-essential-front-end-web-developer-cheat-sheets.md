@@ -1,8 +1,8 @@
 ---
-id: 340
+
 title: 40+ Essential Front End Web Developer Cheat Sheets
 date: 2009-06-23T07:32:21+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=340
 permalink: /2009/06/23/40-essential-front-end-web-developer-cheat-sheets/

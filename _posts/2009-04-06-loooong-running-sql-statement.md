@@ -1,8 +1,8 @@
 ---
-id: 277
+
 title: Loooong running sql statement
 date: 2009-04-06T11:30:34+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=277
 permalink: /2009/04/06/loooong-running-sql-statement/

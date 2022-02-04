@@ -1,8 +1,8 @@
 ---
-id: 264
+
 title: How to check for and enable read committed snapshot isolation
 date: 2009-03-18T12:51:14+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=264
 permalink: /2009/03/18/how-to-check-for-and-enable-read-committed-snapshot-isolation/

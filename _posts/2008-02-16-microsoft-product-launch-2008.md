@@ -1,8 +1,8 @@
 ---
-id: 48
+
 title: Microsoft product launch 2008
 date: 2008-02-16T16:42:45+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/2008/02/16/microsoft-product-launch-2008/
 permalink: /2008/02/16/microsoft-product-launch-2008/

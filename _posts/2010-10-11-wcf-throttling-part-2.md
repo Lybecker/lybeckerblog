@@ -1,8 +1,8 @@
 ---
-id: 773
+
 title: WCF Throttling – Part 2
 date: 2010-10-11T19:05:40+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=773
 permalink: /2010/10/11/wcf-throttling-part-2/
@@ -50,11 +50,11 @@ Resist the temptation of settings any of these properties to Int.MaxValue and th
   <div>
     You will become the service hero in your organization by throttling instead of letting the service run wild 🙂
   </div>
-  
+
   <p>
     Example of configuration file:
   </p>
-  
+
   <pre class="brush: xml; title: ; notranslate" title="">
 &lt;system.serviceModel&gt;
   &lt;behaviors&gt;

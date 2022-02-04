@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: A tech blog about the things I'm passionate about.
+title: A tech blog about the things I'm passionate about
 email: anders@lybecker.com
-description: A blog about cloud, programming and related stuff
+description: A blog about cloud computing, programming and related stuff
 twitter_username: lybecker
 github_username:  lybecker
 

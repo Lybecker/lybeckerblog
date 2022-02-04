@@ -1,8 +1,8 @@
 ---
-id: 637
+
 title: Finding Missing Indexes with SQL Server DMVs
 date: 2010-05-10T22:06:43+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=637
 permalink: /2010/05/10/finding-missing-indexes-with-sql-server-dmvs/

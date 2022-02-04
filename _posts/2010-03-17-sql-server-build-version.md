@@ -1,8 +1,8 @@
 ---
-id: 527
+
 title: SQL Server build version
 date: 2010-03-17T19:58:01+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=527
 permalink: /2010/03/17/sql-server-build-version/
@@ -27,7 +27,7 @@ categories:
 tags:
   - SQL Server
 ---
-<img loading="lazy" class="alignright size-full wp-image-538" title="Databases" src="http://www.lybecker.com/blog/wp-content/uploads/Databases.jpg" alt="" width="161" height="120" />  
+<img loading="lazy" class="alignright size-full wp-image-538" title="Databases" src="http://www.lybecker.com/blog/wp-content/uploads/Databases.jpg" alt="" width="161" height="120" />
 Working with SQL Server it is often important to know which edition, version and service pack applied to the instance.
 
 This information easily retrieve with either of these two system functions ServerProperty or @@Version:
@@ -49,120 +49,120 @@ From the build number alone it is possible to figure out which version of the SQ
   <tr>
     <td>
     </td>
-    
+
     <td>
       RTM
     </td>
-    
+
     <td>
       SP1
     </td>
-    
+
     <td>
       SP2
     </td>
-    
+
     <td>
       SP3
     </td>
-    
+
     <td>
       SP4
     </td>
   </tr>
-  
+
   <tr>
     <td>
       SQL Server 2008 R2
     </td>
-    
+
     <td>
       10.50.1600.1
     </td>
-    
+
     <td>
     </td>
-    
+
     <td>
     </td>
-    
+
     <td>
     </td>
-    
+
     <td>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       SQL Server 2008
     </td>
-    
+
     <td>
       10.00.1600.22
     </td>
-    
+
     <td>
       10.00.2531
     </td>
-    
+
     <td>
       10.00.4000
     </td>
-    
+
     <td>
     </td>
-    
+
     <td>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       SQL Server 2005
     </td>
-    
+
     <td>
       9.00.1399.06
     </td>
-    
+
     <td>
       9.00.2047
     </td>
-    
+
     <td>
       9.00.3042
     </td>
-    
+
     <td>
       9.00.4035
     </td>
-    
+
     <td>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       SQL Server 2000
     </td>
-    
+
     <td>
       8.00.194
     </td>
-    
+
     <td>
       8.00.384
     </td>
-    
+
     <td>
       8.00.532
     </td>
-    
+
     <td>
       8.00.760
     </td>
-    
+
     <td>
       8.00.2039
     </td>

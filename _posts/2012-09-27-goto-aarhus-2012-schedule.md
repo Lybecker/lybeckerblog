@@ -1,8 +1,8 @@
 ---
-id: 1062
+
 title: GOTO Aarhus 2012 Schedule
 date: 2012-09-27T19:41:13+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=1062
 permalink: /2012/09/27/goto-aarhus-2012-schedule/

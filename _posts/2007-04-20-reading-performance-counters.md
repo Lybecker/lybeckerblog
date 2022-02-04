@@ -1,8 +1,8 @@
 ---
-id: 9
+
 title: Reading performance counters
 date: 2007-04-20T09:53:59+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/2007/04/20/reading-performance-counters/
 permalink: /2007/04/20/reading-performance-counters/

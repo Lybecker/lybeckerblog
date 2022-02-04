@@ -1,8 +1,8 @@
 ---
-id: 1022
+
 title: Outsourcing requires Talent
 date: 2012-02-29T22:10:36+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=1022
 permalink: /2012/02/29/outsourcing-requires-talent/

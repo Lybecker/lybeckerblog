@@ -1,8 +1,8 @@
 ---
-id: 1093
+
 title: Accessing HTTP Request from ASP.NET Web API
 date: 2013-06-26T16:33:33+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=1093
 permalink: /2013/06/26/accessing-http-request-from-asp-net-web-api/

@@ -1,8 +1,8 @@
 ---
-id: 1010
+
 title: When to Outsource?
 date: 2012-02-28T20:27:29+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=1010
 permalink: /2012/02/28/when-to-outsource/
@@ -29,7 +29,7 @@ In either case outsourcing makes sense and will in most cases provide business v
 
 ### Offshoring
 
-Outsourcing to low-cost countries aka offshoring complicates things even further and should not be considered before thorough scrutiny of your business.  Does the business employ the required competency, are the procedures in place and is the organization mature enough?  
+Outsourcing to low-cost countries aka offshoring complicates things even further and should not be considered before thorough scrutiny of your business.  Does the business employ the required competency, are the procedures in place and is the organization mature enough?
 Due to the magnitude required by preliminary analysis, offshoring only makes economic sense for larger scale operations and is not viable for smaller businesses.
 
 _Update Feb 28. 2013:_ A great blog post [Is Offshoring Less Expensive? Exposing Another Management Myth](http://www.jrothman.com/blog/mpd/2013/09/is-offshoring-less-expensing-exposing-another-management-myth.html "Is Offshoring Less Expensive? Exposing Another Management Myth")

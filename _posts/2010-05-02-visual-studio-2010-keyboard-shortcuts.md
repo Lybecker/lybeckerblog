@@ -1,8 +1,8 @@
 ---
-id: 624
+
 title: Visual Studio 2010 keyboard shortcuts
 date: 2010-05-02T08:39:41+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=624
 permalink: /2010/05/02/visual-studio-2010-keyboard-shortcuts/

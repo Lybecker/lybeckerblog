@@ -1,8 +1,8 @@
 ---
-id: 765
+
 title: WCF Throttling – Part 1
 date: 2010-10-06T19:45:35+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=765
 permalink: /2010/10/06/wcf-throttling-part-1/

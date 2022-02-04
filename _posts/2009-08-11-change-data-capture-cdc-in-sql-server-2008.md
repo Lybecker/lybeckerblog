@@ -1,8 +1,8 @@
 ---
-id: 344
+
 title: Change Data Capture (CDC) in SQL Server 2008
 date: 2009-08-11T11:46:42+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=344
 permalink: /2009/08/11/change-data-capture-cdc-in-sql-server-2008/

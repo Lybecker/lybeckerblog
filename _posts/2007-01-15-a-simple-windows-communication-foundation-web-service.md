@@ -1,8 +1,8 @@
 ---
-id: 22
+
 title: A simple Windows Communication Foundation Web Service
 date: 2007-01-15T22:59:28+01:00
-author: Anders Lybecker
+
 guid: http://www.lybecker.com/blog/2007/01/15/a-simple-windows-communication-foundation-web-service/
 permalink: /2007/01/15/a-simple-windows-communication-foundation-web-service/
 autometa:
@@ -26,7 +26,7 @@ public class HelloWorldService
   [WebMethod]
   public string HelloWorld()
   {
-    return “Hello World”; 
+    return “Hello World”;
   }
 }
 </pre>
@@ -59,7 +59,7 @@ Next you have to implement the interface. The implemented class is called servic
 {
   public string HelloWorld()
   {
-    return “Hello World”; 
+    return “Hello World”;
   }
 }
 </pre>
@@ -68,9 +68,9 @@ All that is left is a process to host the WCF Web Service. We could use IIS, but
 
 <pre class="brush: csharp; title: ; notranslate" title="">class Program
 {
-  static void Main(string[] args) 
+  static void Main(string[] args)
   {
-    using (ServiceHost host = 
+    using (ServiceHost host =
       new ServiceHost(typeof(HelloWorldService)))
     {
       host.Open();
@@ -79,7 +79,7 @@ All that is left is a process to host the WCF Web Service. We could use IIS, but
       HelloWorldService is running.”);
 
       Console.WriteLine(“Press
-      [ENTER] to terminate…”); 
+      [ENTER] to terminate…”);
 
       Console.ReadLine();
     }
@@ -87,7 +87,7 @@ All that is left is a process to host the WCF Web Service. We could use IIS, but
 }
 </pre>
 
-Before running the application we need to configure a service endpoint – the address, binding and contract. You properly heard about ABC.  
+Before running the application we need to configure a service endpoint – the address, binding and contract. You properly heard about ABC.
 The address is the URL, the binding specifies the protocol and data format and we have already made the contract.
 
 Add a configuration file (App.config) and enter the ABC.
@@ -99,7 +99,7 @@ Add a configuration file (App.config) and enter the ABC.
         &lt;service name=“HelloWorldService“&gt;
           &lt;endpoint address=“http://localhost:8080/HelloWorldService“
 	                 binding=“basicHttpBinding”
-	                 contract=“IHelloWorldService“ /&gt; 
+	                 contract=“IHelloWorldService“ /&gt;
       &lt;/service&gt;
     &lt;/services&gt;
   &lt;/system&gt;

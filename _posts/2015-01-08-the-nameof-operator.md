@@ -1,8 +1,8 @@
 ---
-id: 1258
+
 title: The nameof operator
 date: 2015-01-08T08:37:44+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=1258
 permalink: /2015/01/08/the-nameof-operator/

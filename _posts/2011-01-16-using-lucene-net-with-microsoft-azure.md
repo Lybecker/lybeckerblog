@@ -1,8 +1,8 @@
 ---
-id: 867
+
 title: Using Lucene.Net with Microsoft Azure
 date: 2011-01-16T17:17:24+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=867
 permalink: /2011/01/16/using-lucene-net-with-microsoft-azure/

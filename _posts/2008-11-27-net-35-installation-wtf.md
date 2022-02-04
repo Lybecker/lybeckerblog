@@ -1,8 +1,8 @@
 ---
-id: 173
+
 title: .Net 3.5 installation WTF
 date: 2008-11-27T20:21:36+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=173
 permalink: /2008/11/27/net-35-installation-wtf/

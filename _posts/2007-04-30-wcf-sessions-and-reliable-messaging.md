@@ -1,8 +1,8 @@
 ---
-id: 85
+
 title: WCF Sessions and Reliable Messaging
 date: 2007-04-30T12:05:43+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=85
 permalink: /2007/04/30/wcf-sessions-and-reliable-messaging/

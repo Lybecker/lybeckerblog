@@ -1,8 +1,8 @@
 ---
-id: 365
+
 title: Reuse in SQL Server 2008 Integration Services
 date: 2009-10-22T20:27:34+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=365
 permalink: /2009/10/22/reuse-in-sql-server-2008-integration-services/

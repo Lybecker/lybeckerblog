@@ -1,8 +1,8 @@
 ---
-id: 589
+
 title: Miracle Open World 2010 Lucene Presentation
 date: 2010-04-20T18:46:01+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=589
 permalink: /2010/04/20/miracle-open-world-2010-lucene-presentation/
@@ -33,7 +33,7 @@ The slides and demo code for my Lucene session is available here:
 My session &#8220;Making freetext search with Lucene.Net work for you&#8221; abstract:
 
 > Lucene is an open source full-featured text search engine library, making searching in large amounts of text lightning fast. Lucene are in use by many large sites like Wikipedia, LinkedIn, MySpace etc.
-> 
+>
 > It is easy to get started with Lucene, but there are many pitfalls… In this session you will learn about the do’s and don’t’s for indexing and searching, tools, scaling, new features in version 2.9 and some of the more advanced features.
-> 
+>
 > This presentation will use the Microsoft .Net implementation of Lucene named Lucene.Net, but the content of this presentation applies for ported versions of Lucene.

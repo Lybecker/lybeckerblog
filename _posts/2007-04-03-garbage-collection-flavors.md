@@ -1,8 +1,8 @@
 ---
-id: 11
+
 title: Garbage Collection Flavors
 date: 2007-04-03T06:54:43+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/2007/04/03/garbage-collection-flavors/
 permalink: /2007/04/03/garbage-collection-flavors/
@@ -31,12 +31,12 @@ Non-concurrent workstation mode works by suspending managed application threads 
 
 **Server Garbage Collection**
 
-In server mode a managed heap and a dedicated garbage collector thread is created for each CPU. This means the each CPU allocates memory in its own heap therefore results in lock-free allocation. When a collect is initiated all the managed application threads are suspended and all the GC threads collect in parallel.  
+In server mode a managed heap and a dedicated garbage collector thread is created for each CPU. This means the each CPU allocates memory in its own heap therefore results in lock-free allocation. When a collect is initiated all the managed application threads are suspended and all the GC threads collect in parallel.
 Another thing to note is that the size of the managed heap segments is larger in server mode than workstation mode. A segment is the unit of which the memory is allocated on the managed heap.
 
 It is possible to choose the type of GC for a managed application in the configuration file. Under the <Runtime> element add one of the below three settings and depending on the number of CPU, the garbage collector will run in the configured mode.<img loading="lazy" class="aligncenter size-full wp-image-302" title="Garbage Collection type settings" src="http://www.lybecker.com/blog/wp-content/uploads/gctypes.png" alt="Garbage Collection type settings" width="503" height="154" />
 
 Running a standalone managed application the GC mode is by default concurrent workstation. Managed application hosts like ASP.Net and SQLCLR run with Server GC by default.
 
-If you want to know more about how the GC works, read the blog entries &#8220;Using GC Efficiently&#8221;  
+If you want to know more about how the GC works, read the blog entries &#8220;Using GC Efficiently&#8221;
 by [Maoni](http://blogs.msdn.com/maoni/).

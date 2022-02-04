@@ -1,8 +1,8 @@
 ---
-id: 667
+
 title: Check for breaking changes in APIs
 date: 2010-06-08T06:59:09+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=667
 permalink: /2010/06/08/check-for-breaking-changes-in-apis/

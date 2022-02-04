@@ -1,8 +1,8 @@
 ---
-id: 281
+
 title: 'Scary SQL Server 2005 &#038; 2008 bug'
 date: 2009-03-21T08:40:00+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=281
 permalink: /2009/03/21/scary-sql-server-2005-2008-bug/

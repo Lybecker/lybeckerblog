@@ -1,8 +1,8 @@
 ---
-id: 17
+
 title: Favor structured exception handling
 date: 2007-02-21T16:36:40+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/2007/02/21/favor-structured-exception-handling/
 permalink: /2007/02/21/favor-structured-exception-handling/
@@ -19,7 +19,7 @@ I was surprised this last week, when a discussion about error handling, whether 
 
 The discussion was between one of their architects, a couple of others and me. The company where accustomed to used return codes and the architect argued in favor of return codes. I didn’t think in this day and age that organizations still use return codes with languages that have build-in support for structured exception handling.
 
-An exception is an event that occurs during the execution of a program, designed to handle the occurrence of some exceptional condition which changes the normal flow of execution. Exceptions travel out of band and propagate through the call stack until an exception handler catches the exception. Structured exceptions use the Try&#8230;Catch&#8230;Finally syntax.  
+An exception is an event that occurs during the execution of a program, designed to handle the occurrence of some exceptional condition which changes the normal flow of execution. Exceptions travel out of band and propagate through the call stack until an exception handler catches the exception. Structured exceptions use the Try&#8230;Catch&#8230;Finally syntax.
 Below is a make believe example of a simple system calling two methods:
 
 <pre class="brush: csharp; title: ; notranslate" title="">static void Main(string[] args)
@@ -43,7 +43,7 @@ public static decimal CalculateYield(Order order)
   // calculate yield
   return decimal.MaxValue;
 }
- 
+
 public static void UpdateStatus(Order order)
 {
   // update status

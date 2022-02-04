@@ -1,8 +1,8 @@
 ---
-id: 361
+
 title: Monitors and thread context
 date: 2009-10-15T20:27:54+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=361
 permalink: /2009/10/15/monitors-and-thread-context/

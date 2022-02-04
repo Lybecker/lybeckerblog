@@ -1,8 +1,8 @@
 ---
-id: 926
+
 title: CNUG Lucene.Net presentation
 date: 2011-01-10T20:21:26+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=926
 permalink: /2011/01/10/cnug-lucene-net-presentation/

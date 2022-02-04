@@ -1,8 +1,8 @@
 ---
-id: 805
+
 title: ANUG Solr/Lucene presentation
 date: 2010-10-27T23:56:42+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=805
 permalink: /2010/10/27/anug-solrlucene-presentation/

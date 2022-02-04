@@ -1,8 +1,8 @@
 ---
-id: 1274
+
 title: Initialize a Dictionary with index initializers
 date: 2015-01-19T09:15:04+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=1274
 permalink: /2015/01/19/initialize-a-dictionary-with-index-initializers/

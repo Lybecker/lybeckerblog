@@ -1,8 +1,8 @@
 ---
-id: 367
+
 title: Initial slow WCF request
 date: 2009-10-23T20:15:35+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=367
 permalink: /2009/10/23/initial-slow-wcf-request/

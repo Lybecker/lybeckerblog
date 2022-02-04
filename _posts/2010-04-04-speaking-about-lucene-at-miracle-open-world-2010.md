@@ -1,8 +1,8 @@
 ---
-id: 580
+
 title: Speaking about Lucene at Miracle Open World 2010
 date: 2010-04-04T17:40:12+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=580
 permalink: /2010/04/04/speaking-about-lucene-at-miracle-open-world-2010/
@@ -26,9 +26,9 @@ This year I only have one session where I’ll be presenting Lucene.Net.
 Session abstract:
 
 > Lucene is an open source full-featured text search engine library, making searching in large amounts of text lightning fast. Lucene are in use by many large sites like Wikipedia, LinkedIn, MySpace etc.
-> 
+>
 > It is easy to get started with Lucene, but there are many pitfalls… In this session you will learn about the do&#8217;s and don&#8217;t&#8217;s for indexing and searching, tools, scaling, new features in version 2.9 and some of the more advanced features.
-> 
+>
 > This presentation will use the Microsoft .Net implementation of Lucene named Lucene.Net, but the content of this presentation applies for ported versions of Lucene.
 
 At the time of writing, 207 participants have registered for the conference. You can still register – it’s not too late.

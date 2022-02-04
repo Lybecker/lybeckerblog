@@ -1,8 +1,8 @@
 ---
-id: 704
+
 title: Enabling Danish for SQL Server FullText
 date: 2010-08-09T19:10:19+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=704
 permalink: /2010/08/09/enabling-danish-for-sql-server-fulltext/
@@ -21,7 +21,7 @@ tags:
   - Stemmer
   - Wordbreaker
 ---
-SQL Server FullText enables you to search large amount of strings fast, and it is easy to use. It hasn’t changed much since SQL Server 2000.  
+SQL Server FullText enables you to search large amount of strings fast, and it is easy to use. It hasn’t changed much since SQL Server 2000.
 A simple getting started tutorial can be found on [Code Project](http://www.codeproject.com/KB/database/SQLServer2K8FullTextSearh.aspx "Creating Full Text Catalog and Full Text Search").
 
 SQL Server FullText is easy to use in applications requiring string searching.

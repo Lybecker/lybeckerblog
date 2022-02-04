@@ -1,8 +1,8 @@
 ---
-id: 753
+
 title: Raoul Illyés, Microsoft MVP
 date: 2010-10-05T19:32:56+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=753
 permalink: /2010/10/05/raoul-illyes-microsoft-mvp/

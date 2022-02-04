@@ -1,13 +1,7 @@
 ---
-id: 1445
-title: 'Security nightmare &#8211; It is time to update all your device'
-date: 2017-10-19T09:49:00+01:00
-author: Anders Lybecker
+title: 'Security nightmare - It is time to update all your device'
 excerpt: Not a week goes by without new security vulnerabilities. The Wi-Fi vulnerability KRACK and the security chip vulnerability ROCA are some of the more severe ones, as they affect almost all devices.
-guid: http://www.lybecker.com/blog/?p=1445
 permalink: /2017/10/19/security-nightmare-it-is-time-to-update-all-your-device/
-dsq_thread_id:
-  - "6225675309"
 categories:
   - Security
 tags:
@@ -23,8 +17,6 @@ What a week - security wise. Many vulnerabilities have been uncovered. You are m
 ## Wi-Fi WPA2 vulnerability
 
 ![Hacked Wi-Fi]({{ site.baseurl }}/wp-content/uploads/2017/10/wifihacked-300x226.jpg){: .align-right}
-
-<!--more-->
 
 Years ago, we all moved our Wi-Fi to WPA security protocol as WEP was deemed unsecure. Now vulnerability is found in WPA1/2 too, making it possible for malicious attackers to inspect and modify the tracking between computer and access point.
 

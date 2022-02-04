@@ -1,8 +1,8 @@
 ---
-id: 373
+
 title: ASP.NET MVC Best Practices
 date: 2009-10-29T19:56:29+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=373
 permalink: /2009/10/29/asp-net-mvc-best-practices/

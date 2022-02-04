@@ -1,8 +1,8 @@
 ---
-id: 349
+
 title: Amazon Virtual Private Cloud
 date: 2009-08-26T21:16:12+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=349
 permalink: /2009/08/26/amazon-virtual-private-cloud/

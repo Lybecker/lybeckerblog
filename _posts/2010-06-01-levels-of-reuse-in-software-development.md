@@ -1,8 +1,8 @@
 ---
-id: 656
+
 title: Levels of reuse in Software Development
 date: 2010-06-01T07:52:33+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=656
 permalink: /2010/06/01/levels-of-reuse-in-software-development/

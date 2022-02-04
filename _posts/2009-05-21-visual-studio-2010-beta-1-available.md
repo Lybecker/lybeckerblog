@@ -1,8 +1,8 @@
 ---
-id: 336
+
 title: Visual Studio 2010 Beta 1 available
 date: 2009-05-21T10:44:46+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=336
 permalink: /2009/05/21/visual-studio-2010-beta-1-available/

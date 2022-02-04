@@ -1,8 +1,8 @@
 ---
-id: 966
+
 title: An unfortunate travel story
 date: 2011-11-21T07:21:20+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=966
 permalink: /2011/11/21/an-unfortunate-travel-story/

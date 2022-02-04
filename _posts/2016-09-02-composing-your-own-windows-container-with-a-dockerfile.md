@@ -1,8 +1,8 @@
 ---
-id: 1396
+
 title: Composing your own Windows Container with a Dockerfile
 date: 2016-09-02T08:48:45+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=1396
 permalink: /2016/09/02/composing-your-own-windows-container-with-a-dockerfile/
@@ -56,7 +56,7 @@ Published 1/1 projects successfully
 PS C:\Users\aly\Desktop\HelloWorld&gt;
 </pre>
 
-You can use any executable, I just needed something simple to work with. .NET Core is my simple choice.  
+You can use any executable, I just needed something simple to work with. .NET Core is my simple choice.
 I am going to base my image on the microsoft/windowsservercore image. But instead of installing .NET Core myself, I can use an image that already has .NET Core installed called microsoft/dotnet:windowsservercore. See all the official Microsoft Docker images at the [Microsoft Docker Hub repository](https://hub.docker.com/r/microsoft/). So pull down the microsoft/dotnet:windowsservercore image
 
 <pre class="brush: plain; gutter: false; title: ; notranslate" title="">docker pull microsoft/dotnet:windowsservercore
@@ -75,9 +75,9 @@ ADD /helloworld/bin/Debug/netcoreapp1.0/publish/ c:\\code
 ENTRYPOINT dotnet c:\\code\\helloworld.dll
 </pre>
 
-Line 1 dictates that I’m basing the Hello World image on the official image microsoft/dotnet:windowsservercore  
-Line 2 is just maintainer information and is optional  
-Line 3 adds the content of the publish folder of the container host to the image in c:\code  
+Line 1 dictates that I’m basing the Hello World image on the official image microsoft/dotnet:windowsservercore
+Line 2 is just maintainer information and is optional
+Line 3 adds the content of the publish folder of the container host to the image in c:\code
 Line 4 sets the default command to execute the Hello World program
 
 For more details see the [Dockerfile reference](https://docs.docker.com/engine/reference/builder/).

@@ -1,8 +1,8 @@
 ---
-id: 1100
+
 title: Automatic Retry and Circuit Breaker made easy
 date: 2013-08-07T20:54:09+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=1100
 permalink: /2013/08/07/automatic-retry-and-circuit-breaker-made-easy/
@@ -22,7 +22,7 @@ tags:
 ---
 [<img class="alignright size-full wp-image-1101" alt="Polly library logo" src="http://www.lybecker.com/blog/wp-content/uploads/Polly.png" />](http://www.lybecker.com/blog/wp-content/uploads/Polly.png)If you do not know [Polly](https://github.com/michael-wolfenden/Polly "Polly source repository and documentation"), you are missing out! I did not know about it until a couple of days ago and you properly never heard about it either, as this wonderful little library only has 63 downloads on [NuGet](https://www.nuget.org/packages/Polly/ "Polly at NuGet.org") at the time of writing.
 
-Polly is an easy to use retry and [circuit breaker pattern](http://en.wikipedia.org/wiki/Circuit_breaker_design_pattern "Circuit breaker design pattern on Wikipedia") implementation for .Net – let me show you.  
+Polly is an easy to use retry and [circuit breaker pattern](http://en.wikipedia.org/wiki/Circuit_breaker_design_pattern "Circuit breaker design pattern on Wikipedia") implementation for .Net – let me show you.
 Start by specifying the policy – what should happen when an exception thrown:
 
 <pre class="brush: csharp; title: ; notranslate" title="">var policy = Policy

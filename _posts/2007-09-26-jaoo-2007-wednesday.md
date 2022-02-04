@@ -1,8 +1,8 @@
 ---
-id: 34
+
 title: 'JAOO 2007 &#8211; Wednesday'
 date: 2007-09-26T22:59:05+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/2007/09/26/jaoo-2007-wednesday/
 permalink: /2007/09/26/jaoo-2007-wednesday/
@@ -25,7 +25,7 @@ The third and last day at the JAOO conference was the best in regards of the ses
 
 I have written an abstract of the session &#8220;Applying Craftsmanship&#8221; by Pete McBreen in a separate blog post, because it deserved it. It made me think (which is a good thing 🙂 ). Read it [here](http://www.lybecker.com/blog/2007/09/26/jaoo-session-applying-craftsmanship-abstract/ "Session Abstract").
 
-**JAOO 2007 conference summary**  
+**JAOO 2007 conference summary**
 I enjoyed the JAOO conference, but was a bit disappointed with the technical level. Again, maybe my expectations were too high? But then again, I will consider coming back next year. That has absolutely nothing to do with the fact that I won an Apple iPod at an IBM contest. 🙂
 
 Below is a picture of the price I won in the IBM contest.

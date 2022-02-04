@@ -1,8 +1,8 @@
 ---
-id: 1068
+
 title: GOTO Aarhus 2012 – Monday
 date: 2012-10-01T16:20:37+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=1068
 permalink: /2012/10/01/gotoaar-2012-monday/

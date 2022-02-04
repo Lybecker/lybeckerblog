@@ -1,8 +1,8 @@
 ---
-id: 1331
+
 title: How-to start and stop Azure VMs at a schedule
 date: 2015-02-25T14:03:51+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=1331
 permalink: /2015/02/25/how-to-start-and-stop-azure-vms-at-a-schedule/
@@ -31,9 +31,9 @@ The new Azure Automation account _lybAutomation_ and the runbook _Stop Windows A
 
 It burned me the first time I tried Azure Automation. I used the _Stop Windows Azure Virtual Machines on a Schedule_ from the gallery, but it uses an on-premise scheduler.
 
-You need to store the credentials in the runbook of the user created earlier. See below.  
-[<img loading="lazy" class="aligncenter size-full wp-image-1333" src="http://www.lybecker.com/blog/wp-content/uploads/SetupRunBookCredentials.gif" alt="SetupRunBookCredentials" width="974" height="781" />](http://www.lybecker.com/blog/wp-content/uploads/SetupRunBookCredentials.gif)Then you need to configure the runbook script with the credentials and the Azure subscription where the virtual machines reside. See below.  
-[<img loading="lazy" class="aligncenter size-full wp-image-1334" src="http://www.lybecker.com/blog/wp-content/uploads/ConfigureRunbookVmStop.gif" alt="ConfigureRunbookVmStop" width="974" height="781" />](http://www.lybecker.com/blog/wp-content/uploads/ConfigureRunbookVmStop.gif)You find your subscription name in the top bar “Subscriptions” of the Azure portal.  
+You need to store the credentials in the runbook of the user created earlier. See below.
+[<img loading="lazy" class="aligncenter size-full wp-image-1333" src="http://www.lybecker.com/blog/wp-content/uploads/SetupRunBookCredentials.gif" alt="SetupRunBookCredentials" width="974" height="781" />](http://www.lybecker.com/blog/wp-content/uploads/SetupRunBookCredentials.gif)Then you need to configure the runbook script with the credentials and the Azure subscription where the virtual machines reside. See below.
+[<img loading="lazy" class="aligncenter size-full wp-image-1334" src="http://www.lybecker.com/blog/wp-content/uploads/ConfigureRunbookVmStop.gif" alt="ConfigureRunbookVmStop" width="974" height="781" />](http://www.lybecker.com/blog/wp-content/uploads/ConfigureRunbookVmStop.gif)You find your subscription name in the top bar “Subscriptions” of the Azure portal.
 Now you can test your runbook and all you need is to set up the schedule, so it runs every evening. See guide below.
 
 [<img loading="lazy" class="aligncenter size-full wp-image-1335" src="http://www.lybecker.com/blog/wp-content/uploads/ConfigureRunbookSchedule.gif" alt="ConfigureRunbookSchedule" width="974" height="781" />](http://www.lybecker.com/blog/wp-content/uploads/ConfigureRunbookSchedule.gif)

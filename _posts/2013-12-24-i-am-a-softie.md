@@ -1,8 +1,8 @@
 ---
-id: 1138
+
 title: I am a Softie
 date: 2013-12-24T17:00:57+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=1138
 permalink: /2013/12/24/i-am-a-softie/

@@ -1,8 +1,8 @@
 ---
-id: 567
+
 title: It’s my birthday today
 date: 2010-04-02T08:06:05+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=567
 permalink: /2010/04/02/its-my-birthday-today/

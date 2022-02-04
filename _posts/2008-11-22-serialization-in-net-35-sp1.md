@@ -1,8 +1,8 @@
 ---
-id: 165
+
 title: Serialization in .Net 3.5 SP1
 date: 2008-11-22T18:22:45+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=165
 permalink: /2008/11/22/serialization-in-net-35-sp1/

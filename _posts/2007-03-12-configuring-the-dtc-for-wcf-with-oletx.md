@@ -1,8 +1,8 @@
 ---
-id: 15
+
 title: Configuring the DTC for WCF with OleTx
 date: 2007-03-12T18:01:04+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/2007/03/12/configuring-the-dtc-for-wcf-with-oletx/
 permalink: /2007/03/12/configuring-the-dtc-for-wcf-with-oletx/
@@ -22,11 +22,11 @@ When a transaction propagates from one process to another, the DTC (Distributed 
 
 Beforehand the WCF service must be prepared:
 
-  * Decorate the service contract (interface) with the attribute TransactionFlow and specify  
+  * Decorate the service contract (interface) with the attribute TransactionFlow and specify
     if it is mandatory or allowed.
-  * Specify on the service type (implementation) OperationBehavior attribute that a TransactionScope  
+  * Specify on the service type (implementation) OperationBehavior attribute that a TransactionScope
     is required.
-  * Enable transaction propagation on the binding via the transactionFlow element in the  
+  * Enable transaction propagation on the binding via the transactionFlow element in the
     configuration file for both service and client.
 
 If the service and client are ready and an attempt to propagate a transaction is executed the following TransactionManagerCommunicationException is thrown:

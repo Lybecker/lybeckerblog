@@ -1,8 +1,8 @@
 ---
-id: 37
+
 title: Microsoft releasing the .Net framework source code
 date: 2007-10-04T17:29:18+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/2007/10/04/microsoft-releasing-the-net-framework-source-code/
 permalink: /2007/10/04/microsoft-releasing-the-net-framework-source-code/

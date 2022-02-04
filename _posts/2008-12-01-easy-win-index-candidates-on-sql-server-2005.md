@@ -1,8 +1,8 @@
 ---
-id: 180
+
 title: 'Easy win &#8211; index candidates on SQL Server 2005'
 date: 2008-12-01T08:43:10+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=180
 permalink: /2008/12/01/easy-win-index-candidates-on-sql-server-2005/
@@ -45,7 +45,7 @@ The SQL Server will include loads in information and one of these are suggested 
   &lt;missingindexgroup Impact="96.6222"&gt;
     &lt;missingindex Database="&#91;DOIPEI&#93;" Schema="&#91;dbo&#93;" Table="&#91;OrganisationalUnit_Stack&#93;"&gt;
       &lt;columngroup Usage="EQUALITY"&gt;
-        &lt;column Name="&#91;org_pkid&#93;" ColumnId="2" /&gt; 
+        &lt;column Name="&#91;org_pkid&#93;" ColumnId="2" /&gt;
       &lt;/columngroup&gt;
     &lt;/missingindex&gt;
   &lt;/missingindexgroup&gt;

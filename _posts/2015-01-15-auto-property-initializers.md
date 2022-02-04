@@ -1,8 +1,8 @@
 ---
-id: 1270
+
 title: Auto-property initializers
 date: 2015-01-15T09:12:15+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=1270
 permalink: /2015/01/15/auto-property-initializers/
@@ -42,7 +42,7 @@ Or using the getter-only auto-property which are implicit declared `readonly` an
   {
     OrderNo = orderNo;
   }
-  
+
   public int OrderNo { get; }
 }
 </pre>

@@ -1,8 +1,8 @@
 ---
-id: 1190
+
 title: Clean Domain Model via MongoDB Class Map
 date: 2014-06-30T01:00:24+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=1190
 permalink: /2014/06/30/clean-domain-model-mongodb-class-mao/
@@ -31,7 +31,7 @@ Below is a simple class with no dependencies – only dependent on the .NET Base
 }
 </pre>
 
-Notice that not event an ObjecId is present.  
+Notice that not event an ObjecId is present.
 To instruct MongoDB to generate a unique identifier for the Id property:
 
 <pre class="brush: csharp; title: ; notranslate" title="">public class Person

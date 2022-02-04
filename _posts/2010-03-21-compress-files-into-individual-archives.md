@@ -1,8 +1,8 @@
 ---
-id: 550
+
 title: Compress files into individual archives
 date: 2010-03-21T14:20:29+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=550
 permalink: /2010/03/21/compress-files-into-individual-archives/

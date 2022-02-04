@@ -1,8 +1,8 @@
 ---
-id: 988
+
 title: Memory Management in .Net
 date: 2011-12-23T15:48:48+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=988
 permalink: /2011/12/23/memorymanagementindotnet/

@@ -1,8 +1,8 @@
 ---
-id: 1262
+
 title: Awesome string formatting
 date: 2015-01-09T08:00:26+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=1262
 permalink: /2015/01/09/awesome-string-formatting/

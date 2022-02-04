@@ -1,8 +1,8 @@
 ---
-id: 1386
+
 title: Getting started with Windows Containers
 date: 2016-08-31T11:01:23+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=1386
 permalink: /2016/08/31/getting-started-with-windows-containers/
@@ -83,7 +83,7 @@ Create a simple file like this:
 <pre class="brush: plain; gutter: false; title: ; notranslate" title="">echo "Hello Windows Containers" &gt; hello.txt
 </pre>
 
-You can exit the container by typing exit, and the container will terminate. Alternatively, you can press CTRL + P + Q to exit and leave the container running.  
+You can exit the container by typing exit, and the container will terminate. Alternatively, you can press CTRL + P + Q to exit and leave the container running.
 If you left the container running, you can see the container by listing the Docker processes:
 
 <pre class="brush: plain; gutter: false; title: ; notranslate" title="">PS C:\Users\aly\Desktop&gt; docker ps
@@ -91,7 +91,7 @@ CONTAINER ID IMAGE                             COMMAND   CREATED       STATUS   
 23ca16bb6fdb microsoft/windowsservercore:latest "cmd" 4 minutes ago Up 4 minutes pedantic_lamport
 </pre>
 
-If the container was terminated, the -a option needs to be appended.  
+If the container was terminated, the -a option needs to be appended.
 You can reattach to the container by specifying the container id or name. In my case 23ca16bb6fdb or pedantic_lamport like so:
 
 <pre class="brush: plain; gutter: false; title: ; notranslate" title="">Docker attach 23ca16bb6fdb

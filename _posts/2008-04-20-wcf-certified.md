@@ -1,8 +1,8 @@
 ---
-id: 63
+
 title: WCF certified
 date: 2008-04-20T07:43:19+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/2008/04/20/wcf-certified/
 permalink: /2008/04/20/wcf-certified/

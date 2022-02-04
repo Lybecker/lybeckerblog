@@ -1,8 +1,8 @@
 ---
-id: 595
+
 title: Removing SVN folders with PowerShell
 date: 2010-04-24T15:42:57+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=595
 permalink: /2010/04/24/removing-svn-folders-with-powershell/
@@ -20,7 +20,7 @@ tags:
   - PowerShell
   - SVN
 ---
-[<img loading="lazy" class="alignright size-thumbnail wp-image-613" title="PowerShell Logo" src="http://www.lybecker.com/blog/wp-content/uploads/PowerShellLogo-150x150.jpg" alt="" width="150" height="150" />](http://www.lybecker.com/blog/wp-content/uploads/PowerShellLogo.jpg)  
+[<img loading="lazy" class="alignright size-thumbnail wp-image-613" title="PowerShell Logo" src="http://www.lybecker.com/blog/wp-content/uploads/PowerShellLogo-150x150.jpg" alt="" width="150" height="150" />](http://www.lybecker.com/blog/wp-content/uploads/PowerShellLogo.jpg)
 I need to remove.svn folders from an existing Visual Studio Solution a customer email me, so I could commit it to another SVN repository.
 
 If I had access to the original SVN repository, I could have used the export function, as it does not include the .svn folders – but no, it should not be that easy.

@@ -1,8 +1,8 @@
 ---
-id: 46
+
 title: .NET Framework Library Source Code now available
 date: 2008-01-17T08:52:13+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/2008/01/17/net-framework-library-source-code-now-available/
 permalink: /2008/01/17/net-framework-library-source-code-now-available/

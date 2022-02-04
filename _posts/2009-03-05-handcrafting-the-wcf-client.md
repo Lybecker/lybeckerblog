@@ -1,8 +1,8 @@
 ---
-id: 225
+
 title: Handcrafting the WCF client
 date: 2009-03-05T20:52:22+01:00
-author: Anders Lybecker
+
 
 guid: http://www.lybecker.com/blog/?p=225
 permalink: /2009/03/05/handcrafting-the-wcf-client/
