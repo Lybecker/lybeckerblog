@@ -80,6 +80,7 @@ author:
   name   : "Anders Lybecker"
   avatar : "/assets/images/tFu59nbH_400x400.jpg"
   bio    : "Anders Lybecker is a Software Development Engineering Lead, former Global Black Belt IoT specialist and Technical Evangelist at Microsoft."
+  location : "Copenhagen, Denmark"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -126,5 +127,13 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "lybecker"
+
+atom_feed:
+  path: "http://feeds.lybecker.com/AndersLybecker"
 
 teaser: /assets/images/pexels-vitaly-vlasov-1342460.jpg
