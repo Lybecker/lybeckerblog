@@ -5,7 +5,7 @@ date: 2012-02-29T22:10:36+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1022
-permalink: /2012/02/29/outsourcing-requires-talent/
+permalink: /blog/2012/02/29/outsourcing-requires-talent/
 dsq_thread_id:
   - "5295761563"
 categories:

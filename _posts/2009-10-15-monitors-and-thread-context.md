@@ -5,7 +5,7 @@ date: 2009-10-15T20:27:54+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=361
-permalink: /2009/10/15/monitors-and-thread-context/
+permalink: /blog/2009/10/15/monitors-and-thread-context/
 dsq_thread_id:
   - "3456317767"
   - "3456317767"

@@ -5,7 +5,7 @@ date: 2007-01-23T18:05:42+01:00
 
 
 guid: http://www.lybecker.com/blog/2007/01/23/how-does-reliable-messaging-work/
-permalink: /2007/01/23/how-does-reliable-messaging-work/
+permalink: /blog/2007/01/23/how-does-reliable-messaging-work/
 dsq_thread_id:
   - "3459164297"
   - "3459164297"

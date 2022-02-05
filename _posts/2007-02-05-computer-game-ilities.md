@@ -5,7 +5,7 @@ date: 2007-02-05T19:12:24+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=134
-permalink: /2007/02/05/computer-game-ilities/
+permalink: /blog/2007/02/05/computer-game-ilities/
 dsq_thread_id:
   - "3827407881"
   - "3827407881"

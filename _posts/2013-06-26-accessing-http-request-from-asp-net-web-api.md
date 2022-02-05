@@ -5,7 +5,7 @@ date: 2013-06-26T16:33:33+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1093
-permalink: /2013/06/26/accessing-http-request-from-asp-net-web-api/
+permalink: /blog/2013/06/26/accessing-http-request-from-asp-net-web-api/
 dsq_thread_id:
   - "3456318170"
   - "3456318170"

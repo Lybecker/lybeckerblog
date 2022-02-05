@@ -5,7 +5,7 @@ date: 2008-11-15T08:23:32+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=163
-permalink: /2008/11/15/sql-server-2008-microsoft-isv-partner-events-presentations/
+permalink: /blog/2008/11/15/sql-server-2008-microsoft-isv-partner-events-presentations/
 dsq_thread_id:
   - "5901263752"
 categories:

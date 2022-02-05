@@ -5,7 +5,7 @@ date: 2010-09-10T20:01:59+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=730
-permalink: /2010/09/10/configuring-windows-7-network-priority/
+permalink: /blog/2010/09/10/configuring-windows-7-network-priority/
 dsq_thread_id:
   - "3522028291"
   - "3522028291"

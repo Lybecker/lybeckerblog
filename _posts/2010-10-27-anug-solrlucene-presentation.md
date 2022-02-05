@@ -5,7 +5,7 @@ date: 2010-10-27T23:56:42+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=805
-permalink: /2010/10/27/anug-solrlucene-presentation/
+permalink: /blog/2010/10/27/anug-solrlucene-presentation/
 dsq_thread_id:
   - "3794594626"
   - "3794594626"

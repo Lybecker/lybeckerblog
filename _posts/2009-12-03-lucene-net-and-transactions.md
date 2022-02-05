@@ -5,7 +5,7 @@ date: 2009-12-03T21:00:46+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=400
-permalink: /2009/12/03/lucene-net-and-transactions/
+permalink: /blog/2009/12/03/lucene-net-and-transactions/
 dsq_thread_id:
   - "3456317833"
   - "3456317833"

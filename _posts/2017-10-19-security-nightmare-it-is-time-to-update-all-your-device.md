@@ -1,7 +1,7 @@
 ---
 title: 'Security nightmare - It is time to update all your device'
 excerpt: Not a week goes by without new security vulnerabilities. The Wi-Fi vulnerability KRACK and the security chip vulnerability ROCA are some of the more severe ones, as they affect almost all devices.
-permalink: /2017/10/19/security-nightmare-it-is-time-to-update-all-your-device/
+permalink: /blogblog/2017/10/19/security-nightmare-it-is-time-to-update-all-your-device/
 categories:
   - Security
 tags:

@@ -5,7 +5,7 @@ date: 2009-02-01T20:10:38+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=210
-permalink: /2009/02/01/sql-server-2008-system-views-poster/
+permalink: /blog/2009/02/01/sql-server-2008-system-views-poster/
 dsq_thread_id:
   - "3848884517"
   - "3848884517"

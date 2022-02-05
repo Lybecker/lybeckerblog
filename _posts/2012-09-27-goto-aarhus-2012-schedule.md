@@ -5,7 +5,7 @@ date: 2012-09-27T19:41:13+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1062
-permalink: /2012/09/27/goto-aarhus-2012-schedule/
+permalink: /blog/2012/09/27/goto-aarhus-2012-schedule/
 dsq_thread_id:
   - "5901238131"
 categories:

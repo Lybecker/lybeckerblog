@@ -5,7 +5,7 @@ date: 2010-06-01T07:52:33+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=656
-permalink: /2010/06/01/levels-of-reuse-in-software-development/
+permalink: /blog/2010/06/01/levels-of-reuse-in-software-development/
 jd_tweet_this:
   - 'yes'
   - 'yes'

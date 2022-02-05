@@ -5,7 +5,7 @@ date: 2007-03-12T18:19:43+01:00
 
 
 guid: http://www.lybecker.com/blog/2007/03/12/configuring-the-dtc-for-wcf-with-ws-atomictransaction/
-permalink: /2007/03/12/configuring-the-dtc-for-wcf-with-ws-atomictransaction/
+permalink: /blog/2007/03/12/configuring-the-dtc-for-wcf-with-ws-atomictransaction/
 autometa:
   - ""
   - ""

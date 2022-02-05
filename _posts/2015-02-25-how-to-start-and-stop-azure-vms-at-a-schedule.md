@@ -5,7 +5,7 @@ date: 2015-02-25T14:03:51+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1331
-permalink: /2015/02/25/how-to-start-and-stop-azure-vms-at-a-schedule/
+permalink: /blog/2015/02/25/how-to-start-and-stop-azure-vms-at-a-schedule/
 dsq_thread_id:
   - "3538034672"
   - "3538034672"

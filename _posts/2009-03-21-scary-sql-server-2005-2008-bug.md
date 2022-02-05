@@ -5,7 +5,7 @@ date: 2009-03-21T08:40:00+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=281
-permalink: /2009/03/21/scary-sql-server-2005-2008-bug/
+permalink: /blog/2009/03/21/scary-sql-server-2005-2008-bug/
 dsq_thread_id:
   - "3604935378"
   - "3604935378"

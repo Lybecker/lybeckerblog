@@ -5,7 +5,7 @@ date: 2015-08-05T14:39:40+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1362
-permalink: /2015/08/05/dotnet-compiler-platform-roslyn-analyzer-packages/
+permalink: /blog/2015/08/05/dotnet-compiler-platform-roslyn-analyzer-packages/
 dsq_thread_id:
   - "4005436219"
   - "4005436219"

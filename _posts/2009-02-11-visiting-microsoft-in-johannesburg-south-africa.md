@@ -5,7 +5,7 @@ date: 2009-02-11T21:53:16+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=219
-permalink: /2009/02/11/visiting-microsoft-in-johannesburg-south-africa/
+permalink: /blog/2009/02/11/visiting-microsoft-in-johannesburg-south-africa/
 dsq_thread_id:
   - "3572000395"
   - "3572000395"

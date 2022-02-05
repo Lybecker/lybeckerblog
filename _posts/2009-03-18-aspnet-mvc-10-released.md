@@ -5,7 +5,7 @@ date: 2009-03-18T16:51:17+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=269
-permalink: /2009/03/18/aspnet-mvc-10-released/
+permalink: /blog/2009/03/18/aspnet-mvc-10-released/
 dsq_thread_id:
   - "3502708907"
 categories:

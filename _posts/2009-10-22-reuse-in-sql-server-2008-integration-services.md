@@ -5,7 +5,7 @@ date: 2009-10-22T20:27:34+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=365
-permalink: /2009/10/22/reuse-in-sql-server-2008-integration-services/
+permalink: /blog/2009/10/22/reuse-in-sql-server-2008-integration-services/
 dsq_thread_id:
   - "3459996812"
   - "3459996812"

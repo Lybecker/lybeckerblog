@@ -5,7 +5,7 @@ date: 2007-04-11T16:47:50+01:00
 
 
 guid: http://www.lybecker.com/blog/2007/04/11/strings-in-net/
-permalink: /2007/04/11/strings-in-net/
+permalink: /blog/2007/04/11/strings-in-net/
 dsq_thread_id:
   - "5294198065"
 categories:

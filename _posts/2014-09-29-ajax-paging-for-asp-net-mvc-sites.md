@@ -5,7 +5,7 @@ date: 2014-09-29T11:33:12+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1204
-permalink: /2014/09/29/ajax-paging-for-asp-net-mvc-sites/
+permalink: /blog/2014/09/29/ajax-paging-for-asp-net-mvc-sites/
 dsq_thread_id:
   - "3456420517"
   - "3456420517"

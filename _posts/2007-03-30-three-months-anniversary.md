@@ -5,7 +5,7 @@ date: 2007-03-30T10:29:22+01:00
 
 
 guid: http://www.lybecker.com/blog/2007/03/30/three-months-anniversary/
-permalink: /2007/03/30/three-months-anniversary/
+permalink: /blog/2007/03/30/three-months-anniversary/
 dsq_thread_id:
   - "3524127861"
   - "3524127861"

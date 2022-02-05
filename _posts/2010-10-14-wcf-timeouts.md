@@ -5,7 +5,7 @@ date: 2010-10-14T11:22:58+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=787
-permalink: /2010/10/14/wcf-timeouts/
+permalink: /blog/2010/10/14/wcf-timeouts/
 dsq_thread_id:
   - "3456310341"
   - "3456310341"

@@ -5,7 +5,7 @@ date: 2007-01-18T22:32:30+01:00
 
 
 guid: http://www.lybecker.com/blog/2007/01/18/building-a-windows-communication-foundation-client/
-permalink: /2007/01/18/building-a-windows-communication-foundation-client/
+permalink: /blog/2007/01/18/building-a-windows-communication-foundation-client/
 autometa:
   - proxy channelfactory show myendpoint factory messagebox behavior ihelloworldservice
   - proxy channelfactory show myendpoint factory messagebox behavior ihelloworldservice

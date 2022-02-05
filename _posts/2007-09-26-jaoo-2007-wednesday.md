@@ -5,7 +5,7 @@ date: 2007-09-26T22:59:05+01:00
 
 
 guid: http://www.lybecker.com/blog/2007/09/26/jaoo-2007-wednesday/
-permalink: /2007/09/26/jaoo-2007-wednesday/
+permalink: /blog/2007/09/26/jaoo-2007-wednesday/
 autometa:
   - mcbreen dörnenburg pete applying arendsen erik eini blogspot
   - mcbreen dörnenburg pete applying arendsen erik eini blogspot

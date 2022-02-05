@@ -5,7 +5,7 @@ date: 2015-02-23T08:02:29+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1323
-permalink: /2015/02/23/how-to-start-and-stop-azure-vms-via-powershell/
+permalink: /blog/2015/02/23/how-to-start-and-stop-azure-vms-via-powershell/
 dsq_thread_id:
   - "3538037771"
   - "3538037771"

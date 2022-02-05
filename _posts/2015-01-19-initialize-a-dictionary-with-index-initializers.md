@@ -5,7 +5,7 @@ date: 2015-01-19T09:15:04+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1274
-permalink: /2015/01/19/initialize-a-dictionary-with-index-initializers/
+permalink: /blog/2015/01/19/initialize-a-dictionary-with-index-initializers/
 dsq_thread_id:
   - "3456312996"
   - "3456312996"

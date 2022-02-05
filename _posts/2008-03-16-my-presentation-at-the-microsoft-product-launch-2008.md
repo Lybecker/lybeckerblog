@@ -5,7 +5,7 @@ date: 2008-03-16T09:33:23+01:00
 
 
 guid: http://www.lybecker.com/blog/2008/03/16/my-presentation-at-the-microsoft-product-launch-2008/
-permalink: /2008/03/16/my-presentation-at-the-microsoft-product-launch-2008/
+permalink: /blog/2008/03/16/my-presentation-at-the-microsoft-product-launch-2008/
 autometa:
   - recording webcasts sound camtasia poor launch features presentation
   - recording webcasts sound camtasia poor launch features presentation

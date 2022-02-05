@@ -5,7 +5,7 @@ date: 2009-02-02T17:14:41+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=212
-permalink: /2009/02/02/visual-studio-2008-shortcuts-features/
+permalink: /blog/2009/02/02/visual-studio-2008-shortcuts-features/
 dsq_thread_id:
   - "3526125015"
   - "3526125015"

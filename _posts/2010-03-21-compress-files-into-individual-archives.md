@@ -5,7 +5,7 @@ date: 2010-03-21T14:20:29+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=550
-permalink: /2010/03/21/compress-files-into-individual-archives/
+permalink: /blog/2010/03/21/compress-files-into-individual-archives/
 dsq_thread_id:
   - "4209585180"
   - "4209585180"

@@ -5,7 +5,7 @@ date: 2009-10-14T07:24:34+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=357
-permalink: /2009/10/14/new-blog-notech/
+permalink: /blog/2009/10/14/new-blog-notech/
 dsq_thread_id:
   - "5279866862"
 categories:

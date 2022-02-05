@@ -5,7 +5,7 @@ date: 2010-08-09T19:10:19+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=704
-permalink: /2010/08/09/enabling-danish-for-sql-server-fulltext/
+permalink: /blog/2010/08/09/enabling-danish-for-sql-server-fulltext/
 dsq_thread_id:
   - "3456318034"
   - "3456318034"

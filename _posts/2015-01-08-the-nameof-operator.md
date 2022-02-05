@@ -5,7 +5,7 @@ date: 2015-01-08T08:37:44+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1258
-permalink: /2015/01/08/the-nameof-operator/
+permalink: /blog/2015/01/08/the-nameof-operator/
 dsq_thread_id:
   - "3456341075"
   - "3456341075"

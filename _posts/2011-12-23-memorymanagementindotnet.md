@@ -5,7 +5,7 @@ date: 2011-12-23T15:48:48+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=988
-permalink: /2011/12/23/memorymanagementindotnet/
+permalink: /blog/2011/12/23/memorymanagementindotnet/
 dsq_thread_id:
   - "3556846291"
   - "3556846291"

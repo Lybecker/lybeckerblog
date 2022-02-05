@@ -5,7 +5,7 @@ date: 2010-06-30T15:28:05+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=675
-permalink: /2010/06/30/meeting-the-sql-azure-development-team/
+permalink: /blog/2010/06/30/meeting-the-sql-azure-development-team/
 dsq_thread_id:
   - "3553086845"
   - "3553086845"

@@ -5,7 +5,7 @@ date: 2009-03-18T12:51:14+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=264
-permalink: /2009/03/18/how-to-check-for-and-enable-read-committed-snapshot-isolation/
+permalink: /blog/2009/03/18/how-to-check-for-and-enable-read-committed-snapshot-isolation/
 dsq_thread_id:
   - "3456315366"
   - "3456315366"

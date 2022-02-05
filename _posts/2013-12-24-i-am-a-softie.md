@@ -5,7 +5,7 @@ date: 2013-12-24T17:00:57+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1138
-permalink: /2013/12/24/i-am-a-softie/
+permalink: /blog/2013/12/24/i-am-a-softie/
 dsq_thread_id:
   - "3465915140"
   - "3465915140"

@@ -5,7 +5,7 @@ date: 2010-10-06T19:45:35+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=765
-permalink: /2010/10/06/wcf-throttling-part-1/
+permalink: /blog/2010/10/06/wcf-throttling-part-1/
 dsq_thread_id:
   - "3456318051"
   - "3456318051"

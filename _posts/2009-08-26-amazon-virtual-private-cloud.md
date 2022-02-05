@@ -5,7 +5,7 @@ date: 2009-08-26T21:16:12+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=349
-permalink: /2009/08/26/amazon-virtual-private-cloud/
+permalink: /blog/2009/08/26/amazon-virtual-private-cloud/
 dsq_thread_id:
   - "5127469276"
 categories:

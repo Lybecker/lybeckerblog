@@ -4,7 +4,7 @@ title: When is DivideByZeroException thrown?
 date: 2007-01-12T16:00:05+01:00
 
 guid: http://www.lybecker.com/blog/2007/01/12/when-is-dividebyzeroexception-thrown/
-permalink: /2007/01/12/when-is-dividebyzeroexception-thrown/
+permalink: /blog/2007/01/12/when-is-dividebyzeroexception-thrown/
 dsq_thread_id:
   - "3456317219"
   - "3456317219"

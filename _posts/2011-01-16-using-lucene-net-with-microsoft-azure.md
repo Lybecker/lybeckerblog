@@ -5,7 +5,7 @@ date: 2011-01-16T17:17:24+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=867
-permalink: /2011/01/16/using-lucene-net-with-microsoft-azure/
+permalink: /blog/2011/01/16/using-lucene-net-with-microsoft-azure/
 dsq_thread_id:
   - "3456315462"
   - "3456315462"

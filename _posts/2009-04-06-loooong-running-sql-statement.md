@@ -5,7 +5,7 @@ date: 2009-04-06T11:30:34+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=277
-permalink: /2009/04/06/loooong-running-sql-statement/
+permalink: /blog/2009/04/06/loooong-running-sql-statement/
 dsq_thread_id:
   - "5901258080"
 categories:

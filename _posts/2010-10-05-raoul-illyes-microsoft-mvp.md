@@ -5,7 +5,7 @@ date: 2010-10-05T19:32:56+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=753
-permalink: /2010/10/05/raoul-illyes-microsoft-mvp/
+permalink: /blog/2010/10/05/raoul-illyes-microsoft-mvp/
 dsq_thread_id:
   - "3463685017"
   - "3463685017"

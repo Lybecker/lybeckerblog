@@ -5,7 +5,7 @@ date: 2007-02-21T19:31:00+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=119
-permalink: /2007/02/21/sql-server-open-world/
+permalink: /blog/2007/02/21/sql-server-open-world/
 dsq_thread_id:
   - "3461092838"
   - "3461092838"

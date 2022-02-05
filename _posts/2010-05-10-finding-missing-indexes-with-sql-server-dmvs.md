@@ -5,7 +5,7 @@ date: 2010-05-10T22:06:43+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=637
-permalink: /2010/05/10/finding-missing-indexes-with-sql-server-dmvs/
+permalink: /blog/2010/05/10/finding-missing-indexes-with-sql-server-dmvs/
 dsq_thread_id:
   - "3540817618"
   - "3540817618"

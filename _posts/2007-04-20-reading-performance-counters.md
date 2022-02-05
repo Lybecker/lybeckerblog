@@ -5,7 +5,7 @@ date: 2007-04-20T09:53:59+01:00
 
 
 guid: http://www.lybecker.com/blog/2007/04/20/reading-performance-counters/
-permalink: /2007/04/20/reading-performance-counters/
+permalink: /blog/2007/04/20/reading-performance-counters/
 dsq_thread_id:
   - "3457093928"
   - "3457093928"

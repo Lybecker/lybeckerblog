@@ -5,7 +5,7 @@ date: 2009-04-23T21:23:51+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=324
-permalink: /2009/04/23/view-default-values-for-a-wcf-binding/
+permalink: /blog/2009/04/23/view-default-values-for-a-wcf-binding/
 dsq_thread_id:
   - "3460944399"
   - "3460944399"

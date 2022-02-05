@@ -5,7 +5,7 @@ date: 2008-11-27T20:21:36+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=173
-permalink: /2008/11/27/net-35-installation-wtf/
+permalink: /blog/2008/11/27/net-35-installation-wtf/
 dsq_thread_id:
   - "3456317561"
   - "3456317561"

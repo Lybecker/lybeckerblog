@@ -5,7 +5,7 @@ date: 2009-03-05T20:52:22+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=225
-permalink: /2009/03/05/handcrafting-the-wcf-client/
+permalink: /blog/2009/03/05/handcrafting-the-wcf-client/
 dsq_thread_id:
   - "3456317627"
   - "3456317627"

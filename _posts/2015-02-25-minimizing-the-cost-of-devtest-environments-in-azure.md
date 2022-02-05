@@ -5,7 +5,7 @@ date: 2015-02-25T07:04:58+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1340
-permalink: /2015/02/25/minimizing-the-cost-of-devtest-environments-in-azure/
+permalink: /blog/2015/02/25/minimizing-the-cost-of-devtest-environments-in-azure/
 dsq_thread_id:
   - "3538037289"
   - "3538037289"

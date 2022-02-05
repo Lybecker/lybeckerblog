@@ -5,7 +5,7 @@ date: 2009-03-24T11:33:13+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=286
-permalink: /2009/03/24/in-flight-entertainment-running-on-windows/
+permalink: /blog/2009/03/24/in-flight-entertainment-running-on-windows/
 dsq_thread_id:
   - "3456317699"
   - "3456317699"

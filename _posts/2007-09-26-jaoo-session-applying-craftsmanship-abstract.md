@@ -5,7 +5,7 @@ date: 2007-09-26T22:55:06+01:00
 
 
 guid: http://www.lybecker.com/blog/2007/09/26/jaoo-session-applying-craftsmanship-abstract/
-permalink: /2007/09/26/jaoo-session-applying-craftsmanship-abstract/
+permalink: /blog/2007/09/26/jaoo-session-applying-craftsmanship-abstract/
 autometa:
   - sense maintain developers developer senior paring learn existing
   - sense maintain developers developer senior paring learn existing

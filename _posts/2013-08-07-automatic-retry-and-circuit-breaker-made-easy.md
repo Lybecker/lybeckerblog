@@ -5,7 +5,7 @@ date: 2013-08-07T20:54:09+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1100
-permalink: /2013/08/07/automatic-retry-and-circuit-breaker-made-easy/
+permalink: /blog/2013/08/07/automatic-retry-and-circuit-breaker-made-easy/
 dsq_thread_id:
   - "3456314572"
   - "3456314572"

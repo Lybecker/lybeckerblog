@@ -5,7 +5,7 @@ date: 2010-04-20T18:46:01+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=589
-permalink: /2010/04/20/miracle-open-world-2010-lucene-presentation/
+permalink: /blog/2010/04/20/miracle-open-world-2010-lucene-presentation/
 dsq_thread_id:
   - "3456317912"
   - "3456317912"

@@ -5,7 +5,7 @@ date: 2015-01-09T08:00:26+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1262
-permalink: /2015/01/09/awesome-string-formatting/
+permalink: /blog/2015/01/09/awesome-string-formatting/
 dsq_thread_id:
   - "3456341076"
   - "3456341076"

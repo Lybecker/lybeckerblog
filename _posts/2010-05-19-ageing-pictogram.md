@@ -5,7 +5,7 @@ date: 2010-05-19T22:02:03+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=646
-permalink: /2010/05/19/ageing-pictogram/
+permalink: /blog/2010/05/19/ageing-pictogram/
 dsq_thread_id:
   - "3766676299"
   - "3766676299"

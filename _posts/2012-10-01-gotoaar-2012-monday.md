@@ -5,7 +5,7 @@ date: 2012-10-01T16:20:37+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1068
-permalink: /2012/10/01/gotoaar-2012-monday/
+permalink: /blog/2012/10/01/gotoaar-2012-monday/
 dsq_thread_id:
   - "3633434100"
   - "3633434100"

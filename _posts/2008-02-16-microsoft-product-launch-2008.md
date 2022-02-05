@@ -5,7 +5,7 @@ date: 2008-02-16T16:42:45+01:00
 
 
 guid: http://www.lybecker.com/blog/2008/02/16/microsoft-product-launch-2008/
-permalink: /2008/02/16/microsoft-product-launch-2008/
+permalink: /blog/2008/02/16/microsoft-product-launch-2008/
 autometa:
   - launch 2008 sign danish event meaning online danes
   - launch 2008 sign danish event meaning online danes

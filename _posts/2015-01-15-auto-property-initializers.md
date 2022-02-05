@@ -5,7 +5,7 @@ date: 2015-01-15T09:12:15+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1270
-permalink: /2015/01/15/auto-property-initializers/
+permalink: /blog/2015/01/15/auto-property-initializers/
 dsq_thread_id:
   - "3456341153"
   - "3456341153"

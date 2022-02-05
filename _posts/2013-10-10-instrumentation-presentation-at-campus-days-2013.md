@@ -5,7 +5,7 @@ date: 2013-10-10T16:38:22+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1121
-permalink: /2013/10/10/instrumentation-presentation-at-campus-days-2013/
+permalink: /blog/2013/10/10/instrumentation-presentation-at-campus-days-2013/
 dsq_thread_id:
   - "3460996694"
   - "3460996694"

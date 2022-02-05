@@ -5,7 +5,7 @@ date: 2010-06-08T06:59:09+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=667
-permalink: /2010/06/08/check-for-breaking-changes-in-apis/
+permalink: /blog/2010/06/08/check-for-breaking-changes-in-apis/
 dsq_thread_id:
   - "3457703745"
   - "3457703745"

@@ -5,7 +5,7 @@ date: 2008-08-21T20:38:36+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=64
-permalink: /2008/08/21/disable-and-enable-all-database-constraints/
+permalink: /blog/2008/08/21/disable-and-enable-all-database-constraints/
 dsq_thread_id:
   - "3456317467"
   - "3456317467"

@@ -5,7 +5,7 @@ date: 2010-01-14T19:58:28+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=507
-permalink: /2010/01/14/cisco-vpn-ipsec-support-on-64-bit-platforms/
+permalink: /blog/2010/01/14/cisco-vpn-ipsec-support-on-64-bit-platforms/
 dsq_thread_id:
   - "3456317890"
   - "3456317890"

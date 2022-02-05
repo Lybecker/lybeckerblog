@@ -5,7 +5,7 @@ date: 2011-11-21T07:21:20+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=966
-permalink: /2011/11/21/an-unfortunate-travel-story/
+permalink: /blog/2011/11/21/an-unfortunate-travel-story/
 dsq_thread_id:
   - "3456318193"
   - "3456318193"

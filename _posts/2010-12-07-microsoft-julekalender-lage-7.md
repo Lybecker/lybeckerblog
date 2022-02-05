@@ -5,7 +5,7 @@ date: 2010-12-07T07:45:28+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=819
-permalink: /2010/12/07/microsoft-julekalender-lage-7/
+permalink: /blog/2010/12/07/microsoft-julekalender-lage-7/
 dsq_thread_id:
   - "3456318098"
   - "3456318098"

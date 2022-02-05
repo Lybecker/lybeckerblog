@@ -5,7 +5,7 @@ date: 2009-08-11T11:46:42+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=344
-permalink: /2009/08/11/change-data-capture-cdc-in-sql-server-2008/
+permalink: /blog/2009/08/11/change-data-capture-cdc-in-sql-server-2008/
 dsq_thread_id:
   - "3678482601"
   - "3678482601"

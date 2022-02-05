@@ -1,6 +1,6 @@
 ---
 title: MongoDB auto-increment or sequence
-permalink: /2014/06/27/mongodb-auto-increment-or-sequence/
+permalink: /blog/2014/06/27/mongodb-auto-increment-or-sequence/
 categories:
   - .Net
   - MongoDB

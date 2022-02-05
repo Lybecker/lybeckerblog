@@ -5,7 +5,7 @@ date: 2007-10-04T17:29:18+01:00
 
 
 guid: http://www.lybecker.com/blog/2007/10/04/microsoft-releasing-the-net-framework-source-code/
-permalink: /2007/10/04/microsoft-releasing-the-net-framework-source-code/
+permalink: /blog/2007/10/04/microsoft-releasing-the-net-framework-source-code/
 autometa:
   - peaking sneak
   - peaking sneak

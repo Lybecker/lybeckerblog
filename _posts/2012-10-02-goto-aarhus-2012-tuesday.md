@@ -5,7 +5,7 @@ date: 2012-10-02T20:02:46+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1074
-permalink: /2012/10/02/goto-aarhus-2012-tuesday/
+permalink: /blog/2012/10/02/goto-aarhus-2012-tuesday/
 dsq_thread_id:
   - "4808173176"
 categories:

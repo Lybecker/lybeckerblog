@@ -5,7 +5,7 @@ date: 2007-03-14T15:36:08+01:00
 
 
 guid: http://www.lybecker.com/blog/2007/03/14/great-conference/
-permalink: /2007/03/14/great-conference/
+permalink: /blog/2007/03/14/great-conference/
 autometa:
   - interesting dtc sql great people posted attendances’ drive
   - interesting dtc sql great people posted attendances’ drive

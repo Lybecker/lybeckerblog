@@ -5,7 +5,7 @@ date: 2012-02-28T20:27:29+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1010
-permalink: /2012/02/28/when-to-outsource/
+permalink: /blog/2012/02/28/when-to-outsource/
 dsq_thread_id:
   - "3537505287"
   - "3537505287"

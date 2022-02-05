@@ -5,7 +5,7 @@ date: 2007-12-30T20:24:42+01:00
 
 
 guid: http://www.lybecker.com/blog/2007/12/30/victoria-is-one-year-old/
-permalink: /2007/12/30/victoria-is-one-year-old/
+permalink: /blog/2007/12/30/victoria-is-one-year-old/
 autometa:
   - birthday gifts victoria incidentally morning carrier proud quickly
   - birthday gifts victoria incidentally morning carrier proud quickly

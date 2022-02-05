@@ -5,7 +5,7 @@ date: 2007-03-12T18:01:04+01:00
 
 
 guid: http://www.lybecker.com/blog/2007/03/12/configuring-the-dtc-for-wcf-with-oletx/
-permalink: /2007/03/12/configuring-the-dtc-for-wcf-with-oletx/
+permalink: /blog/2007/03/12/configuring-the-dtc-for-wcf-with-oletx/
 dsq_thread_id:
   - "3460102982"
   - "3460102982"

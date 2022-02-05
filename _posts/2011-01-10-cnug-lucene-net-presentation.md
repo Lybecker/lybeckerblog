@@ -5,7 +5,7 @@ date: 2011-01-10T20:21:26+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=926
-permalink: /2011/01/10/cnug-lucene-net-presentation/
+permalink: /blog/2011/01/10/cnug-lucene-net-presentation/
 dsq_thread_id:
   - "3456318131"
   - "3456318131"

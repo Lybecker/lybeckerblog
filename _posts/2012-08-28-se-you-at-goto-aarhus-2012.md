@@ -5,7 +5,7 @@ date: 2012-08-28T21:03:28+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1053
-permalink: /2012/08/28/se-you-at-goto-aarhus-2012/
+permalink: /blog/2012/08/28/se-you-at-goto-aarhus-2012/
 dsq_thread_id:
   - "4972256628"
 categories:

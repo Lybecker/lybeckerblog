@@ -4,7 +4,7 @@ title: A simple Windows Communication Foundation Web Service
 date: 2007-01-15T22:59:28+01:00
 
 guid: http://www.lybecker.com/blog/2007/01/15/a-simple-windows-communication-foundation-web-service/
-permalink: /2007/01/15/a-simple-windows-communication-foundation-web-service/
+permalink: /blog/2007/01/15/a-simple-windows-communication-foundation-web-service/
 autometa:
   - webservice webmethod servicehost enter pre helloworldservice helloworldservice host
   - webservice webmethod servicehost enter pre helloworldservice helloworldservice host

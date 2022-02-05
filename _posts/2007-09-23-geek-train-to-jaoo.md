@@ -5,7 +5,7 @@ date: 2007-09-23T21:27:45+01:00
 
 
 guid: http://www.lybecker.com/blog/2007/09/23/geek-train-to-jaoo/
-permalink: /2007/09/23/geek-train-to-jaoo/
+permalink: /blog/2007/09/23/geek-train-to-jaoo/
 autometa:
   - bluetooth train phones mobil jaoo geek pretty amazing
   - bluetooth train phones mobil jaoo geek pretty amazing

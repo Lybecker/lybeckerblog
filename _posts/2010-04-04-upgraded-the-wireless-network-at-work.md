@@ -5,7 +5,7 @@ date: 2010-04-04T15:02:56+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=571
-permalink: /2010/04/04/upgraded-the-wireless-network-at-work/
+permalink: /blog/2010/04/04/upgraded-the-wireless-network-at-work/
 dsq_thread_id:
   - "3502794823"
 categories:

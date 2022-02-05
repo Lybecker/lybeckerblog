@@ -5,7 +5,7 @@ date: 2014-06-30T01:00:24+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1190
-permalink: /2014/06/30/clean-domain-model-mongodb-class-mao/
+permalink: /blog/2014/06/30/clean-domain-model-mongodb-class-mao/
 dsq_thread_id:
   - "3460979297"
   - "3460979297"

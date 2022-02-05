@@ -5,7 +5,7 @@ date: 2007-02-01T20:32:14+01:00
 
 
 guid: http://www.lybecker.com/blog/2007/02/01/visual-studio-2005-shortcuts-features/
-permalink: /2007/02/01/visual-studio-2005-shortcuts-features/
+permalink: /blog/2007/02/01/visual-studio-2005-shortcuts-features/
 autometa:
   - ""
   - ""

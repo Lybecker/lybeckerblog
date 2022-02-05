@@ -5,7 +5,7 @@ date: 2010-04-24T15:42:57+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=595
-permalink: /2010/04/24/removing-svn-folders-with-powershell/
+permalink: /blog/2010/04/24/removing-svn-folders-with-powershell/
 dsq_thread_id:
   - "3460747946"
   - "3460747946"

@@ -2,7 +2,7 @@
 
 title: I am an expert
 excerpt: We have all be declared an export. A funny take on experts
-permalink: /2014/04/02/i-am-an-expert/
+permalink: /blog/2014/04/02/i-am-an-expert/
 categories:
   - Rambling
   - Stuff

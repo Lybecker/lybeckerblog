@@ -5,7 +5,7 @@ date: 2010-03-01T18:31:53+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=518
-permalink: /2010/03/01/transferring-sql-server-logins/
+permalink: /blog/2010/03/01/transferring-sql-server-logins/
 dsq_thread_id:
   - "3758113725"
   - "3758113725"

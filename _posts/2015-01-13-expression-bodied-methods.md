@@ -5,7 +5,7 @@ date: 2015-01-13T08:54:27+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1266
-permalink: /2015/01/13/expression-bodied-methods/
+permalink: /blog/2015/01/13/expression-bodied-methods/
 dsq_thread_id:
   - "3456341137"
   - "3456341137"

@@ -5,7 +5,7 @@ date: 2007-04-30T12:05:43+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=85
-permalink: /2007/04/30/wcf-sessions-and-reliable-messaging/
+permalink: /blog/2007/04/30/wcf-sessions-and-reliable-messaging/
 dsq_thread_id:
   - "3456317523"
   - "3456317523"

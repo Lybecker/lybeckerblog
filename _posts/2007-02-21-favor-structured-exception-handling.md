@@ -5,7 +5,7 @@ date: 2007-02-21T16:36:40+01:00
 
 
 guid: http://www.lybecker.com/blog/2007/02/21/favor-structured-exception-handling/
-permalink: /2007/02/21/favor-structured-exception-handling/
+permalink: /blog/2007/02/21/favor-structured-exception-handling/
 dsq_thread_id:
   - "3460989877"
   - "3460989877"

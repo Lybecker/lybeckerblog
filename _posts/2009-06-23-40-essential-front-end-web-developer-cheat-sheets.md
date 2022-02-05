@@ -5,7 +5,7 @@ date: 2009-06-23T07:32:21+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=340
-permalink: /2009/06/23/40-essential-front-end-web-developer-cheat-sheets/
+permalink: /blog/2009/06/23/40-essential-front-end-web-developer-cheat-sheets/
 dsq_thread_id:
   - "3456317743"
   - "3456317743"

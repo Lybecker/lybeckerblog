@@ -5,7 +5,7 @@ date: 2007-04-03T06:54:43+01:00
 
 
 guid: http://www.lybecker.com/blog/2007/04/03/garbage-collection-flavors/
-permalink: /2007/04/03/garbage-collection-flavors/
+permalink: /blog/2007/04/03/garbage-collection-flavors/
 dsq_thread_id:
   - "3478642965"
   - "3478642965"

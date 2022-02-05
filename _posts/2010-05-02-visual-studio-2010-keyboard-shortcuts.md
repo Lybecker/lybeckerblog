@@ -5,7 +5,7 @@ date: 2010-05-02T08:39:41+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=624
-permalink: /2010/05/02/visual-studio-2010-keyboard-shortcuts/
+permalink: /blog/2010/05/02/visual-studio-2010-keyboard-shortcuts/
 dsq_thread_id:
   - "3646309574"
   - "3646309574"

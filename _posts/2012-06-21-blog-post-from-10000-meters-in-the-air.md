@@ -5,7 +5,7 @@ date: 2012-06-21T19:58:09+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1047
-permalink: /2012/06/21/blog-post-from-10000-meters-in-the-air/
+permalink: /blog/2012/06/21/blog-post-from-10000-meters-in-the-air/
 dsq_thread_id:
   - "3487780191"
   - "3487780191"

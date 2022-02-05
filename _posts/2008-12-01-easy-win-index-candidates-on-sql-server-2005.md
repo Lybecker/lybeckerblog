@@ -5,7 +5,7 @@ date: 2008-12-01T08:43:10+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=180
-permalink: /2008/12/01/easy-win-index-candidates-on-sql-server-2005/
+permalink: /blog/2008/12/01/easy-win-index-candidates-on-sql-server-2005/
 dsq_thread_id:
   - "3456317602"
   - "3456317602"

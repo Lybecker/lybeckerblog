@@ -5,7 +5,7 @@ date: 2017-07-18T13:58:01+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1434
-permalink: /2017/07/18/installing-windows-with-secure-boot-from-usb-drive/
+permalink: /blog/2017/07/18/installing-windows-with-secure-boot-from-usb-drive/
 dsq_thread_id:
   - "5997382197"
 categories:

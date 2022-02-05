@@ -5,7 +5,7 @@ date: 2016-09-02T08:48:45+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1396
-permalink: /2016/09/02/composing-your-own-windows-container-with-a-dockerfile/
+permalink: /blog/2016/09/02/composing-your-own-windows-container-with-a-dockerfile/
 dsq_thread_id:
   - "5113471734"
 categories:

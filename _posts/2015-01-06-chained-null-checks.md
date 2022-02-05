@@ -5,7 +5,7 @@ date: 2015-01-06T08:36:55+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1254
-permalink: /2015/01/06/chained-null-checks/
+permalink: /blog/2015/01/06/chained-null-checks/
 dsq_thread_id:
   - "3456331174"
   - "3456331174"

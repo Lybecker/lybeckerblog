@@ -5,7 +5,7 @@ date: 2007-11-23T10:13:44+01:00
 
 
 guid: http://www.lybecker.com/blog/2007/11/23/free-sql-server-tools/
-permalink: /2007/11/23/free-sql-server-tools/
+permalink: /blog/2007/11/23/free-sql-server-tools/
 autometa:
   - free sql tools found share list check server
   - free sql tools found share list check server

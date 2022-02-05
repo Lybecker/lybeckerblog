@@ -5,7 +5,7 @@ date: 2016-08-31T11:01:23+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=1386
-permalink: /2016/08/31/getting-started-with-windows-containers/
+permalink: /blog/2016/08/31/getting-started-with-windows-containers/
 dsq_thread_id:
   - "5108364249"
 categories:

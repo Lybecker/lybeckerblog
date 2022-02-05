@@ -5,7 +5,7 @@ date: 2008-11-22T18:22:45+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=165
-permalink: /2008/11/22/serialization-in-net-35-sp1/
+permalink: /blog/2008/11/22/serialization-in-net-35-sp1/
 dsq_thread_id:
   - "3574601296"
   - "3574601296"

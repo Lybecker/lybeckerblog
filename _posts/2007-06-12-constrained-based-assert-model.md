@@ -5,7 +5,7 @@ date: 2007-06-12T07:45:46+01:00
 
 
 guid: http://www.lybecker.com/blog/2007/06/12/constrained-based-assert-model/
-permalink: /2007/06/12/constrained-based-assert-model/
+permalink: /blog/2007/06/12/constrained-based-assert-model/
 autometa:
   - ""
   - ""

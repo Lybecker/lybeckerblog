@@ -5,7 +5,7 @@ date: 2010-04-02T08:06:05+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=567
-permalink: /2010/04/02/its-my-birthday-today/
+permalink: /blog/2010/04/02/its-my-birthday-today/
 dsq_thread_id:
   - "5901250274"
 categories:

@@ -5,7 +5,7 @@ date: 2008-01-17T08:52:13+01:00
 
 
 guid: http://www.lybecker.com/blog/2008/01/17/net-framework-library-source-code-now-available/
-permalink: /2008/01/17/net-framework-library-source-code-now-available/
+permalink: /blog/2008/01/17/net-framework-library-source-code-now-available/
 autometa:
   - 2008 forms libraries source studio visual system blogged
   - 2008 forms libraries source studio visual system blogged

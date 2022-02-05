@@ -5,7 +5,7 @@ date: 2010-04-04T17:40:12+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=580
-permalink: /2010/04/04/speaking-about-lucene-at-miracle-open-world-2010/
+permalink: /blog/2010/04/04/speaking-about-lucene-at-miracle-open-world-2010/
 dsq_thread_id:
   - "5305805531"
 categories:

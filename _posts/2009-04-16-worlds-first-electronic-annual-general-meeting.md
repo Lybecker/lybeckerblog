@@ -5,7 +5,7 @@ date: 2009-04-16T12:52:19+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=314
-permalink: /2009/04/16/worlds-first-electronic-annual-general-meeting/
+permalink: /blog/2009/04/16/worlds-first-electronic-annual-general-meeting/
 dsq_thread_id:
   - "3502699643"
   - "3502699643"

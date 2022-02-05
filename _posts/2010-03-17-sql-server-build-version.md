@@ -5,7 +5,7 @@ date: 2010-03-17T19:58:01+01:00
 
 
 guid: http://www.lybecker.com/blog/?p=527
-permalink: /2010/03/17/sql-server-build-version/
+permalink: /blog/2010/03/17/sql-server-build-version/
 jd_tweet_this:
   - 'yes'
   - 'yes'

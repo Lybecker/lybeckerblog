@@ -5,7 +5,7 @@ date: 2008-03-18T22:15:38+01:00
 
 
 guid: http://www.lybecker.com/blog/2008/03/18/32-bit-wcf-trouble/
-permalink: /2008/03/18/32-bit-wcf-trouble/
+permalink: /blog/2008/03/18/32-bit-wcf-trouble/
 autometa:
   - transfer buffered oom streamed largeaddressaware memory identifiers allocate
   - transfer buffered oom streamed largeaddressaware memory identifiers allocate
