@@ -38,7 +38,8 @@ The SvcUtil.exe is better and has a vast [number of options](http://msdn.microso
 
 The dynamic proxy with ChannelFactory<tchannel> is useful, but be aware that the interface returned does not implement IDisposable, but the implementation does. See below:
 
-<pre class="brush: csharp; title: ; notranslate" title="">var factory = new ChannelFactory&lt;ihelloworldservice&gt;("myEndPoint");
+```csharp
+var factory = new ChannelFactory<ihelloworldservice>("myEndPoint");
 
 IHelloWorldService proxy = factory.CreateChannel();
 
@@ -50,7 +51,8 @@ using (proxy as IDisposable)
 
 Finally the handcrafted version – the one I want to talk about. Writing the WCF client by hand is fairly easy – it requires the implementation to inherit from ClienBase<tchannel> and implementing the service contract interface. Below is first a simple service contract IHelloWorldService:
 
-<pre class="brush: csharp; title: ; notranslate" title="">[ServiceContract(Namespace = "www.lybecker.com/blog/HelloWorldService")]
+```csharp
+[ServiceContract(Namespace = "www.lybecker.com/blog/HelloWorldService")]
 public interface IHelloWorldService
 {
    [OperationContract]
@@ -60,7 +62,8 @@ public interface IHelloWorldService
 
 Next the handcrafted WCF client with constructors and service contract interface implementation:
 
-<pre class="brush: csharp; title: ; notranslate" title="">public class HelloWorldClient : ClientBase&lt;ihelloworldservice&gt;, IHelloWorldService
+```csharp
+public class HelloWorldClient : ClientBase<ihelloworldservice>, IHelloWorldService
 {
    public HelloWorldClient()
    { }

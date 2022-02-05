@@ -12,7 +12,7 @@ dsq_thread_id:
 categories:
   - Announcement
 ---
-The last two and a half weeks have been interesting for me &#8211; Interesting in the “what doesn&#8217;t kill you makes you stronger” kind of way. Here is my challenging story…
+The last two and a half weeks have been interesting for me &#8211; Interesting in the “what doesn't kill you makes you stronger” kind of way. Here is my challenging story…
 
 I was on a leisure trip to Rome, Italy to see the sights. A beautiful city with many cites like the Vatican, the Colosseum and the Spanish Steps. I was supposed to flight directly to Manila, Philippines from Rome to assist a customer. The customer was finalizing my travel plans while I was in Rome. Unfortunately I lost my mobile phone in Rome which made it rather difficult to coordinate the travel plans, but after 3 or 4 different travel itineraries the flight was booked from Rome to Italy via Seoul, Korea.
 

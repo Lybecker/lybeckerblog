@@ -1,5 +1,6 @@
 ---
 title: MongoDB auto-increment or sequence
+excerpt: A simple way of implementing auto-increment or sequence for MongoDB
 permalink: /blog/2014/06/27/mongodb-auto-increment-or-sequence/
 categories:
   - .Net
@@ -33,8 +34,8 @@ var counterCol = db.GetCollection("counters")
 
 var result = counterCol.FindAndModify(new FindAndModifyArgs()
 {
-  Query = Query.EQ(d =&gt; d.Id, "orderId"),
-  Update = Update.Inc(d =&gt; d.Value, 1),
+  Query = Query.EQ(d => d.Id, "orderId"),
+  Update = Update.Inc(d => d.Value, 1),
   VersionReturned = FindAndModifyDocumentVersion.Modified,
   Upsert = true, //Create if the document does not exists
 });

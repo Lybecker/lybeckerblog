@@ -1,10 +1,5 @@
 ---
-
 title: GOTO Aarhus 2012 – Tuesday
-date: 2012-10-02T20:02:46+01:00
-
-
-guid: http://www.lybecker.com/blog/?p=1074
 permalink: /blog/2012/10/02/goto-aarhus-2012-tuesday/
 dsq_thread_id:
   - "4808173176"
@@ -14,7 +9,10 @@ categories:
 tags:
   - GOTOaar
 ---
-[<img loading="lazy" class="alignright size-full wp-image-1077" title="typescript-preview" src="http://www.lybecker.com/blog/wp-content/uploads/typescript-preview.png" alt="" width="275" height="100" />](http://www.lybecker.com/blog/wp-content/uploads/typescript-preview.png)The morning keynote by [Scott Hanselman](https://twitter.com/shanselman) was about the true power of JavaScript. He argued that JavaScript in the browser is a full operating system running as a virtual machine within the browser – so we should treat it so. Don’t use Java Applets, Flash, Flex or Silverlight as it just another (slow) abstraction upon an already powerfull engine – the browser. It was a great talk leading up to the pre-release of [TypeScript](http://www.typescriptlang.org/).
+![TypeScript logo](/wp-content/uploads/typescript-preview.png)
+{: .align-right}
+
+The morning keynote by [Scott Hanselmann](https://twitter.com/shanselman) was about the true power of JavaScript. He argued that JavaScript in the browser is a full operating system running as a virtual machine within the browser – so we should treat it so. Don’t use Java Applets, Flash, Flex or Silverlight as it just another (slow) abstraction upon an already powerfull engine – the browser. It was a great talk leading up to the pre-release of [TypeScript](http://www.typescriptlang.org/).
 
 I followed a couple of sessions the continuous delivery by [Sam Newman](https://twitter.com/samnewman), [Michael T. Nygard](https://twitter.com/mtnygard) (author of Release It) and [Jez Humble](https://twitter.com/jezhumble) (author of Continuous Delivery).
 Continuous Integration is a prerequisite of Continuous Delivery, but many still don’t use apply Continuous Integration to their solution, with daily incremental check-ins, automated build and unit tests.

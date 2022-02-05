@@ -1,10 +1,6 @@
 ---
-
 title: AJAX paging for ASP.NET MVC sites
-date: 2014-09-29T11:33:12+01:00
-
-
-guid: http://www.lybecker.com/blog/?p=1204
+excerpt: Implement paging with AJAX for ASP.NET (.NET Framework)
 permalink: /blog/2014/09/29/ajax-paging-for-asp-net-mvc-sites/
 dsq_thread_id:
   - "3456420517"
@@ -17,28 +13,33 @@ tags:
   - PagedList.Mvc
   - Paging
 ---
+{{site.data.messages.dotnetframeworkwarning}}
+{: .notice--warning}
+
 When working with lists of data paging is a necessity, but trivial to implement in an ASP.NET MVC. The article [Sorting, Filtering, and Paging with the Entity Framework in an ASP.NET MVC Application](http://www.asp.net/mvc/tutorials/getting-started-with-ef-using-mvc/sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application "Article on asp.net website") on [www.asp.net](http://www.asp.net/) makes use of the [X.PackedList.MVC](https://www.nuget.org/packages/X.PagedList.Mvc// "X.PackedList.MVC</ NuGet") NuGet package and each step is described in detail. The implementation requires full-page refresh and does not make use of AJAX capabilities.
 
 Let us extend the implementation and make full use of the AJAX capabilities.
 
 Wrap the entire table in a div-tag and give it an id of _content_ – it will enable us to replace the table without refreshing the entire webpage.
 
-<pre class="brush: xml; highlight: [1,9]; title: ; notranslate" title="">&lt;div id="content"&gt;
-    &lt;table&gt;
+```html
+<div id="content">
+    <table>
         ... removed for brevity
-    &lt;/table&gt;
+    </table>
 
-    &lt;div id="contentPager"&gt;
-        @Html.PagedListPager(Model, page =&gt; Url.Action("Index", new { page }))
-    &lt;/div&gt;
-&lt;/div&gt;
-</pre>
+    <div id="contentPager">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+    </div>
+</div>
+```
 
 Also wrap the `@Html.PagedListPager` in a div-tag and set the id to _contentPager_ – it will let us alter the behavior of the click-event.
 
 The below JQuery code attaches the anonymous function to every a-tag within the _contentPager_ element and the function replaces the html within the _content_ element with whatever is returned from the AJAX call.
 
-<pre class="brush: jscript; title: ; notranslate" title="">$(document).on("click", "#contentPager a", function () {
+```javascript
+$(document).on("click", "#contentPager a", function () {
     $.ajax({
         url: $(this).attr("href"),
         type: 'GET',
@@ -49,27 +50,29 @@ The below JQuery code attaches the anonymous function to every a-tag within the 
     });
     return false;
 });
-</pre>
+```
 
 Move everything within the _content_ element to a new view – let us call the new view _List_.
 
-<pre class="brush: xml; highlight: [10]; title: ; notranslate" title="">@model PagedList.IPagedList&lt;ContosoUniversity.Models.Student&gt;;
+```csharp
+@model PagedList.IPagedList<ContosoUniversity.Models.Student>;
 @using PagedList.Mvc;
 
-&lt;div id="content"&gt;
-    &lt;table class="table"&gt;
+<div id="content">
+    <table class="table">
       ... removed for brevity
-    &lt;/table&gt;
+    </table>
 
-    &lt;div id="contentPager"&gt;
-        @Html.PagedListPager(Model, page =&gt; Url.Action("List", new { page }))
-    &lt;/div&gt;
-&lt;/div&gt;
-</pre>
+    <div id="contentPager">
+        @Html.PagedListPager(Model, page => Url.Action("List", new { page }))
+    </div>
+</div>
+```
 
 Notice in above highlighted code, that the Action URL is changed to _List_, which is the name of the Action we need to add to the `StudentController`.
 
-<pre class="brush: csharp; title: ; notranslate" title="">public ActionResult List(int? page)
+```csharp
+public ActionResult List(int? page)
 {
     var students = from s in db.Students
                     orderby s.LastName
@@ -79,31 +82,33 @@ Notice in above highlighted code, that the Action URL is changed to _List_, whic
     int pageNumber = (page ?? 1);
     return View(students.ToPagedList(pageNumber, pageSize));
 }
-</pre>
+```
 
 The functionality of the new _List_ Action is the same as in the existing _Index_ Action. Just move all the code from the _Index_ Action, so it just returns the default view as below.
 
-<pre class="brush: csharp; title: ; notranslate" title="">public ViewResult Index()
+```csharp
+public ViewResult Index()
 {
     return View();
 }
-</pre>
+```
 
 To wrap it up, the _Index_ view needs to call the _List_ Action to render the table in the _Index_ view.
 
 So the _Index_ view ends up looking like this.
 
-<pre class="brush: xml; highlight: [7]; title: ; notranslate" title="">&lt;link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" /&gt;
+```csharp
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
 @{
     ViewBag.Title = "Students";
 }
-&lt;h2&gt;Students&lt;h2&gt;
+<h2>Students<h2>
 
 @Html.Action("List")
 
 @section scripts
 {
-    &lt;script language="javascript" type="text/javascript"&gt;
+    <script language="javascript" type="text/javascript">
         $(document).ready(function () {
            $(document).on("click", "#contentPager a[href]", function () {
                 $.ajax({
@@ -117,15 +122,15 @@ So the _Index_ view ends up looking like this.
                 return false;
             });
         });
-    &lt;/script&gt;
+    </script>
 }
-</pre>
+```
 
 That is it.
 
 The solution is inspired by [this StackOverflow question](http://stackoverflow.com/questions/18822352/using-paging-in-partial-view-asp-net-mvc).
 
-<a href="/blog/wp-content/uploads/AspNetMvcAjaxPaging.zip" rel="attachment wp-att-1242">Download the complete solution</a>, build and open the Student page. If running the solution in Visual Studio 2015+, then change the data source connection string in web.config to (localdb)\_MSSQLLocalDB_ as the default SQL Server LocalDB instance name has changed.
+[Download the complete solution](/blog/wp-content/uploads/AspNetMvcAjaxPaging.zip), build and open the Student page. If running the solution in Visual Studio 2015+, then change the data source connection string in `web.config` to (localdb)\_MSSQLLocalDB_ as the default SQL Server LocalDB instance name has changed.
 
 **Update** May 15th 2016: The [PagedList.Mvc](https://www.nuget.org/packages/PagedList.Mvc) NuGet package is no longer maintained, but a fork of the project is available and maintained called [X.PagedList.MVC](https://www.nuget.org/packages/X.PagedList.Mvc/). I have updated the post and the source to use this new package.
 

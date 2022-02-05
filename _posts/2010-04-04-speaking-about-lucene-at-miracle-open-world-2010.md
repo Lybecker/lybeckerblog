@@ -27,7 +27,7 @@ Session abstract:
 
 > Lucene is an open source full-featured text search engine library, making searching in large amounts of text lightning fast. Lucene are in use by many large sites like Wikipedia, LinkedIn, MySpace etc.
 >
-> It is easy to get started with Lucene, but there are many pitfalls… In this session you will learn about the do&#8217;s and don&#8217;t&#8217;s for indexing and searching, tools, scaling, new features in version 2.9 and some of the more advanced features.
+> It is easy to get started with Lucene, but there are many pitfalls… In this session you will learn about the do's and don't's for indexing and searching, tools, scaling, new features in version 2.9 and some of the more advanced features.
 >
 > This presentation will use the Microsoft .Net implementation of Lucene named Lucene.Net, but the content of this presentation applies for ported versions of Lucene.
 

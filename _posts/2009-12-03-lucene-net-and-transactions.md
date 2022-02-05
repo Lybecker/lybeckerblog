@@ -59,7 +59,8 @@ tags:
       To implement a resource manager for the Lucene.Net IndexWriter, and therefore make it transactional, all you have to do is the following:
     </p>
 
-    <pre class="brush: csharp; title: ; notranslate" title="">
+    ```csharp
+
 public class TransactionalIndexWriter : IndexWriter, IEnlistmentNotification
 {
     #region ctor
@@ -111,7 +112,8 @@ public class TransactionalIndexWriter : IndexWriter, IEnlistmentNotification
       You can use it like so:
     </p>
 
-    <pre class="brush: csharp; title: ; notranslate" title="">
+    ```csharp
+
 IndexWriter indexWriter = null;
 TransactionScope tx = null;
 

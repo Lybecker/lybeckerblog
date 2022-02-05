@@ -1,10 +1,5 @@
 ---
-
 title: Accessing HTTP Request from ASP.NET Web API
-date: 2013-06-26T16:33:33+01:00
-
-
-guid: http://www.lybecker.com/blog/?p=1093
 permalink: /blog/2013/06/26/accessing-http-request-from-asp-net-web-api/
 dsq_thread_id:
   - "3456318170"
@@ -16,9 +11,13 @@ tags:
   - ASP.Net Web API
   - dotNet
 ---
+{{site.data.messages.dotnetframeworkwarning}}
+{: .notice--warning}
+
 Do you need access to the bare HTTP request in ASP.NET Web API to access custom header etc.? Then add the HttpRequestMessage:
 
-<pre class="brush: csharp; highlight: [5]; title: ; notranslate" title="">public class CalculatorController : ApiController
+```csharp
+public class CalculatorController : ApiController
 {
   public int Add(HttpRequestMessage requestMessage, int x, int y)
   {
@@ -28,8 +27,8 @@ Do you need access to the bare HTTP request in ASP.NET Web API to access custom 
     return x + y;
   }
 }
-</pre>
+```
 
-The HttpRequestMessage is automatically bound to the controller action, so you can still execute the action like http://localhost/calculator/add?x=3&y=2
+The `HttpRequestMessage` is automatically bound to the controller action, so you can still execute the action like `http://localhost/calculator/add?x=3&y=2`
 
 Simple and easy.

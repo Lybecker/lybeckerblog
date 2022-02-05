@@ -23,7 +23,8 @@ tags:
 
 Below codes does all that:
 
-<pre class="brush: csharp; title: ; notranslate" title="">// Specify the source binding
+```csharp
+// Specify the source binding
 // - Programmatic binding
 // - Administrative XML-based binding
 // - Convert to custom binding
@@ -60,8 +61,8 @@ config.Save();
 
 The programmatic source binding will create a configuration file with all default values for the BasicHttpBinding except for TransferMode and MaxReceivedMessageSize attributes like so:
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;basichttpbinding&gt;
-    &lt;binding name="BasicHttpBinding"
+<pre class="brush: xml; title: ; notranslate" title=""><basichttpbinding>
+    <binding name="BasicHttpBinding"
              closeTimeout="00:01:00"
              openTimeout="00:01:00"
              receiveTimeout="00:10:00"
@@ -75,21 +76,21 @@ The programmatic source binding will create a configuration file with all defaul
              messageEncoding="Text"
              textEncoding="utf-8"
              transferMode="Streamed"
-             useDefaultWebProxy="true"&gt;
-        &lt;readerquotas maxDepth="32"
+             useDefaultWebProxy="true">
+        <readerquotas maxDepth="32"
                       maxStringContentLength="8192"
                       maxArrayLength="16384"
                       maxBytesPerRead="4096"
-                      maxNameTableCharCount="16384" /&gt;
-        &lt;security mode="None"&gt;
-            &lt;transport clientCredentialType="None"
+                      maxNameTableCharCount="16384" />
+        <security mode="None">
+            <transport clientCredentialType="None"
                        proxyCredentialType="None"
-                       realm="" /&gt;
-            &lt;message clientCredentialType="UserName"
-                     algorithmSuite="Default" /&gt;
-        &lt;/security&gt;
-    &lt;/binding&gt;
-&lt;/basichttpbinding&gt;
+                       realm="" />
+            <message clientCredentialType="UserName"
+                     algorithmSuite="Default" />
+        </security>
+    </binding>
+</basichttpbinding>
 </pre>
 
 I found this [tip by Brian McNamara on the MSDN WCF forum](http://social.msdn.microsoft.com/Forums/en-US/wcf/thread/fcad2118-d7bc-4d23-84b2-1ac168afa1c8 "Generate WCF config binding").

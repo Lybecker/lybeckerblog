@@ -31,15 +31,15 @@ WCF throttling is a service behavior configuration and each setting has effect d
 
 These throttling settings can be configured in code via the ServiceThrottlingBehavior in the System.ServiceModel.Description namespace or though configuration like below:
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;system.serviceModel&gt;
-    &lt;serviceBehaviors&gt;
-      &lt;behavior name="throttlingServiceBehavior"&gt;
-        &lt;serviceThrottling maxConcurrentCalls="16"
+<pre class="brush: xml; title: ; notranslate" title=""><system.serviceModel>
+    <serviceBehaviors>
+      <behavior name="throttlingServiceBehavior">
+        <serviceThrottling maxConcurrentCalls="16"
                            maxConcurrentInstances="160"
-                           maxConcurrentSessions="10"/&gt;
-      &lt;/behavior&gt;
-    &lt;/serviceBehaviors&gt;
-&lt;/system.serviceModel&gt;
+                           maxConcurrentSessions="10"/>
+      </behavior>
+    </serviceBehaviors>
+</system.serviceModel>
 </pre>
 
 The default values in .Net 3.0/3.5 are:

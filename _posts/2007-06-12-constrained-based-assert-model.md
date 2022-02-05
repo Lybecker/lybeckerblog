@@ -21,7 +21,8 @@ tags:
 ---
 The latest version of [NUnit Framework](http://nunit.org/) (version 2.4 and forward) comes with a new constrained-based assert model, which allows you to write complex assertions relatively easy with a new syntax. The old classical syntax for assertions with static methods still works and according to the [NUnit blog](http://nunit.com/blogs/) there are no plans to deprecate the classical assertion syntax.
 
-<pre class="brush: csharp; title: ; notranslate" title="">Assert.AreEqual(5, 5.0);
+```csharp
+Assert.AreEqual(5, 5.0);
 
 Assert.AreSame(person, person);
 
@@ -40,14 +41,16 @@ FileAssert.AreEqual(stream1, stream2);
 
 The new constrained-based assert model uses a single method on the Assert class for all assertions:
 
-<pre class="brush: csharp; title: ; notranslate" title="">Assert.That("Anders", new EqualConstraint("Anders"));
+```csharp
+Assert.That("Anders", new EqualConstraint("Anders"));
 </pre>
 
 The second parameter is the type of assertions – here an equal constraint that works on all types of data &#8211; primitives, collections, streams etc.
 
 NUnit comes with a number of [constraints covering most scenarios](http://nunit.com/index.php?p=constraintModel&r=2.4.1), but also allows you to extend the model by developing [custom constraint](http://nunit.com/index.php?p=customConstraints&r=2.4.1) by realizing the IConstraint interface.
 
-<pre class="brush: csharp; title: ; notranslate" title="">public interface IConstraint
+```csharp
+public interface IConstraint
 {
     bool Matches(object actual);
     void WriteMessageTo(MessageWriter writer);
@@ -58,7 +61,8 @@ NUnit comes with a number of [constraints covering most scenarios](http://nunit.
 
 If the syntax of constrained-based assert model seams a bit to complex and not very reader friendly, the NUnit team has implemented a range of syntax helper classes like so:
 
-<pre class="brush: csharp; title: ; notranslate" title="">Assert.That("Anders", Is.EqualTo("Anders"));
+```csharp
+Assert.That("Anders", Is.EqualTo("Anders"));
 Assert.That("Anders", Is.Not.EqualTo("Anja"));
 Assert.That("Hello World!", Text.StartsWith("HELLO").IgnoreCase);
 Assert.That("make me happy", Text.Contains("make"));

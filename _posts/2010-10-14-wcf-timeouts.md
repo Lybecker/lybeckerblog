@@ -34,18 +34,18 @@ Below are the binding properties that all throw TimeoutExceptions if any of sett
 
 Example of configuration file:
 
-<pre class="brush: sql; title: ; notranslate" title="">&lt;system.serviceModel&gt;
-  &lt;bindings&gt;
-    &lt;netTcpBinding&gt;
-      &lt;binding name="netTcpBindingConfig"
+<pre class="brush: sql; title: ; notranslate" title=""><system.serviceModel>
+  <bindings>
+    <netTcpBinding>
+      <binding name="netTcpBindingConfig"
                openTimeout="00:01:00"
                closeTimeout="00:01:00"
                sendTimeout="00:01:00"
-               receiveTimeout="00:10:00"&gt;
-        &lt;reliableSession enabled="true"
-                         inactivityTimeout="00:10:00" /&gt;
-      &lt;/binding&gt;
-    &lt;/netTcpBinding&gt;
-  &lt;/bindings&gt;
-&lt;/system.serviceModel&gt;
+               receiveTimeout="00:10:00">
+        <reliableSession enabled="true"
+                         inactivityTimeout="00:10:00" />
+      </binding>
+    </netTcpBinding>
+  </bindings>
+</system.serviceModel>
 </pre>

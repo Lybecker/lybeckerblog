@@ -16,7 +16,7 @@ tags:
 ---
 Watch out when using @@IDENTITY and SCOPE_IDENTITY() in your applications. Below is a quote from a Microsoft SQL Server engineer.
 
-> &#8230; whenever a parallel query plan is generated @@IDENTITY and SCOPE_IDENTITY() are not being updated consistently and can&#8217;t be relied upon.
+> &#8230; whenever a parallel query plan is generated @@IDENTITY and SCOPE_IDENTITY() are not being updated consistently and can't be relied upon.
 
 You can find more about the bug and workarounds at the [SQL Server bug  report](https://connect.microsoft.com/SQLServer/feedback/ViewFeedback.aspx?FeedbackID=328811 "SQL Server @@IDENTITY and SCOPE_IDENTITY() bug report").
 

@@ -15,7 +15,7 @@ tags:
   - SQL Server
   - SQL Server 2008
 ---
-I where planning to write a blog post about Change Data Capture (CDC) in SQL Server 2008, but then I stumbled upon Pinal Dave&#8217;s article [Introduction to Change Data Capture (CDC) in SQL Server 2008](http://www.simple-talk.com/sql/learn-sql-server/introduction-to-change-data-capture-%28cdc%29-in-sql-server-2008/ "Introduction to Change Data Capture (CDC) in SQL Server 2008").
+I where planning to write a blog post about Change Data Capture (CDC) in SQL Server 2008, but then I stumbled upon Pinal Dave's article [Introduction to Change Data Capture (CDC) in SQL Server 2008](http://www.simple-talk.com/sql/learn-sql-server/introduction-to-change-data-capture-%28cdc%29-in-sql-server-2008/ "Introduction to Change Data Capture (CDC) in SQL Server 2008").
 
 It is a thorough overview of Change Data Capture (CDC).
 

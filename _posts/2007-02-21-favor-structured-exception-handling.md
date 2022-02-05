@@ -22,7 +22,8 @@ The discussion was between one of their architects, a couple of others and me. T
 An exception is an event that occurs during the execution of a program, designed to handle the occurrence of some exceptional condition which changes the normal flow of execution. Exceptions travel out of band and propagate through the call stack until an exception handler catches the exception. Structured exceptions use the Try&#8230;Catch&#8230;Finally syntax.
 Below is a make believe example of a simple system calling two methods:
 
-<pre class="brush: csharp; title: ; notranslate" title="">static void Main(string[] args)
+```csharp
+static void Main(string[] args)
 {
   Order myOrder = new Order();
   decimal yield;
@@ -54,7 +55,8 @@ If an exception is thrown in the method CalculateYield the flow is short-circuit
 
 Return codes imposes on method signature by requiring the return type to be a return code and potentially use a parameter as return type. This clutters the method signature and does not make the method functionality apparent. Notice the confusing method signature of CalculateYield in the following code:
 
-<pre class="brush: csharp; title: ; notranslate" title="">static void Main(string[] args)
+```csharp
+static void Main(string[] args)
 {
   Order myOrder = new Order();
   decimal yield = 0;
@@ -62,7 +64,7 @@ Return codes imposes on method signature by requiring the return type to be a re
 
   returnCode = CalculateYield(myOrder, yield);
 
-  if (returnCode &lt; = 0)
+  if (returnCode < = 0)
   {
     returnCode = UpdateStatus(myOrder);
   }
@@ -71,7 +73,7 @@ Return codes imposes on method signature by requiring the return type to be a re
     //** Error handling **//
   }
 
-  if (returnCode &gt; 0)
+  if (returnCode > 0)
   {
     //** Error handling **//
   }
@@ -102,7 +104,8 @@ _When to catch exceptions?_
 
 Catch only an exception if detailed information about the exception can be added, the exception is handled or some sort of compensation action is required. If the flow of execution can not continue, rethrow the exception so an exception can be handled further up the stack, e.g. inform the user.
 
-<pre class="brush: csharp; title: ; notranslate" title="">catch (ArgumentException ex)
+```csharp
+catch (ArgumentException ex)
 {
   // some clean up or logging
   throw ex;

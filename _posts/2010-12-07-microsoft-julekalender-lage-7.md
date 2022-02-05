@@ -31,7 +31,8 @@ Dagens opgave handler om Windows Communication Foundation. WCF er kompleks pga. 
 
 Implementer en klient til nedstående service, som benytter WSHttpBinding med default settings.
 
-<pre class="brush: csharp; title: ; notranslate" title="">[ServiceContract(Namespace = "www.lybecker.com/blog/wcfriddle")]
+```csharp
+[ServiceContract(Namespace = "www.lybecker.com/blog/wcfriddle")]
 public interface IMyService
 {
     [OperationContract(ProtectionLevel =

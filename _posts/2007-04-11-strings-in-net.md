@@ -17,7 +17,8 @@ Strings in .Net are [immutable](http://en.wikipedia.org/wiki/Immutable_object) r
 
 Below is a code sample that shows the value type characteristics of string.
 
-<pre class="brush: csharp; title: ; notranslate" title="">string s1 = "Anders";
+```csharp
+string s1 = "Anders";
 string s2 = "Anders";
 
 Console.WriteLine("s1 and s2 are equal : {0}", s1 == s2);
@@ -30,7 +31,8 @@ For regular reference types this would have been an object reference compare, bu
 
 Continuing the example by implicit cast each string to an object:
 
-<pre class="brush: csharp; title: ; notranslate" title="">object o1 = s1;
+```csharp
+object o1 = s1;
 object o2 = s2;
 
 Console.WriteLine("o1 and o2 are equal : {0}", o1 == o2);
@@ -41,7 +43,8 @@ o1 and o2 are equal : True
 
 These two strings are equal due to the CLR optimization called interning. Interning works by having an internal pool of unique literal strings. If the same literal string is assigned to multiple variables the runtime retrieves the reference to the literal string in the internal pool and assigns it to each variable.
 
-<pre class="brush: csharp; title: ; notranslate" title="">Console.WriteLine("s1 and s2 are same : {0}", object.ReferenceEquals(s1, s2));
+```csharp
+Console.WriteLine("s1 and s2 are same : {0}", object.ReferenceEquals(s1, s2));
 Console.WriteLine("o1 and o2 are same : {0}", object.ReferenceEquals(o1, o2));
 </pre>
 
@@ -55,7 +58,8 @@ When comparing the strings or objects all of them are the same instance! This is
 
 Let us rewrite the code and try something a little bit different:
 
-<pre class="brush: csharp; title: ; notranslate" title="">string s1 = "Anders";
+```csharp
+string s1 = "Anders";
 string s2 = new StringBuilder("Anders").ToString();
 
 object o1 = s1;

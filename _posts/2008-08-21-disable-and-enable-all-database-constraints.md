@@ -23,7 +23,7 @@ exec sp_MSforeachtable 'ALTER TABLE ? NOCHECK CONSTRAINT ALL'`
 `--Enable all Constraints<br />
 exec sp_MSforeachtable 'ALTER TABLE ? CHECK CONSTRAINT ALL'`
 
-That&#8217;s easy&#8230; 😛
+That's easy&#8230; 😛
 
 I found this on the Internet somewhere &#8211; the sp_MSforeachtable procedure is nowhere to be found in books online.
 You can check if foreign keys and check constrains are disabled via the sys.foreign\_keys  and sys.check\_constraints views.

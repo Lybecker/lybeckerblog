@@ -1,10 +1,6 @@
 ---
-
 title: I am a Softie
-date: 2013-12-24T17:00:57+01:00
-
-
-guid: http://www.lybecker.com/blog/?p=1138
+excerpt: I work for Microsoft now
 permalink: /blog/2013/12/24/i-am-a-softie/
 dsq_thread_id:
   - "3465915140"
@@ -15,11 +11,12 @@ categories:
 tags:
   - Microsoft
 ---
-[<img loading="lazy" class=" wp-image-1147 alignright" alt="Microsoft logo" src="http://www.lybecker.com/blog/wp-content/uploads/microsoft-logo-150x150.jpg" width="100" height="100" />](http://www.lybecker.com/blog/wp-content/uploads/microsoft-logo.jpg)
+![Microsoft logo](/wp-content/uploads/microsoft-logo.jpg)
+{: .align-right}
 
 Softie is internal slang for Microsoft employee.
 
-For a couple of years I have had my own company [Avior](http://avior.dk "Avior company website") together with my partner. We had fun times and difficult times, but we did what we loved – developed software. Late September I started talking with Microsoft Denmark about the position as technical evangelist. At first I was reluctant as I was afraid to lose my technical competence and leaving my own company, but I was intrigued. I finally agreed to leave Avior and join Microsoft after a couple of conversations with current and previously Microsoft employees – they all spoke fondly about Microsoft – if I could cope with the politics and ceremony.
+For a couple of years I have had my own company [Avior](http://avior.dk) together with my partner. We had fun times and difficult times, but we did what we loved – developed software. Late September I started talking with Microsoft Denmark about the position as technical evangelist. At first I was reluctant as I was afraid to lose my technical competence and leaving my own company, but I was intrigued. I finally agreed to leave Avior and join Microsoft after a couple of conversations with current and previously Microsoft employees – they all spoke fondly about Microsoft – if I could cope with the politics and ceremony.
 
 ## What is the job of a technical evangelist?
 
@@ -37,6 +34,6 @@ I am catching up on the Windows 8, Windows Phone 8 and Azure – which is the ne
 
 I wish to engage the community more in the New Year, so I am busy planning talks and the Danish Developer Conference.
 
-<span style="line-height: 1.5em;">One request for you – let me know how I am doing, please.</span>
+_One request for you – let me know how I am doing, please._
 
 Merry Christmas and happy New Year.

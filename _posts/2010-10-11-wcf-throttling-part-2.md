@@ -56,32 +56,32 @@ Resist the temptation of settings any of these properties to Int.MaxValue and th
   </p>
 
   <pre class="brush: xml; title: ; notranslate" title="">
-&lt;system.serviceModel&gt;
-  &lt;behaviors&gt;
-    &lt;endpointBehaviors&gt;
-      &lt;behavior name="endpointBehavior"&gt;
-        &lt;dataContractSerializer maxItemsInObjectGraph="65536"/&gt;
-      &lt;/behavior&gt;
-    &lt;/endpointBehaviors&gt;
-    &lt;serviceBehaviors&gt;
-      &lt;behavior name="serviceBehaviors"&gt;
-        &lt;dataContractSerializer maxItemsInObjectGraph="65536"/&gt;
-      &lt;/behavior&gt;
-    &lt;/serviceBehaviors&gt;
-  &lt;/behaviors&gt;
-  &lt;bindings&gt;
-    &lt;netTcpBinding&gt;
-      &lt;binding name="netTcpBindingConfig"
+<system.serviceModel>
+  <behaviors>
+    <endpointBehaviors>
+      <behavior name="endpointBehavior">
+        <dataContractSerializer maxItemsInObjectGraph="65536"/>
+      </behavior>
+    </endpointBehaviors>
+    <serviceBehaviors>
+      <behavior name="serviceBehaviors">
+        <dataContractSerializer maxItemsInObjectGraph="65536"/>
+      </behavior>
+    </serviceBehaviors>
+  </behaviors>
+  <bindings>
+    <netTcpBinding>
+      <binding name="netTcpBindingConfig"
                 maxReceivedMessageSize="65536"
-                maxConnections="10"&gt;
-        &lt;readerQuotas maxArrayLength="16384"
+                maxConnections="10">
+        <readerQuotas maxArrayLength="16384"
                       maxBytesPerRead="4096"
                       maxDepth="32"
                       maxStringContentLength="8192"
-                      maxNameTableCharCount="16384"/&gt;
-      &lt;/binding&gt;
-    &lt;/netTcpBinding&gt;
-  &lt;/bindings&gt;
-&lt;/system.serviceModel&gt;
+                      maxNameTableCharCount="16384"/>
+      </binding>
+    </netTcpBinding>
+  </bindings>
+</system.serviceModel>
 </pre>
 </div>

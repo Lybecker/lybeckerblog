@@ -16,4 +16,4 @@ tags:
 ---
 This week I hosted two sessions at two different events for Microsoft Denmark. One at Radisson SAS Scandinavia Hotel in Århus and one in Microsoft Denmark’s headquarter in Hellerup.
 
-It was fun at the feedback was very positive. The best part was during the breaks with great edifying technical discussions. All the slides are available at [Miracle&#8217;s homepage.](http://www.miracleas.dk/index.asp?page=168&page2=549)
+It was fun at the feedback was very positive. The best part was during the breaks with great edifying technical discussions. All the slides are available at [Miracle's homepage.](http://www.miracleas.dk/index.asp?page=168&page2=549)

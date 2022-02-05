@@ -51,7 +51,7 @@ FROM sys.dm_db_missing_index_groups mig
 	ON mig.index_handle = mid.index_handle
 WHERE
 	migs.avg_total_user_cost * (migs.avg_user_impact / 100.0) *
-		(migs.user_seeks + migs.user_scans) &gt; 10
+		(migs.user_seeks + migs.user_scans) > 10
 ORDER BY
 	migs.avg_total_user_cost * migs.avg_user_impact *
 		(migs.user_seeks + migs.user_scans) DESC
@@ -59,4 +59,4 @@ ORDER BY
 
 It is important to note, that these are index candidates are only _candidates_ and the improvements are based on _estimates_. The estimated improvement does not take extra disk space requirements and the maintenance of the indexes during updates, inserts and deletes. Furthermore it does not make recommendation about usage of clustered or non-clustered indexes.
 
-This blog post is inspired by Bart Duncan&#8217;s [Are you using SQL&#8217;s missing index DMVs](http://blogs.msdn.com/bartd/archive/2007/07/19/are-you-using-sql-s-missing-index-dmvs.aspx "Bart Duncan's SQL WebLog")?
+This blog post is inspired by Bart Duncan's [Are you using SQL's missing index DMVs](http://blogs.msdn.com/bartd/archive/2007/07/19/are-you-using-sql-s-missing-index-dmvs.aspx "Bart Duncan's SQL WebLog")?

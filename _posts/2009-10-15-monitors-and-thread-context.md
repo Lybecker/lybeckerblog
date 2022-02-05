@@ -17,11 +17,12 @@ tags:
 ---
 Running the below code will fail – why?
 
-<pre class="brush: csharp; title: ; notranslate" title="">var syncRoot = new object();
+```csharp
+var syncRoot = new object();
 
 Monitor.Enter(syncRoot);
 
-ThreadPool.QueueUserWorkItem(x =&gt; Monitor.Exit(syncRoot));
+ThreadPool.QueueUserWorkItem(x => Monitor.Exit(syncRoot));
 
 </pre>
 

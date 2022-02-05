@@ -41,7 +41,7 @@ Getting Lucene.Net up and running is simple, and using it with Azure library for
 <pre class="brush: csharp; highlight: [3,4,5,6,8,9,11,13,14,15]; title: ; notranslate" title="">Lucene.Net.Util.Version version = Lucene.Net.Util.Version.LUCENE_29;
 
 CloudStorageAccount.SetConfigurationSettingPublisher(
-    (configName, configSetter) =&gt;
+    (configName, configSetter) =>
         configSetter(RoleEnvironment
         .GetConfigurationSettingValue(configName)));
 

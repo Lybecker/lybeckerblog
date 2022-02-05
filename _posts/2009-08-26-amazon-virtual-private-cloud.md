@@ -22,4 +22,4 @@ One of the things that have kept me and properly many others from migrating our 
 
 Amazon’s new service – [Amazon Virtual Private Cloud](http://aws.amazon.com/vpc/ "Amazon Virtual Private Cloud site") enables you to extend the company’s network to Amazon’s cloud via a secure VPN connection.
 
-Read more about this new service from Amazon on Werner Vogels&#8217; article [Seamlessly Extending the Data Center &#8211; Introducing Amazon Virtual Private Cloud](http://www.allthingsdistributed.com/2009/08/amazon_virtual_private_cloud.html "Article: Seamlessly Extending the Data Center - Introducing Amazon Virtual Private Cloud").
+Read more about this new service from Amazon on Werner Vogels' article [Seamlessly Extending the Data Center &#8211; Introducing Amazon Virtual Private Cloud](http://www.allthingsdistributed.com/2009/08/amazon_virtual_private_cloud.html "Article: Seamlessly Extending the Data Center - Introducing Amazon Virtual Private Cloud").

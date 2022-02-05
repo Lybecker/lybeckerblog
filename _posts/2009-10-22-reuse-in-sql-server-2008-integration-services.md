@@ -25,7 +25,7 @@ You can make script tasks or script component with custom T-SQL or .Net code, bu
 
 I goggled reuse and SSIS and found this statement in an [article about reuse in SSIS](http://www.sqlservercentral.com/articles/SQL+Server+2005+-+SSIS/ssiscodereuseandcomplexcontrolflows/2021/ "Articel  	 SSIS - Code Reuse and Complex Control Flows") at SqlServerCentral.com:
 
-> Let&#8217;s not forget, copy&paste _is_ the first level of code reuse
+> Let's not forget, copy&paste _is_ the first level of code reuse
 
 In essence it’s true, but I would hope the entire Information Technology industry has move way beyond this point years ago.
 

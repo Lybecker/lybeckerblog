@@ -41,15 +41,15 @@ This simple select statement was isolated and copied into the Management Studio 
 
 The SQL Server will include loads in information and one of these are suggested indexes which you will not see with the graphical execution plan in Management Studio. Look for the MissingIndex elements:
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;missingindexes&gt;
-  &lt;missingindexgroup Impact="96.6222"&gt;
-    &lt;missingindex Database="&#91;DOIPEI&#93;" Schema="&#91;dbo&#93;" Table="&#91;OrganisationalUnit_Stack&#93;"&gt;
-      &lt;columngroup Usage="EQUALITY"&gt;
-        &lt;column Name="&#91;org_pkid&#93;" ColumnId="2" /&gt;
-      &lt;/columngroup&gt;
-    &lt;/missingindex&gt;
-  &lt;/missingindexgroup&gt;
-&lt;/missingindexes&gt;
+<pre class="brush: xml; title: ; notranslate" title=""><missingindexes>
+  <missingindexgroup Impact="96.6222">
+    <missingindex Database="&#91;DOIPEI&#93;" Schema="&#91;dbo&#93;" Table="&#91;OrganisationalUnit_Stack&#93;">
+      <columngroup Usage="EQUALITY">
+        <column Name="&#91;org_pkid&#93;" ColumnId="2" />
+      </columngroup>
+    </missingindex>
+  </missingindexgroup>
+</missingindexes>
 </pre>
 
 By creating this single index on [DOIPEI].[dbo]. [OrganisationalUnit\_Stack]. [org\_pkid] the TimeOutExceptions disappeared, as the query no longer took minutes but milliseconds.

@@ -20,7 +20,8 @@ tags:
 ---
 In the old days – pre .Net 3.0, a Web Service required the IIS, a class marked with the WebService attribute and one or more methods exposed by the WebMethod attribute. Something like this:
 
-<pre class="brush: csharp; title: ; notranslate" title="">[WebService]
+```csharp
+[WebService]
 public class HelloWorldService
 {
   [WebMethod]
@@ -39,7 +40,8 @@ With WCF you have to do a little more work, but you get a lot of added functiona
 
 WCF emphasises contract first design. It is easy with WCF, because you do not have to make the WSDL file yourself. You just have to make a regular .Net interface decorated with some attributes.
 
-<pre class="brush: csharp; title: ; notranslate" title="">[ServiceContract]
+```csharp
+[ServiceContract]
 public interface IHelloWorldService
 {
   [OperationContract]
@@ -55,7 +57,8 @@ Now you have the contract of your server, by which you actually can produce a WS
 
 Next you have to implement the interface. The implemented class is called service type.
 
-<pre class="brush: csharp; title: ; notranslate" title="">public class HelloWorldService : IHelloWorldService
+```csharp
+public class HelloWorldService : IHelloWorldService
 {
   public string HelloWorld()
   {
@@ -66,7 +69,8 @@ Next you have to implement the interface. The implemented class is called servic
 
 All that is left is a process to host the WCF Web Service. We could use IIS, but I’ll use one of the new possibilities &#8211; a console application. Just because we can!
 
-<pre class="brush: csharp; title: ; notranslate" title="">class Program
+```csharp
+class Program
 {
   static void Main(string[] args)
   {
@@ -92,18 +96,18 @@ The address is the URL, the binding specifies the protocol and data format and w
 
 Add a configuration file (App.config) and enter the ABC.
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt; ?xml version=“1.0“ encoding=“utf-8“ ?&gt;
-  &lt;configuration&gt;
-    &lt;system .serviceModel&gt;
-      &lt;services&gt;
-        &lt;service name=“HelloWorldService“&gt;
-          &lt;endpoint address=“http://localhost:8080/HelloWorldService“
+<pre class="brush: xml; title: ; notranslate" title="">< ?xml version=“1.0“ encoding=“utf-8“ ?>
+  <configuration>
+    <system .serviceModel>
+      <services>
+        <service name=“HelloWorldService“>
+          <endpoint address=“http://localhost:8080/HelloWorldService“
 	                 binding=“basicHttpBinding”
-	                 contract=“IHelloWorldService“ /&gt;
-      &lt;/service&gt;
-    &lt;/services&gt;
-  &lt;/system&gt;
-&lt;/configuration&gt;
+	                 contract=“IHelloWorldService“ />
+      </service>
+    </services>
+  </system>
+</configuration>
 </pre>
 
 The basicHttpBinding is a regular XML Web Service with text encoded SOAP messages transported via HTTP – just like the pre .Net 3.0 implementation.

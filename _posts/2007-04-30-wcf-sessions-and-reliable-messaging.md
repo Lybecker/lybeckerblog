@@ -33,43 +33,44 @@ In the service type implementation it is possible to retrieve the session identi
 
 If you want un-secure reliable ordered messages with sessions, then change the behavior of the wsHttpBinding by configuring the binding like below. The configuration shown is for the service, but the changes (in bold) are exactly the same as required in the clients’ configuration files.
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt; ?xml version="1.0" encoding="utf-8" ?&gt;
-&lt;configuration&gt;
-  &lt;system .serviceModel&gt;
-    &lt;behaviors&gt;
-      &lt;servicebehaviors&gt;
-        &lt;behavior name="myBehavior"&gt;
-          &lt;servicemetadata httpGetEnabled="true"
-                           httpGetUrl="http://localhost:8080/HelloWorldService" /&gt;
-        &lt;/behavior&gt;
-      &lt;/servicebehaviors&gt;
-    &lt;/behaviors&gt;
-    &lt;bindings&gt;
-      &lt;wshttpbinding&gt;
-        &lt;binding name="reliableBinding"&gt;
-          &lt;reliablesession enabled="true" ordered="true"/&gt;
-          &lt;security mode="None" /&gt;
-        &lt;/binding&gt;
-      &lt;/wshttpbinding&gt;
-    &lt;/bindings&gt;
-    &lt;services&gt;
-      &lt;service name="HelloWorldService"
-               behaviorConfiguration="myBehavior"&gt;
-        &lt;endpoint address="http://localhost:8080/HelloWorldService"
+<pre class="brush: xml; title: ; notranslate" title="">< ?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <system .serviceModel>
+    <behaviors>
+      <servicebehaviors>
+        <behavior name="myBehavior">
+          <servicemetadata httpGetEnabled="true"
+                           httpGetUrl="http://localhost:8080/HelloWorldService" />
+        </behavior>
+      </servicebehaviors>
+    </behaviors>
+    <bindings>
+      <wshttpbinding>
+        <binding name="reliableBinding">
+          <reliablesession enabled="true" ordered="true"/>
+          <security mode="None" />
+        </binding>
+      </wshttpbinding>
+    </bindings>
+    <services>
+      <service name="HelloWorldService"
+               behaviorConfiguration="myBehavior">
+        <endpoint address="http://localhost:8080/HelloWorldService"
                   binding="wsHttpBinding"
                   bindingConfiguration="reliableBinding"
-                  contract="IHelloWorldService" /&gt;
-      &lt;/service&gt;
-    &lt;/services&gt;
-  &lt;/system&gt;
-&lt;/configuration&gt;
+                  contract="IHelloWorldService" />
+      </service>
+    </services>
+  </system>
+</configuration>
 </pre>
 
 Now the session identifiers are conveyed by the WS-Reliable Messaging protocol (linie 13-18). It is possible to use secure and reliable messages, but security is disabled to prove the point of WS-Reliable Messaging can be used to establish sessions.
 
 If the implementation of your service requires sessions, decorate the service contract with the SessionMode.Required – this will demand that every endpoint bindings exposing the service support sessions. The possible values of the SessionMode enum are Required, Allowed and NotAllowed where Allowed is default.
 
-<pre class="brush: csharp; title: ; notranslate" title="">[ServiceContract(SessionMode=SessionMode.Required)]
+```csharp
+[ServiceContract(SessionMode=SessionMode.Required)]
 public interface IHelloWorldService
 {
     [OperationContract]
@@ -79,7 +80,8 @@ public interface IHelloWorldService
 
 If guaranteed ordering of messages is assumed by the implementation and therefore required for dependable behavior of the service, then decorate the service contract with the DeliveryRequirements attribute with the parameter RequireOrderedDelivery set to true.
 
-<pre class="brush: csharp; title: ; notranslate" title="">[ServiceContract(SessionMode=SessionMode.Required)]
+```csharp
+[ServiceContract(SessionMode=SessionMode.Required)]
 [DeliveryRequirements(RequireOrderedDelivery=true)]
 public interface IHelloWorldService
 {
@@ -94,7 +96,8 @@ If the configuration of an endpoint does not fulfill the requirements, the host 
   <em>When to use the sessions</em><br /> Sessions in WCF does not deliver the same functionality as in ASP.Net or ASMX based Web Services. For instance the <a href="http://msdn2.microsoft.com/en-us/library/system.web.sessionstate.httpsessionstate.aspx">HttpSessionState</a> store is not available, not even if the WCF service is hosted in the IIS. WCF sessions are similar to Remoting sessions and are only for service instancing.
 </p>
 
-<pre class="brush: csharp; title: ; notranslate" title="">[ServiceBehavior(InstanceContextMode = InstanceContextMode.PerSession)]
+```csharp
+[ServiceBehavior(InstanceContextMode = InstanceContextMode.PerSession)]
 public class HelloWorldService : IHelloWorldService
 {
     public string HelloWorld()

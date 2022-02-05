@@ -4,6 +4,7 @@
         "disqus",
         "KRACK",
         "Lucene",
-        "Lybecker"
+        "Lybecker",
+        "nameof"
     ]
 }

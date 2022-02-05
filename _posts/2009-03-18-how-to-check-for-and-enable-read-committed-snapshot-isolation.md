@@ -22,7 +22,7 @@ Run the below query to see which databases that uses read committed snapshot iso
 
 To enable it on a specific database run the below query:
 
-<pre class="brush: sql; title: ; notranslate" title="">ALTER DATABASE [&lt;databasename&gt;]
+<pre class="brush: sql; title: ; notranslate" title="">ALTER DATABASE [<databasename>]
 SET READ_COMMITTED_SNAPSHOT ON
 </pre>
 

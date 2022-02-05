@@ -19,7 +19,8 @@ is thrown every time you divide by zero, right? No – it depends.
 
 Let’s try &#8211; regular division with integers.
 
-<pre class="brush: csharp; title: ; notranslate" title="">int i1 = 4;
+```csharp
+int i1 = 4;
 int i2 = 0;
 
 try
@@ -38,7 +39,8 @@ absolutely correct. So what is all the fuzz about?
 
 Let’s try again, but this time with floating point numbers.
 
-<pre class="brush: csharp; title: ; notranslate" title="">double d1 = 4.0;
+```csharp
+double d1 = 4.0;
 double d2 = 0.0;
 
 try

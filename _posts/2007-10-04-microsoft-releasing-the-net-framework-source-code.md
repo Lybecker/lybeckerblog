@@ -21,5 +21,5 @@ tags:
 </p>
 
 <p class="MsoNormal">
-  Read more on <a title="Schott Guthrie's blog" href="http://weblogs.asp.net/scottgu/archive/2007/10/03/releasing-the-source-code-for-the-net-framework-libraries.aspx">Scott Guthrie&#8217;s blog</a>.
+  Read more on <a title="Schott Guthrie's blog" href="http://weblogs.asp.net/scottgu/archive/2007/10/03/releasing-the-source-code-for-the-net-framework-libraries.aspx">Scott Guthrie's blog</a>.
 </p>

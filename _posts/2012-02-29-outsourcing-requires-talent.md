@@ -1,10 +1,6 @@
 ---
-
 title: Outsourcing requires Talent
-date: 2012-02-29T22:10:36+01:00
-
-
-guid: http://www.lybecker.com/blog/?p=1022
+excerpt: Blindly outsourcing work will always fail. Your company need to find passionate and talented knowledge workers to have a chance to succeed
 permalink: /blog/2012/02/29/outsourcing-requires-talent/
 dsq_thread_id:
   - "5295761563"
@@ -16,7 +12,10 @@ tags:
   - Skill
   - Talent
 ---
-<img loading="lazy" class="alignright size-full wp-image-1018" title="Where are the jobs?" src="http://www.lybecker.com/blog/wp-content/uploads/offshoring.jpg" alt="" width="200" height="150" />_I’ll be discussing specifically in the context of [knowledge workers](http://en.wikipedia.org/wiki/Knowledge_worker "Knowledge worker on Wikipedia") who “think for a living” such as software developers, lawyers, business analysts and the likes. I will use software developers as an example, but it applies to other knowledge workers too._
+![Where are the jobs?](/wp-content/uploads/offshoring.jpg)
+{: .align-right}
+
+_I’ll be discussing specifically in the context of [knowledge workers](http://en.wikipedia.org/wiki/Knowledge_worker "Knowledge worker on Wikipedia") who “think for a living” such as software developers, lawyers, business analysts and the likes. I will use software developers as an example, but it applies to other knowledge workers too._
 
 You might have success outsourcing if you find talent, but you will fail without!
 

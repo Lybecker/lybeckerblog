@@ -19,4 +19,4 @@ The blog is in Danish and called [NoTech](http://it-notech.blogspot.com/ "Thomas
 
 Blog description:
 
-> Here I&#8217;ll share my opinions, joys and frustrations about software development and IT projects &#8211; both the good stories and horrendous experiences.
+> Here I'll share my opinions, joys and frustrations about software development and IT projects &#8211; both the good stories and horrendous experiences.
