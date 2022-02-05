@@ -1,6 +1,6 @@
 ---
 title: Supporting IPv4 and IPv6 dual mode network with one socket
-permalink: /blogblog/2018/08/23/supporting-ipv4-and-ipv6-dual-mode-network-with-one-socket/
+permalink: /blog/2018/08/23/supporting-ipv4-and-ipv6-dual-mode-network-with-one-socket/
 categories:
   - .Net
 tags:
