@@ -6,7 +6,7 @@ dsq_thread_id:
   - "3456420517"
   - "3456420517"
 categories:
-  - ASP.Net
+  - .Net
 tags:
   - AJAX
   - ASP.Net MVC
