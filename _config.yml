@@ -24,7 +24,7 @@ description: A blog about cloud computing, programming and related stuff
 twitter_username: lybecker
 github_username:  lybecker
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://www.lybecker.com" # the base hostname & protocol for your site, e.g. http://example.com
 analytics:
   provider: "google-gtag"
