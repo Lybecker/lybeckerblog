@@ -7,7 +7,7 @@ main:
     url: /about/
   - title: Feed
     url: http://feeds.lybecker.com/AndersLybecker
-  - title: "By year"
+  - title: "Posts by year"
     url: /posts/
-  - title: "By tag"
+  - title: "Post by tag"
     url: /tags/
