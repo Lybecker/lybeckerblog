@@ -1,10 +1,5 @@
 ---
-
 title: SCRUM Certified Master
-date: 2007-05-23T12:32:29+01:00
-
-
-guid: http://www.lybecker.com/blog/2007/05/23/scrum-certified-master/
 permalink: /blog/2007/05/23/scrum-certified-master/
 dsq_thread_id:
   - "3753474105"

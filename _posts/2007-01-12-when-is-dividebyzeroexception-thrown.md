@@ -1,9 +1,5 @@
 ---
-
 title: When is DivideByZeroException thrown?
-date: 2007-01-12T16:00:05+01:00
-
-guid: http://www.lybecker.com/blog/2007/01/12/when-is-dividebyzeroexception-thrown/
 permalink: /blog/2007/01/12/when-is-dividebyzeroexception-thrown/
 dsq_thread_id:
   - "3456317219"
@@ -32,9 +28,9 @@ catch (System.DivideByZeroException)
 {
 Console.WriteLine("DivideByZeroException");
 }
-</pre>
+```
 
-Hmm, I see a DivideByZeroException coming, and that’s
+Hmm, I see a `DivideByZeroException` coming, and that’s
 absolutely correct. So what is all the fuzz about?
 
 Let’s try again, but this time with floating point numbers.
@@ -52,7 +48,7 @@ catch (System.DivideByZeroException)
 {
 Console.WriteLine("DivideByZeroException");
 }
-</pre>
+```
 
 If you try to run this piece of code, no exception is
 thrown. Instead INF (short for infinite) is returned. To be more precise a PositiveInfinity,

@@ -1,10 +1,5 @@
 ---
-
 title: 'Easy win &#8211; index candidates on SQL Server 2005'
-date: 2008-12-01T08:43:10+01:00
-
-
-guid: http://www.lybecker.com/blog/?p=180
 permalink: /blog/2008/12/01/easy-win-index-candidates-on-sql-server-2005/
 dsq_thread_id:
   - "3456317602"
@@ -32,16 +27,18 @@ A quick look in the source repository showed that almost no changes to the user 
 
 With the SQL Server Profiler it was easy to spot the cause of the exception.
 
-[<img loading="lazy" class="alignnone size-full wp-image-182" title="SQL Server Profiler trace - Easy to spot culprit" src="http://www.lybecker.com/blog/wp-content/uploads/sqlserverprofilertrace.png" alt="" width="500" height="293" />](http://www.lybecker.com/blog/wp-content/uploads/sqlserverprofilertrace.png)
+![SQL Server Profiler trace - Easy to spot culprit](/wp-content/uploads/sqlserverprofilertrace.png)
 
 This simple select statement was isolated and copied into the Management Studio to view the Actual Execution Plan. The execution plan did show much, but by execution the below statement which instructs the SQL Server not to execute the Transact-SQL  statements. Instead, SQL Server returns detailed information about how the statements are going to be executed in the form of a well-defined XML document.
 
-<pre class="brush: sql; title: ; notranslate" title="">SET SHOWPLAN_XML ON
-</pre>
+```sql
+SET SHOWPLAN_XML ON
+```
 
 The SQL Server will include loads in information and one of these are suggested indexes which you will not see with the graphical execution plan in Management Studio. Look for the MissingIndex elements:
 
-<pre class="brush: xml; title: ; notranslate" title=""><missingindexes>
+```xml
+<missingindexes>
   <missingindexgroup Impact="96.6222">
     <missingindex Database="&#91;DOIPEI&#93;" Schema="&#91;dbo&#93;" Table="&#91;OrganisationalUnit_Stack&#93;">
       <columngroup Usage="EQUALITY">
@@ -50,7 +47,7 @@ The SQL Server will include loads in information and one of these are suggested 
     </missingindex>
   </missingindexgroup>
 </missingindexes>
-</pre>
+```
 
 By creating this single index on [DOIPEI].[dbo]. [OrganisationalUnit\_Stack]. [org\_pkid] the TimeOutExceptions disappeared, as the query no longer took minutes but milliseconds.
 

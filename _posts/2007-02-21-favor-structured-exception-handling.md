@@ -1,10 +1,5 @@
 ---
-
 title: Favor structured exception handling
-date: 2007-02-21T16:36:40+01:00
-
-
-guid: http://www.lybecker.com/blog/2007/02/21/favor-structured-exception-handling/
 permalink: /blog/2007/02/21/favor-structured-exception-handling/
 dsq_thread_id:
   - "3460989877"
@@ -49,7 +44,7 @@ public static void UpdateStatus(Order order)
 {
   // update status
 }
-</pre>
+```
 
 If an exception is thrown in the method CalculateYield the flow is short-circuited and the method UpdateStatus is never called. With return codes the developer has to manually check if the method failed and manually propagate the return code up the stack.
 
@@ -90,7 +85,7 @@ public static int UpdateStatus(Order order)
   // update status
   return 0; // return code
 }
-</pre>
+```
 
 Return codes are inferior to exceptions. Exceptions are instances of a class and can therefore carry detailed information – not like integer return codes! It is non-reputable that return codes are no good.
 
@@ -110,7 +105,7 @@ catch (ArgumentException ex)
   // some clean up or logging
   throw ex;
 }
-</pre>
+```
 
 When rethrowing exceptions, it is important to do it the right way. By using the above pattern regarding throwing and not throwing ex, the stack walk is not performed twice, making the rethrow virtually free.
 

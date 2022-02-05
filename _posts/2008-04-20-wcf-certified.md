@@ -1,10 +1,5 @@
 ---
-
 title: WCF certified
-date: 2008-04-20T07:43:19+01:00
-
-
-guid: http://www.lybecker.com/blog/2008/04/20/wcf-certified/
 permalink: /blog/2008/04/20/wcf-certified/
 autometa:
   - exam certified preparation specialist january incomplete prepare passed

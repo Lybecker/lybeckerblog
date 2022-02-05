@@ -1,10 +1,5 @@
 ---
-
 title: World’s first electronic annual general meeting
-date: 2009-04-16T12:52:19+01:00
-
-
-guid: http://www.lybecker.com/blog/?p=314
 permalink: /blog/2009/04/16/worlds-first-electronic-annual-general-meeting/
 dsq_thread_id:
   - "3502699643"
@@ -20,10 +15,4 @@ My job as a technical consultant, together with a handful of other techies, was 
 
 The tension was high right up to the last minute before the premiere, but everything went smooth. 🙂
 
-<div id="attachment_315" style="width: 560px" class="wp-caption aligncenter">
-  <a href="http://www.lybecker.com/blog/wp-content/uploads/egf_screenshot.png"><img aria-describedby="caption-attachment-315" loading="lazy" class="size-large wp-image-315" title="eGF screenshot" src="http://www.lybecker.com/blog/wp-content/uploads/egf_screenshot-550x340.png" alt="Screenshot of the World’s first electronic annual general meeting" width="550" height="340" /></a>
-
-  <p id="caption-attachment-315" class="wp-caption-text">
-    Screenshot of the World’s first electronic annual general meeting
-  </p>
-</div>
+![Screenshot of the World’s first electronic annual general meeting](/wp-content/uploads/egf_screenshot.png)

@@ -1,9 +1,5 @@
 ---
-
 title: A simple Windows Communication Foundation Web Service
-date: 2007-01-15T22:59:28+01:00
-
-guid: http://www.lybecker.com/blog/2007/01/15/a-simple-windows-communication-foundation-web-service/
 permalink: /blog/2007/01/15/a-simple-windows-communication-foundation-web-service/
 autometa:
   - webservice webmethod servicehost enter pre helloworldservice helloworldservice host
@@ -18,6 +14,9 @@ tags:
   - dotNet
   - WCF
 ---
+{{site.data.messages.dotnetframeworkwarning}}
+{: .notice--warning}
+
 In the old days – pre .Net 3.0, a Web Service required the IIS, a class marked with the WebService attribute and one or more methods exposed by the WebMethod attribute. Something like this:
 
 ```csharp
@@ -30,7 +29,7 @@ public class HelloWorldService
     return “Hello World”;
   }
 }
-</pre>
+```
 
 Optionally you could inherit the service class from System.Web.Services.WebService, if you need access to the HttpContext.
 
@@ -47,7 +46,7 @@ public interface IHelloWorldService
   [OperationContract]
   string HelloWorld();
 }
-</pre>
+```
 
 The ServiceContract and OperationContract are part of the System.ServiceModel.dll which is part of the .Net 3.0 framework – so you need to add a reference to System.ServiceModel.dll.
 
@@ -65,7 +64,7 @@ public class HelloWorldService : IHelloWorldService
     return “Hello World”;
   }
 }
-</pre>
+```
 
 All that is left is a process to host the WCF Web Service. We could use IIS, but I’ll use one of the new possibilities &#8211; a console application. Just because we can!
 
@@ -89,14 +88,15 @@ class Program
     }
   }
 }
-</pre>
+```
 
 Before running the application we need to configure a service endpoint – the address, binding and contract. You properly heard about ABC.
 The address is the URL, the binding specifies the protocol and data format and we have already made the contract.
 
 Add a configuration file (App.config) and enter the ABC.
 
-<pre class="brush: xml; title: ; notranslate" title="">< ?xml version=“1.0“ encoding=“utf-8“ ?>
+```xml
+< ?xml version=“1.0“ encoding=“utf-8“ ?>
   <configuration>
     <system .serviceModel>
       <services>
@@ -108,7 +108,7 @@ Add a configuration file (App.config) and enter the ABC.
     </services>
   </system>
 </configuration>
-</pre>
+```
 
 The basicHttpBinding is a regular XML Web Service with text encoded SOAP messages transported via HTTP – just like the pre .Net 3.0 implementation.
 
@@ -116,4 +116,4 @@ That’s it. A WCF Web Service.
 
 The beauty with WCF is if you for example want added security, you can encrypt the SOAP body, by using WS-Security, simply by changing the binding in the configuration file to wsHttpBinding. If you ever tried that with WSE 3.0, you know it is a pain.
 
-You can download the working WCF example here: [Hello World WCF Service](http://www.lybecker.com/blog/wp-content/uploads/helloworldwcf.zip)
+You can download the working WCF example here: [Hello World WCF Service](/wp-content/uploads/helloworldwcf.zip)

@@ -1,10 +1,5 @@
 ---
-
 title: How does Reliable Messaging work?
-date: 2007-01-23T18:05:42+01:00
-
-
-guid: http://www.lybecker.com/blog/2007/01/23/how-does-reliable-messaging-work/
 permalink: /blog/2007/01/23/how-does-reliable-messaging-work/
 dsq_thread_id:
   - "3459164297"
@@ -23,7 +18,7 @@ Reliable massaging ensures that messages send over a wire are delivered exactly 
 
 When implementing connected solutions the normal message pattern are; send a message and get a response or acknowledge of some kind back.
 
-<img loading="lazy" class="aligncenter size-full wp-image-294" title="Reliable Messaging - send/response" src="http://www.lybecker.com/blog/wp-content/uploads/reliablemessaging1.png" alt="Reliable Messaging - send/response" width="400" height="121" />
+![Reliable Messaging - send/response](/wp-content/uploads/reliablemessaging1.png)
 
 In a &#8220;happy day&#8221; scenario the message travels back and forth between the initiator and the acceptor with no problems. Initiator and acceptor are used as both clients and servers can initiate a message sequence.
 
@@ -32,11 +27,11 @@ problems. (I have done it myself – shhh don’t tell anybody;-))
 
 The difficulty is how to detect if a message is missing and how to recover.
 
-<img loading="lazy" class="aligncenter size-full wp-image-295" title="Reliable Messaging - Lost send" src="http://www.lybecker.com/blog/wp-content/uploads/reliablemessaging2.png" alt="Reliable Messaging - Lost send" width="400" height="128" />
+![Reliable Messaging - Lost send(/wp-content/uploads/reliablemessaging2.png)
 
 In the event of the initiator’s message never arrives to the acceptor and the acknowledge message will never send back to the initiator. This will causes the initiator to resend the message after a period of time. This requires a message store on the initiator so it can resend any lost messages.
 
-<img loading="lazy" class="aligncenter size-full wp-image-296" title="Reliable Messaging - Lost response" src="http://www.lybecker.com/blog/wp-content/uploads/reliablemessaging3.png" alt="Reliable Messaging - Lost response" width="400" height="147" />
+![Reliable Messaging - Lost response](/wp-content/uploads/reliablemessaging3.png)
 
 In this next scenario the message is received and processed by the acceptor but the acknowledge message gets lost. From the initiators perspective this is exactly the same problem as previous where the initiator’s message got lost.
 

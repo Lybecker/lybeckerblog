@@ -1,10 +1,6 @@
 ---
-
 title: Enabling Danish for SQL Server FullText
 date: 2010-08-09T19:10:19+01:00
-
-
-guid: http://www.lybecker.com/blog/?p=704
 permalink: /blog/2010/08/09/enabling-danish-for-sql-server-fulltext/
 dsq_thread_id:
   - "3456318034"
@@ -31,9 +27,9 @@ The Danish, Polish and Turkish wordbreaker and stemmer implementations for SQL S
 To make use of the Danish language capabilities in SQL Server 2008, register the libraries in registry and reload the FullText languages:
 
   1. Download & run the [DanishFulltext.reg](http://www.lybecker.com/blog/wp-content/uploads/DanishFullText.zip) file on the server. It will register wordbreaker, stemmer and default location of the thesaurus xml file.
-  2. Run the exec sp\_fulltext\_service &#8216;update_languages' in a Management Studio.
+  2. Run the `exec sp_fulltext_service 'update_languages'` in a Management Studio.
 
-Now verify that Danish is enabled with this query: SELECT name FROM sys.fulltext_languages
+Now verify that Danish is enabled with this query: `SELECT name FROM sys.fulltext_languages`
 
 Note: The DanishFullText.reg assumes that SQL Server is a default instance (not a named instance). If not, modify the file by changing the MSSQL10.MSSQLSERVER to the instance name.
 

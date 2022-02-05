@@ -1,14 +1,6 @@
 ---
-
 title: 32-bit WCF memory allocation trouble
-date: 2008-03-18T22:15:38+01:00
-
-
-guid: http://www.lybecker.com/blog/2008/03/18/32-bit-wcf-trouble/
 permalink: /blog/2008/03/18/32-bit-wcf-trouble/
-autometa:
-  - transfer buffered oom streamed largeaddressaware memory identifiers allocate
-  - transfer buffered oom streamed largeaddressaware memory identifiers allocate
 dsq_thread_id:
   - "3456317395"
   - "3456317395"
@@ -37,8 +29,8 @@ I figured that the .Net might have a limitation and perhaps a switch to enable l
 The steps to enable LARGEADDRESSAWARE for an application:
 
   1. Start Visual Studio Command Prompt or run VSVARS32.BAT (in the visual studio subdirectory: Common7Tools) which in effect does the same things.
-  2. Run editbin /LARGEADDRESSAWARE <yourApp>.exe
+  2. Run `editbin /LARGEADDRESSAWARE <yourApp>.exe`
 
 Tomorrow I will change the implementation to use streamed transfer mode. Promise 🙂
 
-![simpsonsalwaysusestreamedtransfermode.gif](http://www.lybecker.com/blog/wp-content/simpsonsalwaysusestreamedtransfermode.gif)
+![simpsonsalwaysusestreamedtransfermode.gif](/wp-content/simpsonsalwaysusestreamedtransfermode.gif)

@@ -1,10 +1,5 @@
 ---
-
 title: Finding Missing Indexes with SQL Server DMVs
-date: 2010-05-10T22:06:43+01:00
-
-
-guid: http://www.lybecker.com/blog/?p=637
 permalink: /blog/2010/05/10/finding-missing-indexes-with-sql-server-dmvs/
 dsq_thread_id:
   - "3540817618"
@@ -24,7 +19,8 @@ SQL server maintains statistics about indexes you should consider creating. This
 
 The query is based on three DMVs and returns index candidates where the calculated improvement is more than 10%:
 
-<pre class="brush: sql; title: ; notranslate" title="">SELECT
+```sql
+SELECT
   migs.avg_total_user_cost * (migs.avg_user_impact / 100.0) * (migs.user_seeks + migs.user_scans) AS improvement_measure_pct,
   QUOTENAME(db_name(mid.database_id)) AS [database],
   QUOTENAME(OBJECT_SCHEMA_NAME(mid.object_id, mid.database_id)) AS [schema],
@@ -55,7 +51,7 @@ WHERE
 ORDER BY
 	migs.avg_total_user_cost * migs.avg_user_impact *
 		(migs.user_seeks + migs.user_scans) DESC
-</pre>
+```
 
 It is important to note, that these are index candidates are only _candidates_ and the improvements are based on _estimates_. The estimated improvement does not take extra disk space requirements and the maintenance of the indexes during updates, inserts and deletes. Furthermore it does not make recommendation about usage of clustered or non-clustered indexes.
 

@@ -1,23 +1,16 @@
 ---
-
 title: Do you know how many types there are in the .Net Framework?
-date: 2008-03-18T08:40:02+01:00
-
-
-guid: http://www.lybecker.com/blog/2008/03/18/do-you-know-how-many-types-there-are-in-the-net-framework/
 permalink: /blog/2008/03/18/do-you-know-how-many-types-there-are-in-the-net-framework/
-autometa:
-  - intellisense grasp vast 100 417 capabilities answer addicted
-  - intellisense grasp vast 100 417 capabilities answer addicted
 dsq_thread_id:
   - "3459680937"
   - "3459680937"
 categories:
   - .Net
 ---
-<p style="text-align: center">
-  <img src="http://www.lybecker.com/blog/wp-content/typesindotnetframework.png" alt="Number of types in the .Net Framework" />
-</p>
+{{site.data.messages.dotnetframeworkwarning}}
+{: .notice--warning}
+
+![Number of types in the .Net Framework](/wp-content/typesindotnetframework.png)
 
 The answer is not 42 🙂 , but 11.417. I will never be able to grasp the vast capabilities of the .Net Framework.
 

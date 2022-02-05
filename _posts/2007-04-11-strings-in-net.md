@@ -1,10 +1,5 @@
 ---
-
 title: Strings in .Net
-date: 2007-04-11T16:47:50+01:00
-
-
-guid: http://www.lybecker.com/blog/2007/04/11/strings-in-net/
 permalink: /blog/2007/04/11/strings-in-net/
 dsq_thread_id:
   - "5294198065"
@@ -22,7 +17,7 @@ string s1 = "Anders";
 string s2 = "Anders";
 
 Console.WriteLine("s1 and s2 are equal : {0}", s1 == s2);
-</pre>
+```
 
 Output:
 s1 and s2 are equal : True
@@ -36,7 +31,7 @@ object o1 = s1;
 object o2 = s2;
 
 Console.WriteLine("o1 and o2 are equal : {0}", o1 == o2);
-</pre>
+```
 
 Output:
 o1 and o2 are equal : True
@@ -46,7 +41,7 @@ These two strings are equal due to the CLR optimization called interning. Intern
 ```csharp
 Console.WriteLine("s1 and s2 are same : {0}", object.ReferenceEquals(s1, s2));
 Console.WriteLine("o1 and o2 are same : {0}", object.ReferenceEquals(o1, o2));
-</pre>
+```
 
 Output:
 s1 and s2 are same : True
@@ -69,7 +64,7 @@ Console.WriteLine("s1 and s2 are equal : {0}", s1 == s2);
 Console.WriteLine("o1 and o2 are equal : {0}", o1 == o2);
 Console.WriteLine("s1 and s2 are same : {0}", object.ReferenceEquals(s1, s2));
 Console.WriteLine("o1 and o2 are same : {0}", object.ReferenceEquals(o1, o2));
-</pre>
+```
 
 Output:
 s1 and s2 are equal : True

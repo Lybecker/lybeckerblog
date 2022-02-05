@@ -1,10 +1,5 @@
 ---
-
 title: 'Scary SQL Server 2005 &#038; 2008 bug'
-date: 2009-03-21T08:40:00+01:00
-
-
-guid: http://www.lybecker.com/blog/?p=281
 permalink: /blog/2009/03/21/scary-sql-server-2005-2008-bug/
 dsq_thread_id:
   - "3604935378"
@@ -14,9 +9,9 @@ categories:
 tags:
   - SQL Server
 ---
-Watch out when using @@IDENTITY and SCOPE_IDENTITY() in your applications. Below is a quote from a Microsoft SQL Server engineer.
+Watch out when using `@@IDENTITY` and `SCOPE_IDENTITY()` in your applications. Below is a quote from a Microsoft SQL Server engineer.
 
-> &#8230; whenever a parallel query plan is generated @@IDENTITY and SCOPE_IDENTITY() are not being updated consistently and can't be relied upon.
+> whenever a parallel query plan is generated `@@IDENTITY` and `SCOPE_IDENTITY()` are not being updated consistently and can't be relied upon.
 
 You can find more about the bug and workarounds at the [SQL Server bug  report](https://connect.microsoft.com/SQLServer/feedback/ViewFeedback.aspx?FeedbackID=328811 "SQL Server @@IDENTITY and SCOPE_IDENTITY() bug report").
 

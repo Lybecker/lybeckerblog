@@ -1,10 +1,5 @@
 ---
-
 title: How to view default values for a WCF binding
-date: 2009-04-23T21:23:51+01:00
-
-
-guid: http://www.lybecker.com/blog/?p=324
 permalink: /blog/2009/04/23/view-default-values-for-a-wcf-binding/
 dsq_thread_id:
   - "3460944399"
@@ -18,6 +13,9 @@ tags:
   - WCF
   - XML
 ---
+{{site.data.messages.dotnetframeworkwarning}}
+{: .notice--warning}
+
 … or create a custom binding from a build-in binding.
 … or create an administrative XML-based configuration from an administrative programmatic configuration.
 
@@ -57,11 +55,12 @@ var scg = new ServiceContractGenerator(config);
 string sectionName, configName;
 scg.GenerateBinding(binding, out sectionName, out configName);
 config.Save();
-</pre>
+```
 
-The programmatic source binding will create a configuration file with all default values for the BasicHttpBinding except for TransferMode and MaxReceivedMessageSize attributes like so:
+The programmatic source binding will create a configuration file with all default values for the `BasicHttpBinding` except for `TransferMode` and `MaxReceivedMessageSize` attributes like so:
 
-<pre class="brush: xml; title: ; notranslate" title=""><basichttpbinding>
+```xml
+<basichttpbinding>
     <binding name="BasicHttpBinding"
              closeTimeout="00:01:00"
              openTimeout="00:01:00"
@@ -91,6 +90,6 @@ The programmatic source binding will create a configuration file with all defaul
         </security>
     </binding>
 </basichttpbinding>
-</pre>
+```
 
 I found this [tip by Brian McNamara on the MSDN WCF forum](http://social.msdn.microsoft.com/Forums/en-US/wcf/thread/fcad2118-d7bc-4d23-84b2-1ac168afa1c8 "Generate WCF config binding").

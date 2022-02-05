@@ -1,10 +1,6 @@
 ---
-
 title: Amazon Virtual Private Cloud
-date: 2009-08-26T21:16:12+01:00
 
-
-guid: http://www.lybecker.com/blog/?p=349
 permalink: /blog/2009/08/26/amazon-virtual-private-cloud/
 dsq_thread_id:
   - "5127469276"
@@ -14,7 +10,7 @@ tags:
   - Cloud
   - EC2
 ---
-[<img loading="lazy" class="alignright size-full wp-image-350" title="Amazon AWS logo" src="http://www.lybecker.com/blog/wp-content/uploads/Amazon-AWS-logo.gif" alt="Amazon AWS logo" width="164" height="60" />](http://www.lybecker.com/blog/wp-content/uploads/Amazon-AWS-logo.gif)
+![Amazon AWS logo](/wp-content/uploads/Amazon-AWS-logo.gif){: .align-right}
 
 If you are interested in cloud computing, but you never known how to adopt this new paradigm in your shop due to ignorance 😉 I encourage you to look at the [Amazon EC2](http://aws.amazon.com/ec2/ "Amazon EC2 site") and [related services](http://aws.amazon.com/ "Amazon Web Services site").
 

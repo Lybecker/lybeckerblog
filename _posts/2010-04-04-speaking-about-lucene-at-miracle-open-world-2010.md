@@ -1,10 +1,5 @@
 ---
-
 title: Speaking about Lucene at Miracle Open World 2010
-date: 2010-04-04T17:40:12+01:00
-
-
-guid: http://www.lybecker.com/blog/?p=580
 permalink: /blog/2010/04/04/speaking-about-lucene-at-miracle-open-world-2010/
 dsq_thread_id:
   - "5305805531"
@@ -15,7 +10,9 @@ categories:
   - Lucene
   - SQL Server
 ---
-<img loading="lazy" class="alignright size-full wp-image-582" title="Miracle Open World 2010" src="http://www.lybecker.com/blog/wp-content/uploads/MOW2010Logo.gif" alt="" width="135" height="200" />The conference Miracle Open World 2010 is soon upon us at Legoland (April 14.-16.) 🙂
+![Miracle Open World 2010](/wp-content/uploads/MOW2010Logo.gif){: .align-right}
+
+The conference Miracle Open World 2010 is soon upon us at Legoland (April 14.-16.) 🙂
 
 There will be four tracks this year: Oracle track, SQL Server track, .Net track and a workshop track.
 

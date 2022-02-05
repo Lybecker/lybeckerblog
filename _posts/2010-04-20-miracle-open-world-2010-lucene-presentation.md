@@ -1,10 +1,5 @@
 ---
-
 title: Miracle Open World 2010 Lucene Presentation
-date: 2010-04-20T18:46:01+01:00
-
-
-guid: http://www.lybecker.com/blog/?p=589
 permalink: /blog/2010/04/20/miracle-open-world-2010-lucene-presentation/
 dsq_thread_id:
   - "3456317912"
@@ -27,10 +22,10 @@ The conference is over and it was a great success. I meet a lot of new people an
 
 The slides and demo code for my Lucene session is available here:
 
-  * [Making freetext search with Lucene.Net work for you presentation](http://www.lybecker.com/blog/wp-content/uploads/Making-freetext-search-with-Lucene.Net-work-for-you.pdf "Making freetext search with Lucene.Net work for you presentation")
-  * [Lucene Playground (Visual Studio 2010 Solution)](http://www.lybecker.com/blog/wp-content/uploads/LucenePlayground.zip)
+* [Making freetext search with Lucene.Net work for you presentation](/wp-content/uploads/Making-freetext-search-with-Lucene.Net-work-for-you.pdf "Making freetext search with Lucene.Net work for you presentation")
+* [Lucene Playground (Visual Studio 2010 Solution)](/wp-content/uploads/LucenePlayground.zip)
 
-My session &#8220;Making freetext search with Lucene.Net work for you&#8221; abstract:
+My session "Making freetext search with Lucene.Net work for you" abstract:
 
 > Lucene is an open source full-featured text search engine library, making searching in large amounts of text lightning fast. Lucene are in use by many large sites like Wikipedia, LinkedIn, MySpace etc.
 >

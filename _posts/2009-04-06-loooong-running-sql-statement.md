@@ -1,10 +1,5 @@
 ---
-
 title: Loooong running sql statement
-date: 2009-04-06T11:30:34+01:00
-
-
-guid: http://www.lybecker.com/blog/?p=277
 permalink: /blog/2009/04/06/loooong-running-sql-statement/
 dsq_thread_id:
   - "5901258080"
@@ -14,9 +9,7 @@ categories:
 tags:
   - SQL Server
 ---
-<p style="text-align: center;">
-  <a href="http://www.lybecker.com/blog/wp-content/uploads/sqlserverprofilerrenegate.jpg"><img loading="lazy" class="aligncenter size-large wp-image-278" title="Sql Server Profiler renegate statement" src="http://www.lybecker.com/blog/wp-content/uploads/sqlserverprofilerrenegate-1024x298.jpg" alt="Sql Server Profiler renegate statement" width="550" height="160" /></a>
-</p>
+![Long running command](/wp-content/uploads/sqlserverprofilerrenegate.jpg)
 
 I was using SQL Server Profiler on a SQL Server 2005 Enterprise Edition looking for performance culprits, when I stumbled upon this very long running process.
 

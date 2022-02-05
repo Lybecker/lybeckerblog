@@ -1,10 +1,5 @@
 ---
-
 title: Meeting the SQL Azure Development Team
-date: 2010-06-30T15:28:05+01:00
-
-
-guid: http://www.lybecker.com/blog/?p=675
 permalink: /blog/2010/06/30/meeting-the-sql-azure-development-team/
 dsq_thread_id:
   - "3553086845"
@@ -20,13 +15,10 @@ tags:
   - Microsoft SQL Server
   - SQL Azure
 ---
-<p style="text-align: center;">
-  <img loading="lazy" class="size-medium wp-image-682   aligncenter" title="SQL Azure Logo" src="http://www.lybecker.com/blog/wp-content/uploads/SqlAzureLogo-300x130.png" alt="" width="300" height="130" />
-</p>
 
-<p style="text-align: left;">
-  Last week I was at Microsoft HQ in Redmond, WA, USA. I was invited by the <a title="SQL Azure Team Blog" href="http://blogs.msdn.com/b/sqlazure/">SQL Azure Development Team</a> to look at some of the new unreleased features and comment on features in their roadmap.
-</p>
+![SQL Azure Logo](/wp-content/uploads/SqlAzureLogo-300x130.png){: .align-center}
+
+Last week I was at Microsoft HQ in Redmond, WA, USA. I was invited by the [SQL Azure Development Team](https://devblogs.microsoft.com/azure-sql/) to look at some of the new unreleased features and comment on features in their roadmap.
 
 Unfortunately most of the content was confidential, meaning that I was under [NDA](http://en.wikipedia.org/wiki/Non-disclosure_agreement "Non-Disclosure Agreement on Wikipedia"), so I may not disclose any details. Sorry :-/
 
