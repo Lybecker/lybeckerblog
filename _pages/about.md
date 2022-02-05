@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: /about/
-author_profile: true
+author_profile: false
 ---
 ![Anders Lybecker gravatar](http://www.gravatar.com/avatar/aa1e6dca4bdc279d3ea374eef37ed394.png?s=150)
 
