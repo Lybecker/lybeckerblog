@@ -7,3 +7,5 @@ This is the repository of my blog - read it at [https://www.lybecker.com/](https
 ```bash
 bundle exec jekyll serve
 ```
+
+[Jekyll cheatsheet](https://cloudcannon.com/community/jekyll-cheat-sheet/)
