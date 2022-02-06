@@ -1,0 +1,13 @@
+---
+permalink: /secondcategory/
+title: secondcategory
+---
+
+
+{%  assign categories = "" | split: '/' %} {% comment %} The way to initialize and array in liquid {% endcomment %}
+{% for p in site.posts %}
+  {% unless categories contains p.categories[1] %}
+    {% assign categories = categories | push: p.categories[1] %}
+  {% endunless %}
+{% endfor %}
+{{ categories }}
