@@ -5,7 +5,7 @@ dsq_thread_id:
   - "3456310341"
   - "3456310341"
 categories:
-  - .Net
+  - .Net Framework
   - WCF
   - 'ws-*'
 tags:

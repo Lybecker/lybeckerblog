@@ -5,7 +5,7 @@ dsq_thread_id:
   - "3456319699"
   - "3456319699"
 categories:
-  - .Net
+  - .Net Framework
   - Cloud
   - WCF
 ---

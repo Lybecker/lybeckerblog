@@ -5,7 +5,7 @@ dsq_thread_id:
   - "3459680937"
   - "3459680937"
 categories:
-  - .Net
+  - .Net Framework
 ---
 {{site.data.messages.dotnetframeworkwarning}}
 {: .notice--warning}

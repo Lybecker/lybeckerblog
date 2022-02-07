@@ -5,16 +5,16 @@ dsq_thread_id:
   - "3456315462"
   - "3456315462"
 categories:
-  - .Net
+  - .Net Framework
   - Lucene
-  - Windows Azure
+  - Azure
 tags:
   - .Net
   - Azure
   - Blob Storage
   - CloudDrive
   - Lucene.Net
-  - Windows Azure
+  - Azure
 ---
 This is an old post. Today I would recommend using [Azure Cognitive Search](https://azure.microsoft.com/en-us/services/search/), which is a PaaS offering which is built upon Lucene.
 {: .notice--warning}

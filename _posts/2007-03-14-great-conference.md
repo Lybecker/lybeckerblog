@@ -4,7 +4,7 @@ permalink: /blog/2007/03/14/great-conference/
 dsq_thread_id:
   - "4777266398"
 categories:
-  - .Net
+  - .Net Framework
   - Conference
   - Ilities
   - WCF

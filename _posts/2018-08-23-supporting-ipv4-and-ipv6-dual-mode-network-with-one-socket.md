@@ -4,8 +4,7 @@ permalink: /blog/2018/08/23/supporting-ipv4-and-ipv6-dual-mode-network-with-one-
 categories:
   - .Net
 tags:
-  - .Net Core
-  - .Net Standard
+  - .Net
   - IPv4
   - IPv6
   - networking

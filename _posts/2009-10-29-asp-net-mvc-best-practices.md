@@ -5,7 +5,7 @@ dsq_thread_id:
   - "3460978960"
   - "3460978960"
 categories:
-  - .Net
+  - .Net Framework
 tags:
   - dotNet
   - MVC

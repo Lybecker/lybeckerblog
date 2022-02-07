@@ -5,7 +5,7 @@ dsq_thread_id:
   - "3572000395"
   - "3572000395"
 categories:
-  - .Net
+  - .Net Framework
   - Announcement
 tags:
   - dotNet

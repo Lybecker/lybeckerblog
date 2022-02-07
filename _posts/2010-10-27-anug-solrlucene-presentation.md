@@ -5,7 +5,7 @@ dsq_thread_id:
   - "3794594626"
   - "3794594626"
 categories:
-  - .Net
+  - .Net Framework
   - Lucene
 tags:
   - .Net

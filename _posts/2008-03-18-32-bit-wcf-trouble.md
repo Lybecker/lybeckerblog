@@ -5,7 +5,7 @@ dsq_thread_id:
   - "3456317395"
   - "3456317395"
 categories:
-  - .Net
+  - .Net Framework
   - WCF
 ---
 With a 32 bit platform a process can only address 2 GB of memory by default on windows. For most applications this is not an issue. But today I really messed up – OOM (OutOfMemoryException) exceptions all over 🙁

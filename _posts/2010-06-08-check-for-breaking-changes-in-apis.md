@@ -6,7 +6,7 @@ dsq_thread_id:
   - "3457703745"
   - "3457703745"
 categories:
-  - .Net
+  - .Net Framework
   - Full Text Search
   - Lucene
   - Useful tools

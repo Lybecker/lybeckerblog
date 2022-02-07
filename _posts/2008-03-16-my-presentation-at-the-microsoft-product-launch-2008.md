@@ -5,7 +5,7 @@ dsq_thread_id:
   - "3605021831"
   - "3605021831"
 categories:
-  - .Net
+  - .Net Framework
   - SQL Server
 ---
 ![SQL Server 2008 - long overdue features for developers presentation](/wp-content/sqlserver2008presentation.jpg)](http://www.microsoft.com/danmark/technet/detskerher/default_webcast.aspx?id=115)

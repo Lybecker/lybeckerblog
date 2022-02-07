@@ -6,7 +6,7 @@ dsq_thread_id:
   - "3460996694"
   - "3460996694"
 categories:
-  - .Net
+  - .Net Framework
   - Conference
   - Instrumentation
   - Useful tools

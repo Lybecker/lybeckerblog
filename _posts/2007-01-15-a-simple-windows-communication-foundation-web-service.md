@@ -8,7 +8,7 @@ dsq_thread_id:
   - "3456317172"
   - "3456317172"
 categories:
-  - .Net
+  - .Net Framework
   - WCF
 tags:
   - dotNet
