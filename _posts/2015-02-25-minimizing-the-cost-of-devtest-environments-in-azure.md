@@ -4,11 +4,11 @@ excerpt: Save Azure cost via Visual Studio
 permalink: /blog/2015/02/25/minimizing-the-cost-of-devtest-environments-in-azure/
 categories:
   - Useful tools
-  - Windows Azure
+  - Azure
 tags:
   - Dev/Test
   - MSDN Subscription
-  - Windows Azure
+  - Azure
 ---
 I use Windows Azure as my dev/test environment because it is fast and convenient to create new virtual machines or services. I use the [MSDN Subscription Azure Benefits](http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/), which includes free Azure Credits. The Azure Credits cover my dev/test needs even though I use more than a handful of VMs and services. I make smart use of the free Azure Credits by turning off VMs at night and during weekends, when I am not using them. Which means that I can use 3-4 times more VMs on Azure compared to just letting them run all the time. VMs are costly compared to the PaaS services such as Azure WebSites, SQL Azure and Cloud Services. So the PaaS services are not a cost issue.
 

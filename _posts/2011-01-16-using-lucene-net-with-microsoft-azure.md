@@ -14,7 +14,6 @@ tags:
   - Blob Storage
   - CloudDrive
   - Lucene.Net
-  - Azure
 ---
 This is an old post. Today I would recommend using [Azure Cognitive Search](https://azure.microsoft.com/en-us/services/search/), which is a PaaS offering which is built upon Lucene.
 {: .notice--warning}

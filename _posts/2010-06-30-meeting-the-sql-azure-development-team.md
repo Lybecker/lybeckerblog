@@ -6,7 +6,7 @@ dsq_thread_id:
   - "3553086845"
 categories:
   - Announcement
-  - SQL Azure
+  - Azure
   - SQL Server
 tags:
   - Azure

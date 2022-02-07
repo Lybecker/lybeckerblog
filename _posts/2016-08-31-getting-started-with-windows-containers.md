@@ -5,7 +5,7 @@ permalink: /blog/2016/08/31/getting-started-with-windows-containers/
 categories:
   - .Net
   - Containerization
-  - Windows Azure
+  - Azure
 tags:
   - Cloud
   - Containerization

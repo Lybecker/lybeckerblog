@@ -7,11 +7,11 @@ dsq_thread_id:
   - "3538034672"
 categories:
   - PowerShell
-  - Windows Azure
+  - Azure
 tags:
   - PowerShell
   - Virtuel Machine
-  - Windows Azure
+  - Azure
 ---
 I use Azure VMs for dev/test and I do not want them to run all night, as I have to pay for it. Therefore, I stop the VMs at night with a scheduler, as I do not always remember to stop the VMs after use.
 
