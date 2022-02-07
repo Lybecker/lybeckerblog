@@ -9,7 +9,6 @@ categories:
 tags:
   - .Net
   - Roslyn
-  - Visual Studio 2015
 ---
 The greatest new feature in Visual Studio 2015 is the .NET compiler platform previously known as Roslyn. The .NET Compiler Platform is an open source compiler for C# and VB with rich code analysis APIs. It enables developers to build code analysis tool like code analyzers, fixes and refactorings.
 
