@@ -6,7 +6,6 @@ dsq_thread_id:
   - "3456318170"
 categories:
   - .Net
-  - Web API
 tags:
   - ASP.Net Web API
   - dotNet
