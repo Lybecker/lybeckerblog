@@ -29,7 +29,7 @@ url: "https://www.lybecker.com" # the base hostname & protocol for your site, e.
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: ""
+    tracking_id: "UA-1183004-1"
     anonymize_ip: false # default
 minimal_mistakes_skin: default
 search: true
