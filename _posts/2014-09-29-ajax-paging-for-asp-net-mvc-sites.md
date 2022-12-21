@@ -130,7 +130,7 @@ That is it.
 
 The solution is inspired by [this StackOverflow question](http://stackoverflow.com/questions/18822352/using-paging-in-partial-view-asp-net-mvc).
 
-[Download the complete solution](/blog/wp-content/uploads/AspNetMvcAjaxPaging.zip), build and open the Student page. If running the solution in Visual Studio 2015+, then change the data source connection string in `web.config` to (localdb)\_MSSQLLocalDB_ as the default SQL Server LocalDB instance name has changed.
+[Download the complete solution](/wp-content/uploads/AspNetMvcAjaxPaging.zip), build and open the Student page. If running the solution in Visual Studio 2015+, then change the data source connection string in `web.config` to (localdb)\_MSSQLLocalDB_ as the default SQL Server LocalDB instance name has changed.
 
 **Update** May 15th 2016: The [PagedList.Mvc](https://www.nuget.org/packages/PagedList.Mvc) NuGet package is no longer maintained, but a fork of the project is available and maintained called [X.PagedList.MVC](https://www.nuget.org/packages/X.PagedList.Mvc/). I have updated the post and the source to use this new package.
 
