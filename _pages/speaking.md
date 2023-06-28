@@ -8,6 +8,10 @@ I do like public speaking and presenting things that I am passionate about.
 
 ## Conferences
 
+- Carbon-Aware Computing: Measuring and Reducing the Carbon Intensity of Software at [Technorama](https://www.techorama.nl/), October 2023, Utrecht the Netherlands.
+- Carbon-Aware Computing: Measuring and Reducing the Carbon Intensity of Software at [Copenhagen Developer Festival](https://cphdevfest.com/), August 2023, Copenhagen, Denmark.
+- Carbon-Aware Computing: Measuring and Reducing the Carbon Intensity of Software at [DevTalks](https://www.devtalks.ro/), June 2023, Bucharest, Romania.
+- [Building a Green Supercomputer in the Cloud](https://www.meetup.com/cloud-native-copenhagen/events/293189157/) at Cloud Native Copenhagen, May 2023, Copenhagen, Denmark
 - Using Cognitive Services at [TechBBQ](https://techbbq.dk/), September 2019, Copenhagen, Denmark
 - Securing the last mile of IoT solutions (recording) at [NDC Oslo](https://ndcoslo.com/), June 2018, Oslo, Norway
 {% include video id="vlkeleMJIpo" provider="youtube" %}
