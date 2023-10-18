@@ -8,7 +8,9 @@ I do like public speaking and presenting things that I am passionate about.
 
 ## Conferences
 
-- Carbon-Aware Computing: Measuring and Reducing the Carbon Intensity of Software at [Technorama](https://www.techorama.nl/), October 2023, Utrecht the Netherlands.
+- Using .NET and Azure to build a green supercomputer for Vestas at [.NET Conf](https://www.dotnetconf.net/), November 2023, online together with brilliant my colleague [Tess Ferrandez](https://www.tessferrandez.com/).
+- Carbon-Aware Computing: Measuring and Reducing the Carbon Intensity of Software at [Kubernetes Community Days Denmark](https://kcddenmark.dk/), November 2023, Brabrand, Denmark.
+- Carbon-Aware Computing: Measuring and Reducing the Carbon Intensity of Software at [Technorama](https://www.techorama.nl/), October 2023, Utrecht, the Netherlands.
 - Carbon-Aware Computing: Measuring and Reducing the Carbon Intensity of Software at [Copenhagen Developer Festival](https://cphdevfest.com/), August 2023, Copenhagen, Denmark.
 - Carbon-Aware Computing: Measuring and Reducing the Carbon Intensity of Software at [DevTalks](https://www.devtalks.ro/), June 2023, Bucharest, Romania.
 - [Building a Green Supercomputer in the Cloud](https://www.meetup.com/cloud-native-copenhagen/events/293189157/) at Cloud Native Copenhagen, May 2023, Copenhagen, Denmark
