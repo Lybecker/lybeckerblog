@@ -8,6 +8,7 @@ I do like public speaking and presenting things that I am passionate about.
 
 ## Conferences
 
+- Building a green supercomputer in the cloud at [NDC Sydney](https://ndcsydney.com/), February 2024, Sydney, Australia.
 - Using .NET and Azure to build a green supercomputer for Vestas at [.NET Conf](https://www.dotnetconf.net/), November 2023, online presentation together with my brilliant colleague [Tess Ferrandez](https://www.tessferrandez.com/).
 {% include video id="4zKSSK8BdN8" provider="youtube" %}
 - Carbon-Aware Computing: Measuring and Reducing the Carbon Intensity of Software at [Kubernetes Community Days Denmark](https://kcddenmark.dk/), November 2023, Brabrand, Denmark.
