@@ -45,6 +45,7 @@ I do like public speaking and presenting things that I am passionate about.
 
 ## Other (Community, lectures ...)
 
+- Building a green supercomputer in the cloud at [Azure User Group Denmark](https://www.meetup.com/azure-usergroup-denmark/events/300799293/), June 2024
 - "Internet of Things" guest lecture at [Copenhagen Business School](https://www.cbs.dk/), April 2019
 - "Show me your Architecture" at [Copenhagen .Net user group](http://cnug.dk/) 2017
 - "Cloud architecture" guest lecture at SDU  2015
