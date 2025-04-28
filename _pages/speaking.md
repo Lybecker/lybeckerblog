@@ -8,6 +8,10 @@ I do like public speaking and presenting things that I am passionate about.
 
 ## Conferences
 
+- Zero Trust Security with Azure cloud at [NDC CPH](https://ndccopenhagen.com/), September 2025, Copenhagen, Denmark.
+- Workshop: Securing Azure: Network Design and Security with Zero Trust at [NDC CPH](https://ndccopenhagen.com/), September 2025, Copenhagen, Denmark.
+- The future & challenges of cloud keynote at Cloud & Big Data stage at [DevTalks](https://www.devtalks.ro/), June, 2025, Bucharest, Romania.
+- Workshop: Securing Azure: Network Design and Security with Zero Trust at [DevTalks](https://www.devtalks.ro/), June, 2025, Bucharest, Romania.
 - Learnings from Digital Transformation to the cloud journeys [Sectra](https://sectra.com/) (internal event), December 2024, Linköping, Sweden.
 - Building a green supercomputer in the cloud at [BuildStuff](https://www.buildstuff.events/), November 2024, Vilnius, Lithuania.
 - Building a green supercomputer in the cloud at [NDC Sydney](https://ndcsydney.com/), February 2024, Sydney, Australia.
