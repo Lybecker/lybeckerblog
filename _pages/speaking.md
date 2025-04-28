@@ -14,6 +14,7 @@ I do like public speaking and presenting things that I am passionate about.
 - Workshop: Securing Azure: Network Design and Security with Zero Trust at [DevTalks](https://www.devtalks.ro/), June, 2025, Bucharest, Romania.
 - Learnings from Digital Transformation to the cloud journeys [Sectra](https://sectra.com/) (internal event), December 2024, Linköping, Sweden.
 - Building a green supercomputer in the cloud at [BuildStuff](https://www.buildstuff.events/), November 2024, Vilnius, Lithuania.
+{% include video id="Y2hA-sScGMo" provider="youtube" %}
 - Building a green supercomputer in the cloud at [NDC Sydney](https://ndcsydney.com/), February 2024, Sydney, Australia.
 - Using .NET and Azure to build a green supercomputer for Vestas at [.NET Conf](https://www.dotnetconf.net/), November 2023, online presentation together with my brilliant colleague [Tess Ferrandez](https://www.tessferrandez.com/).
 {% include video id="4zKSSK8BdN8" provider="youtube" %}
