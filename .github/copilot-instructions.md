@@ -95,3 +95,12 @@ Do not add plugins that are incompatible with GitHub Pages unless the build proc
 - Do not change the `remote_theme` or `minimal_mistakes_skin` without explicit instruction.
 - Do not add Node.js, webpack, or other non-Jekyll build tooling.
 - Do not alter permalink structure for existing posts — external links depend on them.
+
+## Agent Readiness
+
+After any change that affects the site's public-facing content, structure, or configuration, verify agent-readiness at <https://isitagentready.com/>. Key files that support agent discovery:
+
+- `robots.txt` — AI crawler rules (GPTBot, ClaudeBot, PerplexityBot, etc.)
+- `llms.txt` — LLM-friendly site overview following the llmstxt.org spec
+
+If your changes affect navigation, site metadata, or content structure, update `llms.txt` accordingly.
