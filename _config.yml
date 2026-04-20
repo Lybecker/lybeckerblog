@@ -19,10 +19,15 @@
 # in the templates via {{ site.myvariable }}.
 
 title: A tech blog about the things I'm passionate about
+name: "Anders Lybecker"
 email: anders@lybecker.com
 description: A blog about cloud computing, programming and related stuff
 twitter_username: lybecker
 github_username:  lybecker
+
+twitter:
+  username: lybecker
+  card: summary_large_image
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.lybecker.com" # the base hostname & protocol for your site, e.g. http://example.com
