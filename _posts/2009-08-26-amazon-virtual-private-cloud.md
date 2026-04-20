@@ -1,6 +1,6 @@
 ---
 title: Amazon Virtual Private Cloud
-
+excerpt: "Amazon VPC lets you extend your company network to the cloud via a secure VPN connection to EC2."
 permalink: /blog/2009/08/26/amazon-virtual-private-cloud/
 dsq_thread_id:
   - "5127469276"

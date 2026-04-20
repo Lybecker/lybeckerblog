@@ -1,5 +1,6 @@
 ---
 title: Speaking about Lucene at Miracle Open World 2010
+excerpt: "Presenting about Apache Lucene at the Miracle Open World 2010 conference at Legoland, Denmark."
 permalink: /blog/2010/04/04/speaking-about-lucene-at-miracle-open-world-2010/
 dsq_thread_id:
   - "5305805531"

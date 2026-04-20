@@ -1,5 +1,6 @@
 ---
 title: Community Day Copenhagen 2012 – Solr Presentation
+excerpt: "Presented on Apache Solr full-text search with faceting and jQuery at Community Day Copenhagen 2012."
 permalink: /blog/2012/05/11/community-day-copenhagen-2012-solr-presentation/
 dsq_thread_id:
   - "5298415353"

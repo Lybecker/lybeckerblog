@@ -15,7 +15,7 @@ All the presentations from the product launch are recorded as webcasts. They are
 I spoke about _long overdue features in SQL Server for developers_.
 
 * See the [webcast](http://www.microsoft.com/danmark/technet/detskerher/default_webcast.aspx?id=115 "SQL Server 2008 - Long overdue features for developers webcast")
-* [Download the presentation and demo](/wp-content/sql-server-2008-long-overdue-features-for-developers.zip "Download the presentation and demo") [My presentation slides and demo solution](/wp-content/sql-server-2008-long-overdue-features-for-developers.zip)
+* ~~Download the presentation and demo~~ *(file no longer available)*
 
 Some of the webcasts has poor sound quality (not mine 😉 ), which is a shame.
 

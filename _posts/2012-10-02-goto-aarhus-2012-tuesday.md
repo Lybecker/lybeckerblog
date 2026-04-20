@@ -1,5 +1,6 @@
 ---
 title: GOTO Aarhus 2012 – Tuesday
+excerpt: "Highlights from GOTO Aarhus 2012 including TypeScript preview, continuous delivery talks, and more."
 permalink: /blog/2012/10/02/goto-aarhus-2012-tuesday/
 dsq_thread_id:
   - "4808173176"

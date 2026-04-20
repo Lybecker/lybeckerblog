@@ -1,5 +1,6 @@
 ---
 title: ANUG Solr/Lucene presentation
+excerpt: "Gave a presentation on Apache Solr and Lucene at the Aarhus .NET user group (ANUG)."
 permalink: /blog/2010/10/27/anug-solrlucene-presentation/
 dsq_thread_id:
   - "3794594626"

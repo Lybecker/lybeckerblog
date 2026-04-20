@@ -16,6 +16,6 @@ I manage the Azure VMs and almost everything with the Server Explorer in Visual 
 
 ![Start stop Azure VM](/wp-content/uploads/StartStopAzureVmFromVs2013.gif)
 
-If I have a list of VMs that I need to manage, then I use the Azure PowerShell cmdlets – see my [How-to start and stop Azure VMs via PowerShell](/blog/2015/02/23/how-to-start-and-stop-azure-vms-via-powershell/).
+If I have a list of VMs that I need to manage, then I use the Azure PowerShell cmdlets – see my [How-to start and stop Azure VMs at a schedule](/blog/2015/02/25/how-to-start-and-stop-azure-vms-at-a-schedule/).
 
 Finally, I use Azure Automation to ensure that I never have a running Azure VM all night, just because I forgot to shut it down - see [How-to start and stop Azure VMs at a schedule](/blog/2015/02/25/how-to-start-and-stop-azure-vms-at-a-schedule/). It automatically shuts down any VM running in my MSDN Subscription at 6 p.m. If I work later, I can just start the required VMs again – it only take a couple of minutes.

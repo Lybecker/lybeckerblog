@@ -1,5 +1,6 @@
 ---
 title: Meeting the SQL Azure Development Team
+excerpt: "Meeting the SQL Azure development team to discuss the future of cloud databases."
 permalink: /blog/2010/06/30/meeting-the-sql-azure-development-team/
 dsq_thread_id:
   - "3553086845"

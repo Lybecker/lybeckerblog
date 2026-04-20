@@ -1,5 +1,6 @@
 ---
 title: Loooong running sql statement
+excerpt: "Found a SQL Server process in Profiler that had been running for over 500,000 years — a likely world record."
 permalink: /blog/2009/04/06/loooong-running-sql-statement/
 dsq_thread_id:
   - "5901258080"

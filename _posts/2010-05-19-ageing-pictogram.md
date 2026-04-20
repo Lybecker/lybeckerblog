@@ -1,5 +1,6 @@
 ---
 title: Ageing pictogram
+excerpt: "A fun pictogram spotted on a house wall in Prague during the Apache Lucene EuroCon 2010."
 permalink: /blog/2010/05/19/ageing-pictogram/
 dsq_thread_id:
   - "3766676299"

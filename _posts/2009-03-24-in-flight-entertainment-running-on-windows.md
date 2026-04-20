@@ -1,5 +1,6 @@
 ---
 title: In-flight entertainment running on Windows
+excerpt: "Caught the in-flight entertainment system rebooting Windows mid-flight on a Lufthansa Airbus A340."
 permalink: /blog/2009/03/24/in-flight-entertainment-running-on-windows/
 dsq_thread_id:
   - "3456317699"

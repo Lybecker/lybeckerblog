@@ -1,6 +1,6 @@
 ---
 title: When to Outsource?
-excerpt:
+excerpt: "When does outsourcing software development make sense, and when should you keep it in-house?"
 permalink: /blog/2012/02/28/when-to-outsource/
 dsq_thread_id:
   - "3537505287"

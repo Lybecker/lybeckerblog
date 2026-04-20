@@ -1,5 +1,6 @@
 ---
 title: Victoria is One Year Old
+excerpt: "Victoria turns one and takes her first steps on her birthday."
 permalink: /blog/2007/12/30/victoria-is-one-year-old/
 dsq_thread_id:
   - "3456317377"

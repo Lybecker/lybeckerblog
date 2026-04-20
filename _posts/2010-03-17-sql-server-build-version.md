@@ -1,5 +1,6 @@
 ---
 title: SQL Server build version
+excerpt: "How to check SQL Server edition, version, and service pack using ServerProperty and @@Version."
 permalink: /blog/2010/03/17/sql-server-build-version/
 jd_tweet_this:
   - 'yes'

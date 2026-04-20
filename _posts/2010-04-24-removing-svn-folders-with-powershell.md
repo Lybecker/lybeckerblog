@@ -1,5 +1,6 @@
 ---
 title: Removing SVN folders with PowerShell
+excerpt: "A quick PowerShell one-liner to recursively remove .svn folders from a Visual Studio solution."
 permalink: /blog/2010/04/24/removing-svn-folders-with-powershell/
 dsq_thread_id:
   - "3460747946"
