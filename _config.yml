@@ -83,21 +83,21 @@ plugins:
 author:
   name   : "Anders Lybecker"
   avatar : "/assets/images/anders_lybecker_400x400.jpg"
-  bio    : "Engineering lead at Microsoft helping strategic important customers with their digital transformation journey to the cloud."
+  bio    : "Principal Software Architect at Microsoft helping strategic important customers with their digital transformation journey with cloud & AI."
   location : "Copenhagen, Denmark"
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/lybecker"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/anderslybecker/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/lybecker"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/lybecker"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/anderslybecker/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/lybecker"
