@@ -8,6 +8,8 @@ I do like public speaking and presenting things that I am passionate about.
 
 ## Conferences
 
+- From Code Scarcity to Code Abundance: Rethinking Software Engineering in the Age of AI at [CloudBrew](https://www.cloudbrew.be/), December, 2026, Lamot, Belgium.
+- From Code Scarcity to Code Abundance: Rethinking Software Engineering in the Age of AI at [DevTalks](https://www.devtalks.ro/), June, 2026, Bucharest, Romania.
 - Zero Trust Security with Azure cloud at [NDC CPH](https://ndccopenhagen.com/), September 2025, Copenhagen, Denmark.
 - Workshop: Securing Azure: Network Design and Security with Zero Trust at [NDC CPH](https://ndccopenhagen.com/), September 2025, Copenhagen, Denmark.
 - Keynote: "The future & challenges of cloud" for Cloud & Big Data stage at [DevTalks](https://www.devtalks.ro/), June, 2025, Bucharest, Romania.
